@@ -337,6 +337,15 @@ body.focus-mode .qpanel[data-part="2"] .obtn:hover div:nth-child(2) { filter: bl
 </style>
 
 <script>
+const TRACKING_URL = 'https://script.google.com/macros/s/AKfycbxvcYtcNayeYGv2YP5ILD_Aeyc1aJfQ_geSsSeuq_7lLI-ywMxTJ-tN2jkybHcw_j3L5A/exec';
+function trackUser(mssv, action, details) {
+  if(!mssv) return;
+  try {
+    const url = `${TRACKING_URL}?mssv=${encodeURIComponent(mssv)}&action=${encodeURIComponent(action)}&details=${encodeURIComponent(details)}`;
+    fetch(url, { method: 'GET', mode: 'no-cors' }).catch(e => console.log(e));
+  } catch(e) {}
+}
+
   async function checkLogin() {
     const user = document.getElementById('login-user').value;
     const pass = document.getElementById('login-pass').value;
@@ -362,6 +371,7 @@ body.focus-mode .qpanel[data-part="2"] .obtn:hover div:nth-child(2) { filter: bl
         document.getElementById('login-overlay').classList.add('hidden');
         document.body.classList.remove('locked');
         localStorage.setItem('ept_auth', user);
+        trackUser(user, 'Đăng nhập', 'Truy cập trang Listening');
         
         // Show module select instead of home
         $('module-select').style.display = 'block';
@@ -915,6 +925,10 @@ function showResult() {
   const v = pct>=85?'🏆 Xuất sắc!':pct>=70?'✅ Khá tốt!':pct>=50?'📘 Cần cố gắng':'💪 Cần luyện thêm';
   const msg = pct>=85?'Kỹ năng nghe rất tốt!':pct>=70?'Ôn thêm phần còn yếu.':pct>=50?'Nghe lại và đọc script.':'Nghe nhiều lần + đọc script nhé.';
   $('rverdict').textContent = v; $('rmsg').textContent = msg;
+
+  if (window.currentUser) {
+    trackUser(window.currentUser, 'Nộp bài Listening', `Test: ${curT} - Điểm: ${cor}/100`);
+  }
 
   const pb = $('pbd'); pb.innerHTML = '';
   PARTS.forEach(p => {
