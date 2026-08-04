@@ -1,0 +1,544 @@
+{
+  "4": {
+    "41": {
+      "q": "Where does this conversation most likely take place?",
+      "o": [
+        "At a car service center",
+        "In a parking lot",
+        "At a gas station",
+        "In a computer store"
+      ]
+    },
+    "42": {
+      "q": "When will the woman probably return?",
+      "o": [
+        "3:30",
+        "4:30",
+        "5:00",
+        "5:30"
+      ]
+    },
+    "43": {
+      "q": "Where does the man direct the woman to go?",
+      "o": [
+        "A public park",
+        "A library",
+        "A truck stop",
+        "A department store"
+      ]
+    },
+    "44": {
+      "q": "What is the purpose of the call?",
+      "o": [
+        "To accept a job offer",
+        "To follow up on an application",
+        "To postpone an interview",
+        "To apply for a position"
+      ]
+    },
+    "45": {
+      "q": "When is Ms. Lopez's appointment scheduled for?",
+      "o": [
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ]
+    },
+    "46": {
+      "q": "What has Ms. Lopez been told to do?",
+      "o": [
+        "Bring her résumé and references",
+        "Talk to the person in charge of hiring",
+        "Call back to set up an appointment",
+        "Consider applying for another position"
+      ]
+    },
+    "47": {
+      "q": "Where does the conversation most likely take place?",
+      "o": [
+        "At a video rental store",
+        "At a concert hall",
+        "At a bookstore",
+        "At a record shop"
+      ]
+    },
+    "48": {
+      "q": "What does the man want to know?",
+      "o": [
+        "The length of a show",
+        "The price of a product",
+        "The location of an item",
+        "The closing time of a store"
+      ]
+    },
+    "49": {
+      "q": "What will the woman probably do next?",
+      "o": [
+        "She will order a product for the man.",
+        "She will search the database.",
+        "She will play a sample for the man.",
+        "She will help the man find an item."
+      ]
+    },
+    "50": {
+      "q": "Why did the man make the phone call?",
+      "o": [
+        "To make a reservation",
+        "To confirm the time",
+        "To ask about medication",
+        "To cancel an appointment"
+      ]
+    },
+    "51": {
+      "q": "What does the woman suggest Mr. Stone do?",
+      "o": [
+        "Check the waiting list",
+        "Arrive on time",
+        "Speak to the doctor",
+        "Reschedule the appointment"
+      ]
+    },
+    "52": {
+      "q": "Why does the man choose to call back?",
+      "o": [
+        "He has to see a client.",
+        "He needs to check his schedule.",
+        "He has to take another call.",
+        "He needs to speak with his secretary."
+      ]
+    },
+    "53": {
+      "q": "What is the man looking for?",
+      "o": [
+        "A newspaper",
+        "A wallet",
+        "A snack",
+        "A business card"
+      ]
+    },
+    "54": {
+      "q": "What does the woman say she will do?",
+      "o": [
+        "Exchange the item",
+        "Bring the item",
+        "Order the item",
+        "Look for the item"
+      ]
+    },
+    "55": {
+      "q": "Where does this conversation most likely take place?",
+      "o": [
+        "In a business office",
+        "In a gas station",
+        "In a convenience store",
+        "In a public library"
+      ]
+    },
+    "56": {
+      "q": "What is the man's problem?",
+      "o": [
+        "His computer has overheated.",
+        "He's going to be late for a meeting.",
+        "He can't find an available projector.",
+        "His secretary didn't prepare the files."
+      ]
+    },
+    "57": {
+      "q": "What will the man do at four o'clock tomorrow?",
+      "o": [
+        "Talk with a technician",
+        "Send a group e-mail",
+        "Have a business meeting",
+        "Deliver office supplies"
+      ]
+    },
+    "58": {
+      "q": "What does the woman plan to do next?",
+      "o": [
+        "Order a piece of equipment",
+        "Contact technical support",
+        "Meet with the sales representatives",
+        "Check with other departments"
+      ]
+    },
+    "59": {
+      "q": "What are the speakers discussing?",
+      "o": [
+        "The guest seating for an event",
+        "The number of presenters",
+        "The reservations at a restaurant",
+        "The arrival time of the guests"
+      ]
+    },
+    "60": {
+      "q": "What will happen at 8:30?",
+      "o": [
+        "An opening talk will be given.",
+        "Food will be served.",
+        "More tables will be available.",
+        "Awards will be presented."
+      ]
+    },
+    "61": {
+      "q": "What will the man do next?",
+      "o": [
+        "Arrange furniture in a room",
+        "Inform people about a delay",
+        "Start allowing guests to enter",
+        "Make an introductory speech"
+      ]
+    },
+    "62": {
+      "q": "Who is the man most likely talking to?",
+      "o": [
+        "An Internet technician",
+        "A customer service representative",
+        "A computer store owner",
+        "A salesperson"
+      ]
+    },
+    "63": {
+      "q": "When did the man expect to get his connection installed?",
+      "o": [
+        "This Monday",
+        "This Wednesday",
+        "Next Tuesday",
+        "Next Thursday"
+      ]
+    },
+    "64": {
+      "q": "What does the woman say she will do?",
+      "o": [
+        "Contact a computer technician",
+        "Find out who the man spoke with",
+        "Schedule another appointment",
+        "Repair the Internet connection"
+      ]
+    },
+    "65": {
+      "q": "What kind of employee will the business hire?",
+      "o": [
+        "A human resources director",
+        "A sales manager",
+        "A market research manager",
+        "An advertising agent"
+      ]
+    },
+    "66": {
+      "q": "Why does Ms. Stapler ask Mr. Kim to go to her office?",
+      "o": [
+        "To verify Mr. Kim's previous experience",
+        "To give more information about the company",
+        "To talk about a contract",
+        "To conduct a job interview"
+      ]
+    },
+    "67": {
+      "q": "When does Mr. Kim say he could start working?",
+      "o": [
+        "The next day",
+        "The following week",
+        "In two weeks",
+        "Next month"
+      ]
+    },
+    "68": {
+      "q": "What are the speakers talking about?",
+      "o": [
+        "A branch location",
+        "Expense reduction",
+        "A budget proposal",
+        "Sales analyses"
+      ]
+    },
+    "69": {
+      "q": "What does the woman say about the local offices?",
+      "o": [
+        "They are expensive to run.",
+        "Their revenues have risen.",
+        "They need financial support.",
+        "They are economical."
+      ]
+    },
+    "70": {
+      "q": "What is the man going to do?",
+      "o": [
+        "Lay off some employees",
+        "Close a branch office",
+        "Consider another location",
+        "Consult with branch managers"
+      ]
+    },
+    "71": {
+      "q": "What type of tour is this?",
+      "o": [
+        "A rail tour",
+        "A cruise tour",
+        "A mountain tour",
+        "A bus tour"
+      ]
+    },
+    "72": {
+      "q": "At which stop will a guest speaker join?",
+      "o": [
+        "The ancient quarters",
+        "A city building",
+        "The nineteenth-century streets",
+        "The Cowboy Longhorn"
+      ]
+    },
+    "73": {
+      "q": "What is provided to people for free?",
+      "o": [
+        "Souvenirs",
+        "Meals",
+        "Beverages",
+        "Telephone calls"
+      ]
+    },
+    "74": {
+      "q": "Who is this advertisement for?",
+      "o": [
+        "Accountants",
+        "Construction workers",
+        "Homeowners",
+        "Real estate agents"
+      ]
+    },
+    "75": {
+      "q": "What is being advertised?",
+      "o": [
+        "A home-sealing business",
+        "A discount gas supplier",
+        "Energy saving equipment",
+        "A tax calculating program"
+      ]
+    },
+    "76": {
+      "q": "What will the listeners who call the number receive?",
+      "o": [
+        "The location of the office",
+        "A company brochure",
+        "A product list",
+        "A complimentary service"
+      ]
+    },
+    "77": {
+      "q": "Who is Van Theodore?",
+      "o": [
+        "An actor",
+        "A playwright",
+        "A journalist",
+        "A director"
+      ]
+    },
+    "78": {
+      "q": "Where does the interview take place?",
+      "o": [
+        "New York",
+        "Los Angeles",
+        "Atlanta",
+        "Chicago"
+      ]
+    },
+    "79": {
+      "q": "What does the speaker suggest about Mr. Theodore?",
+      "o": [
+        "He will hold a press conference.",
+        "He will take questions from spectators.",
+        "He will take pictures with the audience.",
+        "He will have an autograph signing session."
+      ]
+    },
+    "80": {
+      "q": "What is the main purpose of the telephone message?",
+      "o": [
+        "To announce a change in strategy",
+        "To inform the recipient of the status of an event",
+        "To notify the recipient of a schedule change",
+        "To give a weather update"
+      ]
+    },
+    "81": {
+      "q": "Who should be notified if the message recipient is unable to attend?",
+      "o": [
+        "Will",
+        "Shawn",
+        "Roger",
+        "Harold"
+      ]
+    },
+    "82": {
+      "q": "What time does the event usually begin?",
+      "o": [
+        "3 o'clock",
+        "4 o'clock",
+        "5 o'clock",
+        "6 o'clock"
+      ]
+    },
+    "83": {
+      "q": "What is the purpose of the announcement?",
+      "o": [
+        "To announce a cancellation of an event",
+        "To promote ticket sales for an event",
+        "To report a postponement of an event",
+        "To introduce the hosts for an event"
+      ]
+    },
+    "84": {
+      "q": "Where is the announcement probably being made?",
+      "o": [
+        "In an art gallery",
+        "In a sports facility",
+        "In a movie theater",
+        "In a concert hall"
+      ]
+    },
+    "85": {
+      "q": "When will the event begin?",
+      "o": [
+        "6 P.M.",
+        "7 P.M.",
+        "8 P.M.",
+        "9 P.M."
+      ]
+    },
+    "86": {
+      "q": "Who is this report for?",
+      "o": [
+        "Construction workers",
+        "Drivers",
+        "Maintenance crew",
+        "Car mechanics"
+      ]
+    },
+    "87": {
+      "q": "What caused the problem?",
+      "o": [
+        "An oil spill",
+        "A serious fire",
+        "A burst pipe",
+        "An overturned vehicle"
+      ]
+    },
+    "88": {
+      "q": "What does the report recommend?",
+      "o": [
+        "Take an alternative route",
+        "Be aware of your surroundings",
+        "Exit the building",
+        "Routinely check for leaks"
+      ]
+    },
+    "89": {
+      "q": "What is the main subject of this report?",
+      "o": [
+        "Building of new highways",
+        "The relocation of a business",
+        "Population and its effects on an industry",
+        "Construction of an additional factory"
+      ]
+    },
+    "90": {
+      "q": "According to the report, what is important about Mackenzie Town?",
+      "o": [
+        "Spacious roads",
+        "A safe environment",
+        "A large population",
+        "Wealthy residents"
+      ]
+    },
+    "91": {
+      "q": "What did the owner of Herron state?",
+      "o": [
+        "The company will take over the competition.",
+        "The company will use a larger site.",
+        "The company will hire more workers.",
+        "The company will export their vehicles."
+      ]
+    },
+    "92": {
+      "q": "What is the report mainly about?",
+      "o": [
+        "A proposal to raise taxes",
+        "A project to relocate the city hall",
+        "A notice to attend local meetings",
+        "A plan to repair roads"
+      ]
+    },
+    "93": {
+      "q": "According to the report, how long will the project probably take?",
+      "o": [
+        "2 months",
+        "3 months",
+        "4 months",
+        "5 months"
+      ]
+    },
+    "94": {
+      "q": "What are citizens asked to do?",
+      "o": [
+        "Vote in the election",
+        "Share their thoughts",
+        "Sign a petition",
+        "Support the plan"
+      ]
+    },
+    "95": {
+      "q": "For whom is this talk intended?",
+      "o": [
+        "University students",
+        "Immigrants",
+        "Lawyers",
+        "Interpreters"
+      ]
+    },
+    "96": {
+      "q": "How long has the speaker worked in his profession?",
+      "o": [
+        "Ten years",
+        "Twenty years",
+        "Thirty years",
+        "Forty years"
+      ]
+    },
+    "97": {
+      "q": "What does the speaker say to always do first?",
+      "o": [
+        "Attempt to speak the new language",
+        "Understand the other culture",
+        "Make friends with neighbors",
+        "Refer to the guidelines"
+      ]
+    },
+    "98": {
+      "q": "What is being announced?",
+      "o": [
+        "A general pay increase",
+        "An orientation of a new worker",
+        "A staff promotion",
+        "An employee hiring"
+      ]
+    },
+    "99": {
+      "q": "How long will Ms. June be in the adjustment period?",
+      "o": [
+        "Three weeks",
+        "One month",
+        "Three months",
+        "Two years"
+      ]
+    },
+    "100": {
+      "q": "Where is the main office of Domi & Associates, Inc.?",
+      "o": [
+        "Chicago",
+        "Seattle",
+        "Detroit",
+        "Washington"
+      ]
+    }
+  }
+}

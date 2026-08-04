@@ -1,0 +1,122 @@
+{
+  "101": {
+    "q": "The car _______ to my uncle.",
+    "o": [
+      "A. belongs",
+      "B. are belonging",
+      "C. belong",
+      "D. belonging"
+    ],
+    "a": "A",
+    "trans": "Chiếc xe hơi thuộc về chú tôi.",
+    "exp": "Động từ belongs chia ở số ít phù hợp với chủ ngữ The car. Belong không dùng ở thì tiếp diễn."
+  },
+  "102": {
+    "q": "She _______ yawns in English class.",
+    "o": [
+      "A. sometimes",
+      "B. already",
+      "C. sometime",
+      "D. though"
+    ],
+    "a": "A",
+    "trans": "Cô ấy thỉnh thoảng ngáp trong lớp tiếng Anh.",
+    "exp": "sometimes là trạng từ chỉ tần suất phù hợp nhất về nghĩa."
+  },
+  "103": {
+    "q": "I _______ to watch comedies on TV.",
+    "o": [
+      "A. liking",
+      "B. likes",
+      "C. am liking",
+      "D. like"
+    ],
+    "a": "D",
+    "trans": "Tôi thích xem phim hài trên tivi.",
+    "exp": "Động từ like không dùng thì tiếp diễn. Chủ ngữ I đi với động từ nguyên mẫu."
+  },
+  "104": {
+    "q": "They _______ at two o’clock tomorrow.",
+    "o": [
+      "A. arrived",
+      "B. have arrived",
+      "C. are arriving",
+      "D. have been arriving"
+    ],
+    "a": "C",
+    "trans": "Họ sẽ đến vào lúc hai giờ ngày mai.",
+    "exp": "Thì hiện tại tiếp diễn dùng để diễn tả một kế hoạch trong tương lai gần."
+  },
+  "105": {
+    "q": "When I arrived at my aunt’s home, she _______ her kitchen floor.",
+    "o": [
+      "A. was sweeping",
+      "B. sweep",
+      "C. had sweeping",
+      "D. sweeps"
+    ],
+    "a": "A",
+    "trans": "Khi tôi đến nhà dì, bà ấy đang quét sàn bếp.",
+    "exp": "Một hành động đang xảy ra trong quá khứ (quá khứ tiếp diễn) thì có một hành động khác xen vào (quá khứ đơn)."
+  },
+  "106": {
+    "q": "It _______ for two days when I arrived in town.",
+    "o": [
+      "A. rained",
+      "B. rains",
+      "C. has been raining",
+      "D. had been raining"
+    ],
+    "a": "D",
+    "trans": "Trời đã mưa được hai ngày khi tôi đến thị trấn.",
+    "exp": "Thì quá khứ hoàn thành tiếp diễn diễn tả hành động xảy ra liên tục trước một thời điểm trong quá khứ."
+  },
+  "107": {
+    "q": "He sometimes _______ money from his parents.",
+    "o": [
+      "A. lend",
+      "B. lends",
+      "C. borrow",
+      "D. borrows"
+    ],
+    "a": "D",
+    "trans": "Anh ấy thỉnh thoảng mượn tiền từ bố mẹ.",
+    "exp": "Chủ ngữ He (số ít) nên động từ thêm s. Mượn tiền từ ai đó là borrow from."
+  },
+  "108": {
+    "q": "The traffic is very heavy, but I think we’ll get there _______ six o’clock.",
+    "o": [
+      "A. before",
+      "B. on",
+      "C. ago",
+      "D. in"
+    ],
+    "a": "A",
+    "trans": "Giao thông rất đông đúc, nhưng tôi nghĩ chúng ta sẽ đến đó trước sáu giờ.",
+    "exp": "before + mốc thời gian: trước lúc mấy giờ."
+  },
+  "109": {
+    "q": "We all look forward _______ you very soon.",
+    "o": [
+      "A. to see",
+      "B. will see",
+      "C. to seeing",
+      "D. like seeing"
+    ],
+    "a": "C",
+    "trans": "Chúng tôi đều mong đợi được gặp bạn sớm.",
+    "exp": "Cấu trúc look forward to + V-ing: mong đợi điều gì."
+  },
+  "110": {
+    "q": "Last weekend, we went horseback _______ on the farm.",
+    "o": [
+      "A. ride",
+      "B. riding",
+      "C. rode",
+      "D. ridden"
+    ],
+    "a": "B",
+    "trans": "Cuối tuần trước, chúng tôi đã đi cưỡi ngựa ở trang trại.",
+    "exp": "Cấu trúc go + V-ing chỉ hoạt động thể thao/giải trí (go horseback riding)."
+  }
+}

@@ -1,0 +1,19 @@
+import fitz
+import pytesseract
+from PIL import Image
+
+pdf_path = "Reading_0001.pdf"
+pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
+doc = fitz.open(pdf_path)
+
+out_text = ""
+for i in range(14, 17): # Pages 15, 16, 17 (1-indexed)
+    page = doc.load_page(i)
+    pix = page.get_pixmap(matrix=fitz.Matrix(2.0, 2.0))
+    img = Image.frombytes("RGB", [pix.width, pix.height], pix.samples)
+    text = pytesseract.image_to_string(img, lang='eng')
+    out_text += f"\n--- Page {i+1} ---\n{text}"
+
+with open("ocr_test1_part1.txt", "w", encoding="utf-8") as f:
+    f.write(out_text)
+print("Finished OCR.")

@@ -1,0 +1,544 @@
+{
+  "1": {
+    "41": {
+      "q": "Who sent the package?",
+      "o": [
+        "Mr. Ozawa.",
+        "Ms. Jones.",
+        "Mr. Ozawa's boss.",
+        "Mr. Ozawa's secretary."
+      ]
+    },
+    "42": {
+      "q": "When is the meeting with Ms. Jones?",
+      "o": [
+        "Right now.",
+        "This morning.",
+        "Tonight.",
+        "Tomorrow."
+      ]
+    },
+    "43": {
+      "q": "Where is Mr. Ozawa now?",
+      "o": [
+        "At lunch.",
+        "At his desk.",
+        "In a meeting.",
+        "In the mailroom."
+      ]
+    },
+    "44": {
+      "q": "Where are the speakers?",
+      "o": [
+        "At home.",
+        "At a bank.",
+        "At the office.",
+        "At a restaurant."
+      ]
+    },
+    "45": {
+      "q": "What will the woman do?",
+      "o": [
+        "Buy a card.",
+        "Pay the bill.",
+        "Play a game.",
+        "Cook a meal."
+      ]
+    },
+    "46": {
+      "q": "What will the man give the woman?",
+      "o": [
+        "Some money.",
+        "Some letters.",
+        "A wallet.",
+        "A meal."
+      ]
+    },
+    "47": {
+      "q": "How many people will eat dinner?",
+      "o": [
+        "Two.",
+        "Three.",
+        "Eight.",
+        "Nine."
+      ]
+    },
+    "48": {
+      "q": "What time will they eat dinner?",
+      "o": [
+        "8:30.",
+        "8:45.",
+        "9:00.",
+        "10:00."
+      ]
+    },
+    "49": {
+      "q": "What will they do before dinner?",
+      "o": [
+        "Visit the kitchen.",
+        "Look for a table.",
+        "Sit in the bar.",
+        "Fix the car."
+      ]
+    },
+    "50": {
+      "q": "What are the speakers discussing?",
+      "o": [
+        "Washing the windows.",
+        "Buying new chairs.",
+        "Painting the room.",
+        "Cleaning the rug."
+      ]
+    },
+    "51": {
+      "q": "What color is the rug?",
+      "o": [
+        "Green.",
+        "White.",
+        "Yellow.",
+        "Blue."
+      ]
+    },
+    "52": {
+      "q": "When will they start work on the project?",
+      "o": [
+        "Tonight.",
+        "Tomorrow.",
+        "On Friday.",
+        "Next week."
+      ]
+    },
+    "53": {
+      "q": "Why did Jim miss the meeting?",
+      "o": [
+        "He was feeling sick.",
+        "He had to type a memo.",
+        "He left his watch at home.",
+        "The copy machine didn't work."
+      ]
+    },
+    "54": {
+      "q": "What time was the meeting?",
+      "o": [
+        "3:00.",
+        "4:00.",
+        "6:00.",
+        "8:00."
+      ]
+    },
+    "55": {
+      "q": "Why does the man have to hurry?",
+      "o": [
+        "The meeting starts soon.",
+        "He has to mail a letter.",
+        "It's starting to rain.",
+        "He has to catch a train."
+      ]
+    },
+    "56": {
+      "q": "Where will the speakers go to work?",
+      "o": [
+        "The conference room.",
+        "The business office.",
+        "The elevator.",
+        "Their desks."
+      ]
+    },
+    "57": {
+      "q": "What will they take with them?",
+      "o": [
+        "Pens.",
+        "Notepads.",
+        "A Computer.",
+        "Computer paper."
+      ]
+    },
+    "58": {
+      "q": "What kind of work are they doing?",
+      "o": [
+        "Ordering office supplies.",
+        "Planning a conference.",
+        "Fixing a computer.",
+        "Writing a report."
+      ]
+    },
+    "59": {
+      "q": "Who will be in the office tomorrow?",
+      "o": [
+        "Sam.",
+        "Sam's boss.",
+        "Sam's friend.",
+        "Sam's assistant."
+      ]
+    },
+    "60": {
+      "q": "What does the woman want help with?",
+      "o": [
+        "Cooking lunch.",
+        "Finding a book.",
+        "Going over accounts.",
+        "Planning a conference."
+      ]
+    },
+    "61": {
+      "q": "When will the woman go to the office?",
+      "o": [
+        "After work.",
+        "After lunch.",
+        "Before lunch.",
+        "At dinner time."
+      ]
+    },
+    "62": {
+      "q": "What does the man want to buy?",
+      "o": [
+        "A fax machine.",
+        "A newspaper.",
+        "A telephone.",
+        "A briefcase."
+      ]
+    },
+    "63": {
+      "q": "How much is the sale?",
+      "o": [
+        "10 percent off.",
+        "15 percent off.",
+        "20 percent off.",
+        "50 percent off."
+      ]
+    },
+    "64": {
+      "q": "When does the sale end?",
+      "o": [
+        "Today.",
+        "Tomorrow.",
+        "On Saturday.",
+        "Next week."
+      ]
+    },
+    "65": {
+      "q": "What is broken?",
+      "o": [
+        "The air conditioner.",
+        "The photocopier.",
+        "The telephone.",
+        "The light."
+      ]
+    },
+    "66": {
+      "q": "When will the repair person arrive?",
+      "o": [
+        "At noon.",
+        "Next week.",
+        "Right away.",
+        "This afternoon."
+      ]
+    },
+    "67": {
+      "q": "What will the man do while he is waiting?",
+      "o": [
+        "Eat a meal.",
+        "Read e-mail.",
+        "Write a report.",
+        "Make a phone call."
+      ]
+    },
+    "68": {
+      "q": "Why can't the man meet with the woman this week?",
+      "o": [
+        "He has to meet with another person.",
+        "He needs to rest this week.",
+        "He'll be away on a trip.",
+        "His office won't be open."
+      ]
+    },
+    "69": {
+      "q": "What does the woman want to discuss?",
+      "o": [
+        "Conference plans.",
+        "A letter.",
+        "Money.",
+        "A class."
+      ]
+    },
+    "70": {
+      "q": "What time will the woman be at the man's office?",
+      "o": [
+        "9:00.",
+        "10:00.",
+        "11:00.",
+        "1:00."
+      ]
+    },
+    "71": {
+      "q": "What time will the train leave?",
+      "o": [
+        "10:10.",
+        "10:15.",
+        "10:30.",
+        "10:40."
+      ]
+    },
+    "72": {
+      "q": "Who should arrive at the gate early?",
+      "o": [
+        "Passengers who can offer help.",
+        "Passengers with luggage.",
+        "Passengers who have questions.",
+        "Passengers who have children."
+      ]
+    },
+    "73": {
+      "q": "What form of payment is accepted for tickets on the train?",
+      "o": [
+        "Cash.",
+        "Check.",
+        "Credit card.",
+        "Money order."
+      ]
+    },
+    "74": {
+      "q": "Who is talking?",
+      "o": [
+        "A news reporter.",
+        "A weather forecaster.",
+        "A pilot.",
+        "A travel agent."
+      ]
+    },
+    "75": {
+      "q": "When is the speaker talking?",
+      "o": [
+        "In the early morning.",
+        "At noon.",
+        "In the evening.",
+        "Late at night."
+      ]
+    },
+    "76": {
+      "q": "How will the weather be tomorrow?",
+      "o": [
+        "Rainy.",
+        "Cloudy.",
+        "Sunny.",
+        "Cold."
+      ]
+    },
+    "77": {
+      "q": "Where would you hear this announcement?",
+      "o": [
+        "At a grocery store.",
+        "At a department store.",
+        "At a restaurant.",
+        "At a library."
+      ]
+    },
+    "78": {
+      "q": "What is on sale?",
+      "o": [
+        "Beef.",
+        "Vegetables.",
+        "Fruit.",
+        "Suits."
+      ]
+    },
+    "79": {
+      "q": "Who can use the express check-out lanes?",
+      "o": [
+        "People buying ground beef.",
+        "People buying sale items.",
+        "People buying vegetables.",
+        "People buying only 15 items."
+      ]
+    },
+    "80": {
+      "q": "Who is talking?",
+      "o": [
+        "A student.",
+        "A professor.",
+        "An author.",
+        "A medical doctor."
+      ]
+    },
+    "81": {
+      "q": "What is the subject of the class?",
+      "o": [
+        "Math.",
+        "Computers.",
+        "Finance.",
+        "Health."
+      ]
+    },
+    "82": {
+      "q": "How many tests will there be?",
+      "o": [
+        "One.",
+        "Two.",
+        "Seven.",
+        "Ten."
+      ]
+    },
+    "83": {
+      "q": "Who was Bob Wilson?",
+      "o": [
+        "A mayor.",
+        "A bus driver.",
+        "A war hero.",
+        "An artist."
+      ]
+    },
+    "84": {
+      "q": "How long will they stay at the Wilson House?",
+      "o": [
+        "Half an hour.",
+        "One hour.",
+        "One hour and ten minutes.",
+        "Two hours."
+      ]
+    },
+    "85": {
+      "q": "Where will they go after visiting the Wilson House?",
+      "o": [
+        "To a restaurant.",
+        "To a bus station.",
+        "To a monument.",
+        "To a museum."
+      ]
+    },
+    "86": {
+      "q": "What are the tickets for?",
+      "o": [
+        "A city bus tour.",
+        "A theater.",
+        "A sports event.",
+        "An awards ceremony."
+      ]
+    },
+    "87": {
+      "q": "Where can you get tickets?",
+      "o": [
+        "At the stadium.",
+        "At the front desk.",
+        "At the bus station.",
+        "At the ticket counter."
+      ]
+    },
+    "88": {
+      "q": "What time will the bus leave?",
+      "o": [
+        "3:00 in the morning.",
+        "6:00 in the morning.",
+        "3:00 in the afternoon.",
+        "6:00 in the evening."
+      ]
+    },
+    "89": {
+      "q": "What is Ms. Park's book about?",
+      "o": [
+        "Public speaking.",
+        "Sports.",
+        "Making money.",
+        "Retail business."
+      ]
+    },
+    "90": {
+      "q": "What will Ms. Park do?",
+      "o": [
+        "Introduce someone.",
+        "Receive an award.",
+        "Read from her book.",
+        "Make copies of the book."
+      ]
+    },
+    "91": {
+      "q": "What can you do at the back of the auditorium?",
+      "o": [
+        "Buy a book.",
+        "Read some signs.",
+        "Play a game.",
+        "Answer questions."
+      ]
+    },
+    "92": {
+      "q": "Who is Pamela Jones?",
+      "o": [
+        "A telephone operator.",
+        "A scientist.",
+        "An assistant.",
+        "A newspaper reporter."
+      ]
+    },
+    "93": {
+      "q": "Why can't she answer the telephone right now?",
+      "o": [
+        "She's at a conference.",
+        "She's talking to someone else.",
+        "She's reading the newspaper.",
+        "She's working on a story."
+      ]
+    },
+    "94": {
+      "q": "What should you do if you want to leave a message?",
+      "o": [
+        "Talk to Ms. Jones's assistant.",
+        "Call the main switchboard.",
+        "Stay on the line.",
+        "Send a message by e-mail."
+      ]
+    },
+    "95": {
+      "q": "Which flight will arrive on time?",
+      "o": [
+        "The flight from Hong Kong.",
+        "The flight from Sydney.",
+        "The flight from London.",
+        "The flight from Paris."
+      ]
+    },
+    "96": {
+      "q": "Why was a flight canceled?",
+      "o": [
+        "Because of rain in London.",
+        "Because of a blizzard in Paris.",
+        "Because no tickets were sold.",
+        "Because the schedule changed."
+      ]
+    },
+    "97": {
+      "q": "When does the special sale end?",
+      "o": [
+        "This evening.",
+        "On the weekend.",
+        "Next week.",
+        "Next month."
+      ]
+    },
+    "98": {
+      "q": "How many shows will the theater have today?",
+      "o": [
+        "One.",
+        "Two.",
+        "Three.",
+        "Five."
+      ]
+    },
+    "99": {
+      "q": "What is half price?",
+      "o": [
+        "The midnight show.",
+        "Tickets for people younger than 18.",
+        "Shows before five o'clock.",
+        "Snacks sold in the lobby."
+      ]
+    },
+    "100": {
+      "q": "What is not allowed inside the theater?",
+      "o": [
+        "Popcorn.",
+        "Drinks.",
+        "Any snack.",
+        "Outside food."
+      ]
+    }
+  }
+}

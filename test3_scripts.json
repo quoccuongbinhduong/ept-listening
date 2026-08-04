@@ -1,0 +1,672 @@
+{
+  "1": {
+    "text": "Look at the picture marked number 1 in",
+    "options": {
+      "A": "They’re sitting next to each other.",
+      "B": "They’re organizing the table.",
+      "C": "They’re staring at the monitor.",
+      "D": "They’re decorating the room."
+    },
+    "group_script": ""
+  },
+  "2": {
+    "text": "Look at the picture marked number 2 in",
+    "options": {
+      "A": "The boy is looking through a microscope.",
+      "B": "The boy is getting an injection.",
+      "C": "The man is handing out medication.",
+      "D": "The man is examining the boy’s mouth."
+    },
+    "group_script": ""
+  },
+  "3": {
+    "text": "Look at the picture marked number 3 in",
+    "options": {
+      "A": "He’s putting on his shirt.",
+      "B": "He’s holding a machine.",
+      "C": "He’s rolling his sleeves up.",
+      "D": "He’s unpacking a phone."
+    },
+    "group_script": ""
+  },
+  "4": {
+    "text": "Look at the picture marked number 4 in",
+    "options": {
+      "A": "Two women are having a conversation.",
+      "B": "Two women are waiting to be served.",
+      "C": "The women are wiping coffee from the table.",
+      "D": "The women are ordering a meal."
+    },
+    "group_script": ""
+  },
+  "5": {
+    "text": "Look at the picture marked number 5 in",
+    "options": {
+      "A": "The man is walking through a tunnel.",
+      "B": "The man is jumping over the railing.",
+      "C": "The man is standing under an archway.",
+      "D": "The man is getting up from the chair. 15"
+    },
+    "group_script": ""
+  },
+  "6": {
+    "text": "Look at the picture marked number 6 in",
+    "options": {
+      "A": "The people are preparing dessert.",
+      "B": "The couple is enjoying a picnic in a park.",
+      "C": "The trees are being planted.",
+      "D": "The people are watering the grass."
+    },
+    "group_script": ""
+  },
+  "7": {
+    "text": "Look at the picture marked number 7 in",
+    "options": {
+      "A": "There are steps leading to the hall.",
+      "B": "There is a balcony decorated with flowers.",
+      "C": "There is a car parked in front of the building.",
+      "D": "There are signs in front of the windows."
+    },
+    "group_script": ""
+  },
+  "8": {
+    "text": "Look at the picture marked number 8 in",
+    "options": {
+      "A": "They’re looking into the shop.",
+      "B": "They’re addressing the crowd.",
+      "C": "They’re shopping at an outdoor shop.",
+      "D": "They’re trying on clothes."
+    },
+    "group_script": ""
+  },
+  "9": {
+    "text": "Look at the picture marked number 9 in",
+    "options": {
+      "A": "The chairs have been taken.",
+      "B": "The table is being cleaned.",
+      "C": "The conference room is unoccupied.",
+      "D": "The wall is covered with paintings."
+    },
+    "group_script": ""
+  },
+  "10": {
+    "text": "Look at the picture marked number 10 in",
+    "options": {
+      "A": "The travelers are standing at the check-in counter.",
+      "B": "The people are waiting for baggage.",
+      "C": "The crowd is walking through the airport.",
+      "D": "The passengers are standing in a row"
+    },
+    "group_script": ""
+  },
+  "11": {
+    "text": "Who is responsible for inputting the data?",
+    "options": {
+      "A": "Michelle’s handling that.",
+      "B": "No, she’s not very responsible.",
+      "C": "She put it over there."
+    },
+    "group_script": ""
+  },
+  "12": {
+    "text": "Is Ms. Jay staying late tonight?",
+    "options": {
+      "A": "I don’t know where she’s staying.",
+      "B": "Yes, she’ll be here until 9.",
+      "C": "Yes, she’s often late."
+    },
+    "group_script": ""
+  },
+  "13": {
+    "text": "Can we walk to the museum or should",
+    "options": {
+      "A": "I worked at the library.",
+      "B": "I think we should walk.",
+      "C": "No, a one-way ticket."
+    },
+    "group_script": ""
+  },
+  "14": {
+    "text": "When does the letter say we need to",
+    "options": {
+      "A": "By the first of next month.",
+      "B": "Yes, I already confirmed.",
+      "C": "I sent the letter yesterday."
+    },
+    "group_script": ""
+  },
+  "15": {
+    "text": "Who’s going to be working on the",
+    "options": {
+      "A": "In three weeks.",
+      "B": "I’ve already reviewed the report.",
+      "C": "I believe just you and Jack."
+    },
+    "group_script": ""
+  },
+  "16": {
+    "text": "Would you like me to fix the computer",
+    "options": {
+      "A": "Send the fax please.",
+      "B": "The Service was excellent.",
+      "C": "Please install it first."
+    },
+    "group_script": ""
+  },
+  "17": {
+    "text": "Have you watched the movie I lent you?",
+    "options": {
+      "A": "Yes, I’ll return it tomorrow.",
+      "B": "Rents are much higher.",
+      "C": "When she calls."
+    },
+    "group_script": ""
+  },
+  "18": {
+    "text": "That’s a new coat, isn’t it?",
+    "options": {
+      "A": "No, I just had it cleaned.",
+      "B": "Sure, you can.",
+      "C": "I didn’t read the news."
+    },
+    "group_script": ""
+  },
+  "19": {
+    "text": "What would you like to eat?",
+    "options": {
+      "A": "A cheese sandwich, please.",
+      "B": "Yes, please.",
+      "C": "No, I wouldn’t."
+    },
+    "group_script": ""
+  },
+  "20": {
+    "text": "Why don’t you come to the movie with",
+    "options": {
+      "A": "Yes, he just moved.",
+      "B": "Sure, what’s playing?",
+      "C": "I’m Corning soon. 16"
+    },
+    "group_script": ""
+  },
+  "21": {
+    "text": "Do you want to sit in the smoking or the",
+    "options": {
+      "A": "I don’t have a cigarette.",
+      "B": "That would be fine.",
+      "C": "I’d prefer to be away from the smoke."
+    },
+    "group_script": ""
+  },
+  "22": {
+    "text": "I think Charles is a wonderful designer.",
+    "options": {
+      "A": "Yes, he is very good.",
+      "B": "Yes, the sign will be put up soon.",
+      "C": "They’re new designs."
+    },
+    "group_script": ""
+  },
+  "23": {
+    "text": "This is Apex Travel, right?",
+    "options": {
+      "A": "No, that’s down the hall.",
+      "B": "The left one is nicer.",
+      "C": "I like to travel, too"
+    },
+    "group_script": ""
+  },
+  "24": {
+    "text": "Where’s the nearest parking lot?",
+    "options": {
+      "A": "Five dollars per hour.",
+      "B": "The lot’s full right now.",
+      "C": "There’s one by the theater."
+    },
+    "group_script": ""
+  },
+  "25": {
+    "text": "Could you please close the window?",
+    "options": {
+      "A": "Oh, no problem.",
+      "B": "Yes, it was closed.",
+      "C": "I am not pleased with it"
+    },
+    "group_script": ""
+  },
+  "26": {
+    "text": "Why were the shifts rearranged?",
+    "options": {
+      "A": "I’ll arrange it.",
+      "B": "Jack’s going on vacation.",
+      "C": "He’s on the day shift."
+    },
+    "group_script": ""
+  },
+  "27": {
+    "text": "Weren’t you supposed to pick up the",
+    "options": {
+      "A": "Yes, but the bakery was closed.",
+      "B": "My favorite is chocolate.",
+      "C": "No, it’s too heavy to pick up."
+    },
+    "group_script": ""
+  },
+  "28": {
+    "text": "Who does this parking permit belong to?",
+    "options": {
+      "A": "I think it’s mine.",
+      "B": "They won’t permit it.",
+      "C": "No, it doesn’t."
+    },
+    "group_script": ""
+  },
+  "29": {
+    "text": "Didn’t Sandra use to work in the Sales",
+    "options": {
+      "A": "They need more sales representatives.",
+      "B": "The work is done.",
+      "C": "Yes, but she was moved."
+    },
+    "group_script": ""
+  },
+  "30": {
+    "text": "Can I return my purchase if there are any",
+    "options": {
+      "A": "As long as you have your receipt.",
+      "B": "I have a problem with it.",
+      "C": "When did you purchase it?"
+    },
+    "group_script": ""
+  },
+  "31": {
+    "text": "Do you know why the baseball game",
+    "options": {
+      "A": "No, I think ifs been canceled.",
+      "B": "Let’s meet by the stadium at 3 P.M.",
+      "C": "Probably because of the bad weather."
+    },
+    "group_script": ""
+  },
+  "32": {
+    "text": "Isn’t our lunch supposed to be here by",
+    "options": {
+      "A": "Every day at noon.",
+      "B": "Yes, let’s have Italian.",
+      "C": "The delivery is a little late."
+    },
+    "group_script": ""
+  },
+  "33": {
+    "text": "Could I take a look at the sales report",
+    "options": {
+      "A": "It looks good.",
+      "B": "It’ll be ready tomorrow.",
+      "C": "Why were sales down?"
+    },
+    "group_script": ""
+  },
+  "34": {
+    "text": "I’m sorry, but I can’t find any",
+    "options": {
+      "A": "Those cookies are on sale.",
+      "B": "It should be on the back.",
+      "C": "Cookies are not nutritious"
+    },
+    "group_script": ""
+  },
+  "35": {
+    "text": "Why are all the stores closed today?",
+    "options": {
+      "A": "No, it’s not very close.",
+      "B": "They close at 9 P.M.",
+      "C": "Today’s a holiday"
+    },
+    "group_script": ""
+  },
+  "36": {
+    "text": "Which is the file for Mr. Min?",
+    "options": {
+      "A": "The one with the green label.",
+      "B": "File it later.",
+      "C": "You can find it in the cabinet"
+    },
+    "group_script": ""
+  },
+  "37": {
+    "text": "Where can I find books about industrial",
+    "options": {
+      "A": "The library charges a late fee of five cents a day.",
+      "B": "They’re in the business section, in the far aisle.",
+      "C": "This City saw economic growth last year."
+    },
+    "group_script": ""
+  },
+  "38": {
+    "text": "When will they finish their analysis?",
+    "options": {
+      "A": "This afternoon.",
+      "B": "Yes, the other day.",
+      "C": "I already read it. 17"
+    },
+    "group_script": ""
+  },
+  "39": {
+    "text": "Do you want to get off on 1st Ave. or in",
+    "options": {
+      "A": "No, I don’t need either, thanks.",
+      "B": "That’s the first time.",
+      "C": "Isn’t the office closer?"
+    },
+    "group_script": ""
+  },
+  "40": {
+    "text": "How large is the convention center?",
+    "options": {
+      "A": "It’s on the seventh floor.",
+      "B": "Large enough for 500 people.",
+      "C": "No, it won’t be."
+    },
+    "group_script": ""
+  },
+  "41": {
+    "text": "",
+    "options": {},
+    "group_script": "to the following\nconversation.\nW: When did you get back, Evan? Did you\nenjoy Brazil?\nM: I got back last week, and it was the\nbest!411 went to see a friend of mine who\nlives in Sao Paulo and ended up staying\nat his place for four weeks.\nW: Good for you. I visited with my family\nthere a year ago and I had a blast too. I\nguess your friend took you to a lot of\ntourist attractions.\nM: Actually no. We spent most of our time\nriding the waves and enjoying the ocean.\nWe partied a few nights, but you know\nme, I don’t really enjoy partying."
+  },
+  "42": {
+    "text": "",
+    "options": {},
+    "group_script": "to the following\nconversation.\nW: When did you get back, Evan? Did you\nenjoy Brazil?\nM: I got back last week, and it was the\nbest!411 went to see a friend of mine who\nlives in Sao Paulo and ended up staying\nat his place for four weeks.\nW: Good for you. I visited with my family\nthere a year ago and I had a blast too. I\nguess your friend took you to a lot of\ntourist attractions.\nM: Actually no. We spent most of our time\nriding the waves and enjoying the ocean.\nWe partied a few nights, but you know\nme, I don’t really enjoy partying."
+  },
+  "43": {
+    "text": "",
+    "options": {},
+    "group_script": "to the following\nconversation.\nW: When did you get back, Evan? Did you\nenjoy Brazil?\nM: I got back last week, and it was the\nbest!411 went to see a friend of mine who\nlives in Sao Paulo and ended up staying\nat his place for four weeks.\nW: Good for you. I visited with my family\nthere a year ago and I had a blast too. I\nguess your friend took you to a lot of\ntourist attractions.\nM: Actually no. We spent most of our time\nriding the waves and enjoying the ocean.\nWe partied a few nights, but you know\nme, I don’t really enjoy partying."
+  },
+  "44": {
+    "text": "",
+    "options": {},
+    "group_script": "to the following\nconversation.\nW: Can I cash this check here? It’s for a\nhundred dollars.\nM: I’ll need two pieces of identification. A\ndriver’s license, a social insurance card,\nor a passport will do. Also, the service\ncharge is ten dollars.\nW: I have the ten dollars, but I only have my\nhealth card with me. Is that okay?\nM: I'm afraid a health card is not a valid\nproof of identification. You’ll have to\nbring me two other pieces of ID or else I\ncan’t cash this check for you."
+  },
+  "45": {
+    "text": "",
+    "options": {},
+    "group_script": "to the following\nconversation.\nW: Can I cash this check here? It’s for a\nhundred dollars.\nM: I’ll need two pieces of identification. A\ndriver’s license, a social insurance card,\nor a passport will do. Also, the service\ncharge is ten dollars.\nW: I have the ten dollars, but I only have my\nhealth card with me. Is that okay?\nM: I'm afraid a health card is not a valid\nproof of identification. You’ll have to\nbring me two other pieces of ID or else I\ncan’t cash this check for you."
+  },
+  "46": {
+    "text": "",
+    "options": {},
+    "group_script": "to the following\nconversation.\nW: Can I cash this check here? It’s for a\nhundred dollars.\nM: I’ll need two pieces of identification. A\ndriver’s license, a social insurance card,\nor a passport will do. Also, the service\ncharge is ten dollars.\nW: I have the ten dollars, but I only have my\nhealth card with me. Is that okay?\nM: I'm afraid a health card is not a valid\nproof of identification. You’ll have to\nbring me two other pieces of ID or else I\ncan’t cash this check for you."
+  },
+  "47": {
+    "text": "",
+    "options": {},
+    "group_script": "to the following\nconversation\nM: Hi, I’m calling about the part-time\npositions that were posted on the\nwebsite. Is the customer service\nposition still available?\nW: No. However, we still have openings for\na housekeeper, front desk agent, and\nrestaurant server.\nM: I worked as a receptionist at my\nprevious job. How would I go about\napplying for the front desk agent\nposition?\nW: Just e-mail us your résumé and we’ll get\nback to you by the end of the week."
+  },
+  "48": {
+    "text": "",
+    "options": {},
+    "group_script": "to the following\nconversation\nM: Hi, I’m calling about the part-time\npositions that were posted on the\nwebsite. Is the customer service\nposition still available?\nW: No. However, we still have openings for\na housekeeper, front desk agent, and\nrestaurant server.\nM: I worked as a receptionist at my\nprevious job. How would I go about\napplying for the front desk agent\nposition?\nW: Just e-mail us your résumé and we’ll get\nback to you by the end of the week."
+  },
+  "49": {
+    "text": "",
+    "options": {},
+    "group_script": "to the following\nconversation\nM: Hi, I’m calling about the part-time\npositions that were posted on the\nwebsite. Is the customer service\nposition still available?\nW: No. However, we still have openings for\na housekeeper, front desk agent, and\nrestaurant server.\nM: I worked as a receptionist at my\nprevious job. How would I go about\napplying for the front desk agent\nposition?\nW: Just e-mail us your résumé and we’ll get\nback to you by the end of the week."
+  },
+  "50": {
+    "text": "",
+    "options": {},
+    "group_script": "to the following\nconversation.\nW: Do you have any plans for the long\nweekend, Jason?\nM: Yeah, a few of us are going to Scarlet\nMountain on Friday. I’ve been itching\nto go hiking all winter. I heard they\nhave beautiful trails.\nW: That’s what I’ve heard too. Hey, did you\nknow there are mountain streams where\nyou can go ratting? You should really\ntry it out.\nM: We’re not coming back until Sunday, so\nI think we’ll try out as many activities\nas we can."
+  },
+  "51": {
+    "text": "",
+    "options": {},
+    "group_script": "to the following\nconversation.\nW: Do you have any plans for the long\nweekend, Jason?\nM: Yeah, a few of us are going to Scarlet\nMountain on Friday. I’ve been itching\nto go hiking all winter. I heard they\nhave beautiful trails.\nW: That’s what I’ve heard too. Hey, did you\nknow there are mountain streams where\nyou can go ratting? You should really\ntry it out.\nM: We’re not coming back until Sunday, so\nI think we’ll try out as many activities\nas we can."
+  },
+  "52": {
+    "text": "",
+    "options": {},
+    "group_script": "to the following\nconversation.\nW: Do you have any plans for the long\nweekend, Jason?\nM: Yeah, a few of us are going to Scarlet\nMountain on Friday. I’ve been itching\nto go hiking all winter. I heard they\nhave beautiful trails.\nW: That’s what I’ve heard too. Hey, did you\nknow there are mountain streams where\nyou can go ratting? You should really\ntry it out.\nM: We’re not coming back until Sunday, so\nI think we’ll try out as many activities\nas we can."
+  },
+  "53": {
+    "text": "",
+    "options": {},
+    "group_script": "to the following\nconversation.\nW: I’m looking for a birthday present for\nmy nephew. You’re open until eleven,\nright?\nM: Only on the weekends. On weeknights,\nwe close at ten, which means we’re\nclosing in five minutes.\nW: Really? I thought you were open until\neleven. I just have to run to the ATM\nand get some cash. Can you stay open\nuntil I come back?\n18\nM: Sorry ma’am. We’d like to help you out,\nbut if you don’t come back in five\nminutes, we’ll be closed."
+  },
+  "54": {
+    "text": "",
+    "options": {},
+    "group_script": "to the following\nconversation.\nW: I’m looking for a birthday present for\nmy nephew. You’re open until eleven,\nright?\nM: Only on the weekends. On weeknights,\nwe close at ten, which means we’re\nclosing in five minutes.\nW: Really? I thought you were open until\neleven. I just have to run to the ATM\nand get some cash. Can you stay open\nuntil I come back?\n18\nM: Sorry ma’am. We’d like to help you out,\nbut if you don’t come back in five\nminutes, we’ll be closed."
+  },
+  "55": {
+    "text": "",
+    "options": {},
+    "group_script": "to the following\nconversation.\nW: I’m looking for a birthday present for\nmy nephew. You’re open until eleven,\nright?\nM: Only on the weekends. On weeknights,\nwe close at ten, which means we’re\nclosing in five minutes.\nW: Really? I thought you were open until\neleven. I just have to run to the ATM\nand get some cash. Can you stay open\nuntil I come back?\n18\nM: Sorry ma’am. We’d like to help you out,\nbut if you don’t come back in five\nminutes, we’ll be closed."
+  },
+  "56": {
+    "text": "",
+    "options": {},
+    "group_script": "to the following\nconversation.\nW: The highway traffic was so bad that I\nthought for sure I was going to be late. I\nthink I’ll use public transportation from\nnow on.\nM: That’s why I never bring my car to work.\nYou’d better hurry and get your things\nready. The presentation starts in forty\nminutes.\nW: You’re right I should go and set up the\nconference room."
+  },
+  "57": {
+    "text": "",
+    "options": {},
+    "group_script": "to the following\nconversation.\nW: The highway traffic was so bad that I\nthought for sure I was going to be late. I\nthink I’ll use public transportation from\nnow on.\nM: That’s why I never bring my car to work.\nYou’d better hurry and get your things\nready. The presentation starts in forty\nminutes.\nW: You’re right I should go and set up the\nconference room."
+  },
+  "58": {
+    "text": "",
+    "options": {},
+    "group_script": "to the following\nconversation.\nW: The highway traffic was so bad that I\nthought for sure I was going to be late. I\nthink I’ll use public transportation from\nnow on.\nM: That’s why I never bring my car to work.\nYou’d better hurry and get your things\nready. The presentation starts in forty\nminutes.\nW: You’re right I should go and set up the\nconference room."
+  },
+  "59": {
+    "text": "",
+    "options": {},
+    "group_script": "to the following\nconversation.\nW: Dennis, what are you doing here? I\nhaven’t seen you in ages.\nM: Hey Christine! This is a surprise. I\nhaven’t seen you since we worked those\ntwo months together at Hunting-ton\nBeach.\nW: That’s right. It seems like it was only\nyesterday, but three years have passed\nsince we met. That was the best job I’ve\never had. Do you still have the award we\nreceived for being the best lifeguards of\nthe season?\nM: Of course I do! That is the best memory I\nhave of the summer."
+  },
+  "60": {
+    "text": "",
+    "options": {},
+    "group_script": "to the following\nconversation.\nW: Dennis, what are you doing here? I\nhaven’t seen you in ages.\nM: Hey Christine! This is a surprise. I\nhaven’t seen you since we worked those\ntwo months together at Hunting-ton\nBeach.\nW: That’s right. It seems like it was only\nyesterday, but three years have passed\nsince we met. That was the best job I’ve\never had. Do you still have the award we\nreceived for being the best lifeguards of\nthe season?\nM: Of course I do! That is the best memory I\nhave of the summer."
+  },
+  "61": {
+    "text": "",
+    "options": {},
+    "group_script": "to the following\nconversation.\nW: Dennis, what are you doing here? I\nhaven’t seen you in ages.\nM: Hey Christine! This is a surprise. I\nhaven’t seen you since we worked those\ntwo months together at Hunting-ton\nBeach.\nW: That’s right. It seems like it was only\nyesterday, but three years have passed\nsince we met. That was the best job I’ve\never had. Do you still have the award we\nreceived for being the best lifeguards of\nthe season?\nM: Of course I do! That is the best memory I\nhave of the summer."
+  },
+  "62": {
+    "text": "",
+    "options": {},
+    "group_script": "to the following\nconversation\nM: Excuse me. Could someone please bring\nus our cocktails? We’ve been waiting for\nquite a while now.\nW: I’m very sorry. We’ve just been so busy\ntonight. I’ll have your waiter go get them\nfrom the bar right away.\nM: Please do. We really don’t want to wait\nanother half an hour."
+  },
+  "63": {
+    "text": "",
+    "options": {},
+    "group_script": "to the following\nconversation\nM: Excuse me. Could someone please bring\nus our cocktails? We’ve been waiting for\nquite a while now.\nW: I’m very sorry. We’ve just been so busy\ntonight. I’ll have your waiter go get them\nfrom the bar right away.\nM: Please do. We really don’t want to wait\nanother half an hour."
+  },
+  "64": {
+    "text": "",
+    "options": {},
+    "group_script": "to the following\nconversation\nM: Excuse me. Could someone please bring\nus our cocktails? We’ve been waiting for\nquite a while now.\nW: I’m very sorry. We’ve just been so busy\ntonight. I’ll have your waiter go get them\nfrom the bar right away.\nM: Please do. We really don’t want to wait\nanother half an hour."
+  },
+  "65": {
+    "text": "",
+    "options": {},
+    "group_script": "to the following\nconversation.\nW: Good afternoon, Lumsden Incorporated.\nHow may I help you?\nM: Hello, my name is Felix from Curtis\nServicing Company. I’ve been informed\nthat you’ve been having some trouble\nwith the photocopiers in your office. I\ncan come in tomorrow afternoon and fix\nthem, if that’s okay with you.\nW: I’m afraid that won’t be soon enough.\nWe have stacks of files that we need to\nreproduce by tomorrow, so is there any\nway you can make it by this afternoon.\nIf not, this evening?\nM: Okay, since your situation seems urgent,\nI’ll try to get there between three and\nfour o’clock today."
+  },
+  "66": {
+    "text": "",
+    "options": {},
+    "group_script": "to the following\nconversation.\nW: Good afternoon, Lumsden Incorporated.\nHow may I help you?\nM: Hello, my name is Felix from Curtis\nServicing Company. I’ve been informed\nthat you’ve been having some trouble\nwith the photocopiers in your office. I\ncan come in tomorrow afternoon and fix\nthem, if that’s okay with you.\nW: I’m afraid that won’t be soon enough.\nWe have stacks of files that we need to\nreproduce by tomorrow, so is there any\nway you can make it by this afternoon.\nIf not, this evening?\nM: Okay, since your situation seems urgent,\nI’ll try to get there between three and\nfour o’clock today."
+  },
+  "67": {
+    "text": "",
+    "options": {},
+    "group_script": "to the following\nconversation.\nW: Good afternoon, Lumsden Incorporated.\nHow may I help you?\nM: Hello, my name is Felix from Curtis\nServicing Company. I’ve been informed\nthat you’ve been having some trouble\nwith the photocopiers in your office. I\ncan come in tomorrow afternoon and fix\nthem, if that’s okay with you.\nW: I’m afraid that won’t be soon enough.\nWe have stacks of files that we need to\nreproduce by tomorrow, so is there any\nway you can make it by this afternoon.\nIf not, this evening?\nM: Okay, since your situation seems urgent,\nI’ll try to get there between three and\nfour o’clock today."
+  },
+  "68": {
+    "text": "",
+    "options": {},
+    "group_script": "to the following\nconversation.\nW: It comes out to twenty-four dollars with\ntaxes. Do you want to wear the necklace\nright now?\nM: Actually, it’s not for me. Could I have it\ngift-wrapped? And do you accept\nhundred-dollar bills?\nW: We normally do, but we’re very short\non change today. For some reason,\neveryone’s been paying with large bills\ntoday.\nM: Oh, well. I guess I have to charge it to\nmy card then.\nPART 4: TALKS"
+  },
+  "69": {
+    "text": "",
+    "options": {},
+    "group_script": "to the following\nconversation.\nW: It comes out to twenty-four dollars with\ntaxes. Do you want to wear the necklace\nright now?\nM: Actually, it’s not for me. Could I have it\ngift-wrapped? And do you accept\nhundred-dollar bills?\nW: We normally do, but we’re very short\non change today. For some reason,\neveryone’s been paying with large bills\ntoday.\nM: Oh, well. I guess I have to charge it to\nmy card then.\nPART 4: TALKS"
+  },
+  "70": {
+    "text": "",
+    "options": {},
+    "group_script": "to the following\nconversation.\nW: It comes out to twenty-four dollars with\ntaxes. Do you want to wear the necklace\nright now?\nM: Actually, it’s not for me. Could I have it\ngift-wrapped? And do you accept\nhundred-dollar bills?\nW: We normally do, but we’re very short\non change today. For some reason,\neveryone’s been paying with large bills\ntoday.\nM: Oh, well. I guess I have to charge it to\nmy card then.\nPART 4: TALKS"
+  },
+  "71": {
+    "text": "",
+    "options": {},
+    "group_script": "to the following\ntelephone message.\nMr. Erickson, this is Paul from Jerry’s\nRepairs and Pm calling to let you know\nthat the paint job on your van is finished\nand is ready to be picked up. We apologize\nfor being a day late, but the special type of\nthree-layer paint we used on your vehicle\nneeded extra time to dry. Anyhow, we’ll\n19\nbe open for another hour if you’d like to\ncome by tonight. If not, you can pick it up\ntomorrow. We’re open from 6:30 A M. to 7\nP.M. every day. See you soon."
+  },
+  "72": {
+    "text": "",
+    "options": {},
+    "group_script": "to the following\ntelephone message.\nMr. Erickson, this is Paul from Jerry’s\nRepairs and Pm calling to let you know\nthat the paint job on your van is finished\nand is ready to be picked up. We apologize\nfor being a day late, but the special type of\nthree-layer paint we used on your vehicle\nneeded extra time to dry. Anyhow, we’ll\n19\nbe open for another hour if you’d like to\ncome by tonight. If not, you can pick it up\ntomorrow. We’re open from 6:30 A M. to 7\nP.M. every day. See you soon."
+  },
+  "73": {
+    "text": "",
+    "options": {},
+    "group_script": "to the following\ntelephone message.\nMr. Erickson, this is Paul from Jerry’s\nRepairs and Pm calling to let you know\nthat the paint job on your van is finished\nand is ready to be picked up. We apologize\nfor being a day late, but the special type of\nthree-layer paint we used on your vehicle\nneeded extra time to dry. Anyhow, we’ll\n19\nbe open for another hour if you’d like to\ncome by tonight. If not, you can pick it up\ntomorrow. We’re open from 6:30 A M. to 7\nP.M. every day. See you soon."
+  },
+  "74": {
+    "text": "",
+    "options": {},
+    "group_script": "to the following\nannouncement.\nThis morning, I want to inform everyone\nabout the changes to our recycling\nprocedure. Before, we utilized the grey bins\nfor all paper-made material, such as\nnewspapers, magazines, and office papers.\nAlso, we used the blue bins for all other\nrecyclable products, such as cans, plastic\nbottles, and glass containers. From now on,\nyou will be given brown paper bags for\nmagazine recycling and yellow plastic bags\nfor plastic bottles. The modifications we've\nmade may take a little bit of getting used to,\nbut I’m sure the color-coded list of\nrecyclable items we’ve provided will help\nyou sort things out."
+  },
+  "75": {
+    "text": "",
+    "options": {},
+    "group_script": "to the following\nannouncement.\nThis morning, I want to inform everyone\nabout the changes to our recycling\nprocedure. Before, we utilized the grey bins\nfor all paper-made material, such as\nnewspapers, magazines, and office papers.\nAlso, we used the blue bins for all other\nrecyclable products, such as cans, plastic\nbottles, and glass containers. From now on,\nyou will be given brown paper bags for\nmagazine recycling and yellow plastic bags\nfor plastic bottles. The modifications we've\nmade may take a little bit of getting used to,\nbut I’m sure the color-coded list of\nrecyclable items we’ve provided will help\nyou sort things out."
+  },
+  "76": {
+    "text": "",
+    "options": {},
+    "group_script": "to the following\nannouncement.\nThis morning, I want to inform everyone\nabout the changes to our recycling\nprocedure. Before, we utilized the grey bins\nfor all paper-made material, such as\nnewspapers, magazines, and office papers.\nAlso, we used the blue bins for all other\nrecyclable products, such as cans, plastic\nbottles, and glass containers. From now on,\nyou will be given brown paper bags for\nmagazine recycling and yellow plastic bags\nfor plastic bottles. The modifications we've\nmade may take a little bit of getting used to,\nbut I’m sure the color-coded list of\nrecyclable items we’ve provided will help\nyou sort things out."
+  },
+  "77": {
+    "text": "",
+    "options": {},
+    "group_script": "to the following\nrecorded message.\nYou have reached the office of Dr. Klein.\nThe office is closed today because Dr. Klein\nis on vacation. The office will reopen on\nNovember 15 and return to our regular\nhours. Our regular hours of operation are\nfrom 10:00 A.M. to 6:00 P.M., Monday to\nFriday, and from 12:00 P.M. to 5:00 P.M. on\nSaturdays. If you need your prescription\nrefilled, you may call the office of Dr.\nFeinstein at 555-463-7583 and she will be\nable to help you. If this is an emergency,\nplease call the Ontario Health Hotline at 1-\n888-555-4636 to find the closest hospital.\nWe hope you enjoy the holiday."
+  },
+  "78": {
+    "text": "",
+    "options": {},
+    "group_script": "to the following\nrecorded message.\nYou have reached the office of Dr. Klein.\nThe office is closed today because Dr. Klein\nis on vacation. The office will reopen on\nNovember 15 and return to our regular\nhours. Our regular hours of operation are\nfrom 10:00 A.M. to 6:00 P.M., Monday to\nFriday, and from 12:00 P.M. to 5:00 P.M. on\nSaturdays. If you need your prescription\nrefilled, you may call the office of Dr.\nFeinstein at 555-463-7583 and she will be\nable to help you. If this is an emergency,\nplease call the Ontario Health Hotline at 1-\n888-555-4636 to find the closest hospital.\nWe hope you enjoy the holiday."
+  },
+  "79": {
+    "text": "",
+    "options": {},
+    "group_script": "to the following\nrecorded message.\nYou have reached the office of Dr. Klein.\nThe office is closed today because Dr. Klein\nis on vacation. The office will reopen on\nNovember 15 and return to our regular\nhours. Our regular hours of operation are\nfrom 10:00 A.M. to 6:00 P.M., Monday to\nFriday, and from 12:00 P.M. to 5:00 P.M. on\nSaturdays. If you need your prescription\nrefilled, you may call the office of Dr.\nFeinstein at 555-463-7583 and she will be\nable to help you. If this is an emergency,\nplease call the Ontario Health Hotline at 1-\n888-555-4636 to find the closest hospital.\nWe hope you enjoy the holiday."
+  },
+  "80": {
+    "text": "",
+    "options": {},
+    "group_script": "to the following radio\nadvertisement.\nAre you about to throw out another\nrechargeable battery? Do your rechargeable\nbatteries not last long enough for you? Let\nour new Niclith rechargeable batteries be\nthe answer. Using the newest technology\nin combining Nickel- Metal Hydride and\nLithium, we have developed a product that\nwill help you get the most out of all your\nelectronic tools and equipment. We\nguarantee that our batteries will beat out\nany other leading batteries on the market.\nAnd for a limited time only, when you\npurchase a set of four Niclith batteries,\nyou will receive a free gift - our popular\ncharger. Once you use Niclith, you’ll\nnever use another brand."
+  },
+  "81": {
+    "text": "",
+    "options": {},
+    "group_script": "to the following radio\nadvertisement.\nAre you about to throw out another\nrechargeable battery? Do your rechargeable\nbatteries not last long enough for you? Let\nour new Niclith rechargeable batteries be\nthe answer. Using the newest technology\nin combining Nickel- Metal Hydride and\nLithium, we have developed a product that\nwill help you get the most out of all your\nelectronic tools and equipment. We\nguarantee that our batteries will beat out\nany other leading batteries on the market.\nAnd for a limited time only, when you\npurchase a set of four Niclith batteries,\nyou will receive a free gift - our popular\ncharger. Once you use Niclith, you’ll\nnever use another brand."
+  },
+  "82": {
+    "text": "",
+    "options": {},
+    "group_script": "to the following radio\nadvertisement.\nAre you about to throw out another\nrechargeable battery? Do your rechargeable\nbatteries not last long enough for you? Let\nour new Niclith rechargeable batteries be\nthe answer. Using the newest technology\nin combining Nickel- Metal Hydride and\nLithium, we have developed a product that\nwill help you get the most out of all your\nelectronic tools and equipment. We\nguarantee that our batteries will beat out\nany other leading batteries on the market.\nAnd for a limited time only, when you\npurchase a set of four Niclith batteries,\nyou will receive a free gift - our popular\ncharger. Once you use Niclith, you’ll\nnever use another brand."
+  },
+  "83": {
+    "text": "",
+    "options": {},
+    "group_script": "to the following\nannouncement.\nI’d like to welcome everyone to the Royal\nHall Theater. Tonight, we are very proud\nto present the Sullivan Jazz Band and All\nStars. The show will be split into two\nparts, and there will be a ten-minute break\nin between. Tonight’s show will be a very\nspecial one, because during the course of\nthe evening, the Sullivan band will be\naccompanied by several famous singers,\nincluding Russell Cadbury, Chaplin\nClemens, and Mike Menendez. We\nanticipate this to be one of the greatest\nperformances ever, and I guarantee you\nthat you’ll get your money’s worth\ntonight. Thank you for coming and enjoy\nthe show."
+  },
+  "84": {
+    "text": "",
+    "options": {},
+    "group_script": "to the following\nannouncement.\nI’d like to welcome everyone to the Royal\nHall Theater. Tonight, we are very proud\nto present the Sullivan Jazz Band and All\nStars. The show will be split into two\nparts, and there will be a ten-minute break\nin between. Tonight’s show will be a very\nspecial one, because during the course of\nthe evening, the Sullivan band will be\naccompanied by several famous singers,\nincluding Russell Cadbury, Chaplin\nClemens, and Mike Menendez. We\nanticipate this to be one of the greatest\nperformances ever, and I guarantee you\nthat you’ll get your money’s worth\ntonight. Thank you for coming and enjoy\nthe show."
+  },
+  "85": {
+    "text": "",
+    "options": {},
+    "group_script": "to the following\nannouncement.\nI’d like to welcome everyone to the Royal\nHall Theater. Tonight, we are very proud\nto present the Sullivan Jazz Band and All\nStars. The show will be split into two\nparts, and there will be a ten-minute break\nin between. Tonight’s show will be a very\nspecial one, because during the course of\nthe evening, the Sullivan band will be\naccompanied by several famous singers,\nincluding Russell Cadbury, Chaplin\nClemens, and Mike Menendez. We\nanticipate this to be one of the greatest\nperformances ever, and I guarantee you\nthat you’ll get your money’s worth\ntonight. Thank you for coming and enjoy\nthe show."
+  },
+  "86": {
+    "text": "",
+    "options": {},
+    "group_script": "to the following\ntelephone message.\nHello, Mr. Anderson, this is Gourmet\nFood Service calling about the special\nmeals you’ve requested for your\nconvention tomorrow. It will not be a\nproblem to prepare the vegetarian meals as\nyou’ve requested. Let me just double-\ncheck the ingredients so that the meals\nwill be agreeable with your guests’ dietary\n20\nrequirements. From the lists that you’ve\nprovided, you do not want any meat,\npoultry, fish, or eggs. And the food items\nthat are allowed are fresh vegetables, fruits,\nand soymilk. Also, we were not sure if\nbeans were acceptable, so we did not\ninclude them on the list. Please make sure\nthe food items I’ve read to you are correct\nand give us a call by 10 P.M. tonight if any\nchanges should be made to the list. Thank\nyou for your business and we’ll see you\ntomorrow."
+  },
+  "87": {
+    "text": "",
+    "options": {},
+    "group_script": "to the following\ntelephone message.\nHello, Mr. Anderson, this is Gourmet\nFood Service calling about the special\nmeals you’ve requested for your\nconvention tomorrow. It will not be a\nproblem to prepare the vegetarian meals as\nyou’ve requested. Let me just double-\ncheck the ingredients so that the meals\nwill be agreeable with your guests’ dietary\n20\nrequirements. From the lists that you’ve\nprovided, you do not want any meat,\npoultry, fish, or eggs. And the food items\nthat are allowed are fresh vegetables, fruits,\nand soymilk. Also, we were not sure if\nbeans were acceptable, so we did not\ninclude them on the list. Please make sure\nthe food items I’ve read to you are correct\nand give us a call by 10 P.M. tonight if any\nchanges should be made to the list. Thank\nyou for your business and we’ll see you\ntomorrow."
+  },
+  "88": {
+    "text": "",
+    "options": {},
+    "group_script": "to the following\ntelephone message.\nHello, Mr. Anderson, this is Gourmet\nFood Service calling about the special\nmeals you’ve requested for your\nconvention tomorrow. It will not be a\nproblem to prepare the vegetarian meals as\nyou’ve requested. Let me just double-\ncheck the ingredients so that the meals\nwill be agreeable with your guests’ dietary\n20\nrequirements. From the lists that you’ve\nprovided, you do not want any meat,\npoultry, fish, or eggs. And the food items\nthat are allowed are fresh vegetables, fruits,\nand soymilk. Also, we were not sure if\nbeans were acceptable, so we did not\ninclude them on the list. Please make sure\nthe food items I’ve read to you are correct\nand give us a call by 10 P.M. tonight if any\nchanges should be made to the list. Thank\nyou for your business and we’ll see you\ntomorrow."
+  },
+  "89": {
+    "text": "",
+    "options": {},
+    "group_script": "to the following\ninterview.\nIt’s funny you should ask that question,\nbecause as a child growing up near a farm,\nI always thought being a farmer was the\ncoolest thing to be, and I actually was going\nto become one. Of course my perspective on\nprofessions changed when I moved to the\ncity at eighteen. That’s where I discovered\nmy passion for the stage. But it was tough\ngetting a part, especially for the first five\nyears. I must’ve auditioned at least a\nhundred times and I couldn’t get even the\nsmallest role. In retrospect, I didn’t know a\nthing about acting during that period. It\nsometimes amazes me that the same young\nfoolish kid who couldn’t buy himself a role\nhas starred in fifteen Broadway plays."
+  },
+  "90": {
+    "text": "",
+    "options": {},
+    "group_script": "to the following\ninterview.\nIt’s funny you should ask that question,\nbecause as a child growing up near a farm,\nI always thought being a farmer was the\ncoolest thing to be, and I actually was going\nto become one. Of course my perspective on\nprofessions changed when I moved to the\ncity at eighteen. That’s where I discovered\nmy passion for the stage. But it was tough\ngetting a part, especially for the first five\nyears. I must’ve auditioned at least a\nhundred times and I couldn’t get even the\nsmallest role. In retrospect, I didn’t know a\nthing about acting during that period. It\nsometimes amazes me that the same young\nfoolish kid who couldn’t buy himself a role\nhas starred in fifteen Broadway plays."
+  },
+  "91": {
+    "text": "",
+    "options": {},
+    "group_script": "to the following\ninterview.\nIt’s funny you should ask that question,\nbecause as a child growing up near a farm,\nI always thought being a farmer was the\ncoolest thing to be, and I actually was going\nto become one. Of course my perspective on\nprofessions changed when I moved to the\ncity at eighteen. That’s where I discovered\nmy passion for the stage. But it was tough\ngetting a part, especially for the first five\nyears. I must’ve auditioned at least a\nhundred times and I couldn’t get even the\nsmallest role. In retrospect, I didn’t know a\nthing about acting during that period. It\nsometimes amazes me that the same young\nfoolish kid who couldn’t buy himself a role\nhas starred in fifteen Broadway plays."
+  },
+  "92": {
+    "text": "",
+    "options": {},
+    "group_script": "to the following radio\nannouncement.\nThe city of Oakville would like to announce\nthe upcoming highway construction work to\nthe residents. Highway 403 will be closed\nbetween Dixie and Hurontario for\napproximately four weeks. The\nconstruction work is scheduled to begin on\nWednesday, September 10, but is subject to\nchange depending on weather conditions.\nThis section will not be open to traffic while\nthe road is being widened. Please use\nalternate routes during construction. As\nalways, we appreciate the public’s\ncooperation and patience. For further\ninformation, contact the Public Works\nDepartment at 555-3500."
+  },
+  "93": {
+    "text": "",
+    "options": {},
+    "group_script": "to the following radio\nannouncement.\nThe city of Oakville would like to announce\nthe upcoming highway construction work to\nthe residents. Highway 403 will be closed\nbetween Dixie and Hurontario for\napproximately four weeks. The\nconstruction work is scheduled to begin on\nWednesday, September 10, but is subject to\nchange depending on weather conditions.\nThis section will not be open to traffic while\nthe road is being widened. Please use\nalternate routes during construction. As\nalways, we appreciate the public’s\ncooperation and patience. For further\ninformation, contact the Public Works\nDepartment at 555-3500."
+  },
+  "94": {
+    "text": "",
+    "options": {},
+    "group_script": "to the following radio\nannouncement.\nThe city of Oakville would like to announce\nthe upcoming highway construction work to\nthe residents. Highway 403 will be closed\nbetween Dixie and Hurontario for\napproximately four weeks. The\nconstruction work is scheduled to begin on\nWednesday, September 10, but is subject to\nchange depending on weather conditions.\nThis section will not be open to traffic while\nthe road is being widened. Please use\nalternate routes during construction. As\nalways, we appreciate the public’s\ncooperation and patience. For further\ninformation, contact the Public Works\nDepartment at 555-3500."
+  },
+  "95": {
+    "text": "",
+    "options": {},
+    "group_script": "to the following talk.\nWelcome to Minami Production. My\nname is Sandra Kim and I am the human\nresources director. I am very happy to\nhave all of you as part of our workforce.\nThere are some important company\nregulations that I must inform you about\nbefore we go around the premises. First,\nhardhats, safety goggles, and work boots\nmust all be worn at all times when entering\nthe area where our auto parts are\nproduced. Second, in the event of any\naccident or mishap, you must report it to\nthe floor assembly supervisor\nimmediately. After we tour the production\narea, Mr. Lester, our operations manager\nwill come by to answer any questions you\nmay have about our company. Now,\nfollow me everyone.\n21"
+  },
+  "96": {
+    "text": "",
+    "options": {},
+    "group_script": "to the following talk.\nWelcome to Minami Production. My\nname is Sandra Kim and I am the human\nresources director. I am very happy to\nhave all of you as part of our workforce.\nThere are some important company\nregulations that I must inform you about\nbefore we go around the premises. First,\nhardhats, safety goggles, and work boots\nmust all be worn at all times when entering\nthe area where our auto parts are\nproduced. Second, in the event of any\naccident or mishap, you must report it to\nthe floor assembly supervisor\nimmediately. After we tour the production\narea, Mr. Lester, our operations manager\nwill come by to answer any questions you\nmay have about our company. Now,\nfollow me everyone.\n21"
+  },
+  "97": {
+    "text": "",
+    "options": {},
+    "group_script": "to the following talk.\nWelcome to Minami Production. My\nname is Sandra Kim and I am the human\nresources director. I am very happy to\nhave all of you as part of our workforce.\nThere are some important company\nregulations that I must inform you about\nbefore we go around the premises. First,\nhardhats, safety goggles, and work boots\nmust all be worn at all times when entering\nthe area where our auto parts are\nproduced. Second, in the event of any\naccident or mishap, you must report it to\nthe floor assembly supervisor\nimmediately. After we tour the production\narea, Mr. Lester, our operations manager\nwill come by to answer any questions you\nmay have about our company. Now,\nfollow me everyone.\n21"
+  },
+  "98": {
+    "text": "",
+    "options": {},
+    "group_script": "to the following\nintroduction.\nGood morning, everyone. In preparation for\nthe upcoming business conference with our\ncontacts in Miami, we have invited a special\nguest to assist us with our presentation\nskills. Anton Carter will instruct us on\neffective business presentations. More\nspecifically, he will teach us for the next\nthree hours about the different types of\nbusiness presentations, content factors, the\nright kind of language, and delivery\ntechniques. I should also add that Mr. Carter\nhas recently been invited to teach a class on\nthis topic at the University of Western\nRorida. The next three hours are going to be\nvery demanding, but I hope that you’ll\nparticipate with enthusiasm and try your\nbest. So, without any more delay, I give you\nMr. Carter."
+  },
+  "99": {
+    "text": "",
+    "options": {},
+    "group_script": "to the following\nintroduction.\nGood morning, everyone. In preparation for\nthe upcoming business conference with our\ncontacts in Miami, we have invited a special\nguest to assist us with our presentation\nskills. Anton Carter will instruct us on\neffective business presentations. More\nspecifically, he will teach us for the next\nthree hours about the different types of\nbusiness presentations, content factors, the\nright kind of language, and delivery\ntechniques. I should also add that Mr. Carter\nhas recently been invited to teach a class on\nthis topic at the University of Western\nRorida. The next three hours are going to be\nvery demanding, but I hope that you’ll\nparticipate with enthusiasm and try your\nbest. So, without any more delay, I give you\nMr. Carter."
+  },
+  "100": {
+    "text": "",
+    "options": {},
+    "group_script": "to the following\nintroduction.\nGood morning, everyone. In preparation for\nthe upcoming business conference with our\ncontacts in Miami, we have invited a special\nguest to assist us with our presentation\nskills. Anton Carter will instruct us on\neffective business presentations. More\nspecifically, he will teach us for the next\nthree hours about the different types of\nbusiness presentations, content factors, the\nright kind of language, and delivery\ntechniques. I should also add that Mr. Carter\nhas recently been invited to teach a class on\nthis topic at the University of Western\nRorida. The next three hours are going to be\nvery demanding, but I hope that you’ll\nparticipate with enthusiasm and try your\nbest. So, without any more delay, I give you\nMr. Carter."
+  }
+}

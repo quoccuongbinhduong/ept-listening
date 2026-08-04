@@ -1,0 +1,544 @@
+{
+  "2": {
+    "41": {
+      "q": "Where did Evan stay in Sao Paulo?",
+      "o": [
+        "At a beach house",
+        "With his cousins",
+        "At a friend's house",
+        "in a hotel"
+      ]
+    },
+    "42": {
+      "q": "When did the woman go to Sao Paulo?",
+      "o": [
+        "Last week",
+        "Last month",
+        "Four months ago",
+        "Last year"
+      ]
+    },
+    "43": {
+      "q": "How did Evan mainly spend his vacation?",
+      "o": [
+        "Visiting tourist sites",
+        "Surfing at the beach",
+        "Partying at clubs",
+        "Shopping in the malls"
+      ]
+    },
+    "44": {
+      "q": "What does the woman want to do?",
+      "o": [
+        "Exchange a bill",
+        "Renew a license",
+        "Cash a check",
+        "Wire some money"
+      ]
+    },
+    "45": {
+      "q": "What piece of identification does the woman have on her?",
+      "o": [
+        "A driver's license",
+        "A health card",
+        "A social Insurance card",
+        "A passport"
+      ]
+    },
+    "46": {
+      "q": "What does the man suggest the woman do?",
+      "o": [
+        "Come back with valid ID",
+        "Bring ten dollars for service charges",
+        "Take the check to a bank",
+        "Leave the check with him"
+      ]
+    },
+    "47": {
+      "q": "Where does the man want to work?",
+      "o": [
+        "At a restaurant",
+        "At a web design company",
+        "At an employment agency",
+        "At a hotel"
+      ]
+    },
+    "48": {
+      "q": "What kind of employment experience has the man had?",
+      "o": [
+        "A customer service representative",
+        "A staff recruiter",
+        "A receptionist",
+        "A restaurant manager"
+      ]
+    },
+    "49": {
+      "q": "What is the man asked to send?",
+      "o": [
+        "A license",
+        "An application",
+        "A reference",
+        "A résumé"
+      ]
+    },
+    "50": {
+      "q": "When is Jason leaving for his trip?",
+      "o": [
+        "Thursday",
+        "Friday",
+        "Saturday",
+        "Sunday"
+      ]
+    },
+    "51": {
+      "q": "What activity is Jason looking forward to?",
+      "o": [
+        "Hiking",
+        "Swimming",
+        "Biking",
+        "Running"
+      ]
+    },
+    "52": {
+      "q": "What does the woman say about the mountain streams?",
+      "o": [
+        "The stream water is very clean.",
+        "They lead to a beautiful waterfall.",
+        "People can enjoy rafting there.",
+        "People often go there to fish."
+      ]
+    },
+    "53": {
+      "q": "Who is the woman shopping for?",
+      "o": [
+        "Her husband",
+        "Her son",
+        "Her relative",
+        "Her coworker"
+      ]
+    },
+    "54": {
+      "q": "What time does the store close today?",
+      "o": [
+        "5:00",
+        "8:00",
+        "10:00",
+        "11:00"
+      ]
+    },
+    "55": {
+      "q": "What does the customer ask the store owner to do?",
+      "o": [
+        "Accept cash",
+        "Find a product",
+        "Make a phone call tomorrow",
+        "Keep the store open longer"
+      ]
+    },
+    "56": {
+      "q": "Where does this conversation most likely take place?",
+      "o": [
+        "At a newsstand",
+        "In an office",
+        "At a subway station",
+        "In a conference room"
+      ]
+    },
+    "57": {
+      "q": "How did the woman get to work?",
+      "o": [
+        "By bike",
+        "By bus",
+        "By subway",
+        "By car"
+      ]
+    },
+    "58": {
+      "q": "When is the presentation scheduled to begin?",
+      "o": [
+        "In ten minutes",
+        "In twenty minutes",
+        "In thirty minutes",
+        "In forty minutes"
+      ]
+    },
+    "59": {
+      "q": "How do the speakers know each other?",
+      "o": [
+        "From school",
+        "From a party",
+        "From a job",
+        "From a social club"
+      ]
+    },
+    "60": {
+      "q": "When did the speakers last see each other?",
+      "o": [
+        "Yesterday",
+        "Two months ago",
+        "Last summer",
+        "Three years ago"
+      ]
+    },
+    "61": {
+      "q": "What is the man's favorite memory?",
+      "o": [
+        "Attending a campus party",
+        "Visiting an art gallery",
+        "Swimming at the beach",
+        "Winning an award"
+      ]
+    },
+    "62": {
+      "q": "What does the man want?",
+      "o": [
+        "Desserts",
+        "Drinks",
+        "Appetizers",
+        "Main course"
+      ]
+    },
+    "63": {
+      "q": "What does the woman otter to do?",
+      "o": [
+        "Reduce the price",
+        "Make the waiter serve",
+        "Bring the meal",
+        "Get the bill"
+      ]
+    },
+    "64": {
+      "q": "How long has the man been waiting?",
+      "o": [
+        "Five minutes",
+        "Ten minutes",
+        "Twenty minutes",
+        "Thirty minutes"
+      ]
+    },
+    "65": {
+      "q": "Who most likely is the man?",
+      "o": [
+        "A photographer",
+        "A repairperson",
+        "A receptionist",
+        "A salesperson"
+      ]
+    },
+    "66": {
+      "q": "When will the man probably be at the office?",
+      "o": [
+        "This afternoon",
+        "This evening",
+        "Tomorrow afternoon",
+        "Tomorrow evening"
+      ]
+    },
+    "67": {
+      "q": "What is the woman's problem?",
+      "o": [
+        "She cannot send faxes.",
+        "She cannot make copies.",
+        "She cannot edit documents.",
+        "She cannot take photos."
+      ]
+    },
+    "68": {
+      "q": "Where does this conversation take place?",
+      "o": [
+        "At a computer store",
+        "At a stationery store",
+        "At a hardware store",
+        "At a jewelry store"
+      ]
+    },
+    "69": {
+      "q": "What does the man want to do with his purchase?",
+      "o": [
+        "Use it right away",
+        "Wrap it up",
+        "Exchange it",
+        "Pick it up later"
+      ]
+    },
+    "70": {
+      "q": "Why is the man unable to use a large bill?",
+      "o": [
+        "The man did not purchase enough items.",
+        "The business does not have enough change.",
+        "The store only accepts credit cards.",
+        "The man's bills are no longer in circulation."
+      ]
+    },
+    "71": {
+      "q": "Where does the speaker most likely work?",
+      "o": [
+        "An auto body shop",
+        "A car rental company",
+        "A paint store",
+        "An office supply store"
+      ]
+    },
+    "72": {
+      "q": "When was the work initially supposed to be finished?",
+      "o": [
+        "A week ago",
+        "Three days ago",
+        "Yesterday",
+        "Today"
+      ]
+    },
+    "73": {
+      "q": "When will the business close tomorrow?",
+      "o": [
+        "6:00 P.M.",
+        "6:30 P.M.",
+        "7:00 P.M.",
+        "8:00 P.M."
+      ]
+    },
+    "74": {
+      "q": "What is being announced?",
+      "o": [
+        "New systems of filing data",
+        "Storage methods for office supplies",
+        "The introduction of a new policy",
+        "Changes to a procedure"
+      ]
+    },
+    "75": {
+      "q": "What will the employees receive?",
+      "o": [
+        "Colored bags",
+        "Reprocessing forms",
+        "Merchandise catalogues",
+        "Product codes"
+      ]
+    },
+    "76": {
+      "q": "What were employees given a list of?",
+      "o": [
+        "Types of office paper that can be used",
+        "Items that can be recycled",
+        "Plastic material that can be sold",
+        "Locations where bins can be found"
+      ]
+    },
+    "77": {
+      "q": "Who is the message for?",
+      "o": [
+        "Patients",
+        "Nurses",
+        "Doctors",
+        "Pharmacists"
+      ]
+    },
+    "78": {
+      "q": "What is suggested about the office?",
+      "o": [
+        "It is being renovated.",
+        "It will relocate in November.",
+        "It is not currently open.",
+        "It will have a new phone number."
+      ]
+    },
+    "79": {
+      "q": "What information can be found through the hotline?",
+      "o": [
+        "Available times for Dr. Feinstein",
+        "Updated medical coverage information",
+        "Directions to the new fitness center",
+        "Location of a nearby hospital"
+      ]
+    },
+    "80": {
+      "q": "What is suggested about the Niclith batteries?",
+      "o": [
+        "They are environmentally friendly.",
+        "They are relatively inexpensive.",
+        "They charge faster.",
+        "They last longer."
+      ]
+    },
+    "81": {
+      "q": "What gift is offered?",
+      "o": [
+        "An extra set of batteries",
+        "A charger",
+        "An electric drill",
+        "A digital camera"
+      ]
+    },
+    "82": {
+      "q": "What should people do to receive a gift?",
+      "o": [
+        "Buy a pack of batteries",
+        "Visit the store",
+        "Return a survey form",
+        "Send in a receipt"
+      ]
+    },
+    "83": {
+      "q": "What type of performance will follow this announcement?",
+      "o": [
+        "A play",
+        "A poetry reading",
+        "A ballet",
+        "A music concert"
+      ]
+    },
+    "84": {
+      "q": "What will happen after the first part?",
+      "o": [
+        "Refreshments will be served.",
+        "Photographs will be taken.",
+        "An intermission will take place.",
+        "An interview session will be held."
+      ]
+    },
+    "85": {
+      "q": "What is special about tonight's show?",
+      "o": [
+        "It will be outdoors.",
+        "It will be the last show.",
+        "It will feature other performers.",
+        "It will donate all proceeds to a charity."
+      ]
+    },
+    "86": {
+      "q": "Who most likely is the speaker?",
+      "o": [
+        "A caterer",
+        "A health planner",
+        "A hotel manager",
+        "A conference organizer"
+      ]
+    },
+    "87": {
+      "q": "What item has been excluded from the list?",
+      "o": [
+        "Sweets",
+        "Centerpieces",
+        "Name tags",
+        "Beans"
+      ]
+    },
+    "88": {
+      "q": "Why does the speaker ask Mr. Anderson to call him?",
+      "o": [
+        "To decide the method of payment",
+        "To discuss the room choices",
+        "To point out any changes to the list",
+        "To sort out the seating arrangements"
+      ]
+    },
+    "89": {
+      "q": "What did the speaker want to become when he was a child?",
+      "o": [
+        "A director",
+        "A farmer",
+        "A stage performer",
+        "A producer"
+      ]
+    },
+    "90": {
+      "q": "What did the speaker do at age eighteen?",
+      "o": [
+        "Acquired a farm",
+        "Decided to be an actor",
+        "Wrote a play",
+        "Toured a city"
+      ]
+    },
+    "91": {
+      "q": "How many plays has the speaker appeared in?",
+      "o": [
+        "Five",
+        "Ten",
+        "Fifteen",
+        "Twenty"
+      ]
+    },
+    "92": {
+      "q": "What is the purpose of this radio announcement?",
+      "o": [
+        "To ask motorists to drive carefully",
+        "To notify the residents of a city project",
+        "To announce the current highway conditions",
+        "To alert the public of weather conditions"
+      ]
+    },
+    "93": {
+      "q": "When will the highway be closed to cars?",
+      "o": [
+        "September 4",
+        "September 6",
+        "September 8",
+        "September 10"
+      ]
+    },
+    "94": {
+      "q": "What should people do if they have inquiries?",
+      "o": [
+        "Write an e-mail",
+        "Call a number",
+        "Send a fax",
+        "Visit the city hall"
+      ]
+    },
+    "95": {
+      "q": "Who is the talk for?",
+      "o": [
+        "Visiting students",
+        "Business clients",
+        "New workers",
+        "Safety inspectors"
+      ]
+    },
+    "96": {
+      "q": "What department does the speaker work in?",
+      "o": [
+        "The operations department",
+        "The personnel department",
+        "The quality assurance department",
+        "The production department"
+      ]
+    },
+    "97": {
+      "q": "What does Minami Production produce?",
+      "o": [
+        "Construction materials",
+        "Working clothes",
+        "Car components",
+        "Floor tiles"
+      ]
+    },
+    "98": {
+      "q": "Where is this talk probably taking place?",
+      "o": [
+        "In an interview room",
+        "In a lecture hall",
+        "In a recording studio",
+        "In a restaurant"
+      ]
+    },
+    "99": {
+      "q": "What will be the topic of Mr. Carter's talk?",
+      "o": [
+        "Management styles",
+        "Phone conferencing procedures",
+        "Presentation skills",
+        "Business types"
+      ]
+    },
+    "100": {
+      "q": "What has Mr. Carter been invited to do?",
+      "o": [
+        "Give lectures at a university",
+        "Organize a seminar",
+        "Conduct research",
+        "Publish a book"
+      ]
+    }
+  }
+}
