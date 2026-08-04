@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>HƯỚNG DẪN DEPLOY LÊN GITHUB PAGES | ept-listening</title>
+<meta name="generator" content="Jekyll v3.10.0" />
+<meta property="og:title" content="HƯỚNG DẪN DEPLOY LÊN GITHUB PAGES" />
+<meta property="og:locale" content="en_US" />
+<link rel="canonical" href="https://quoccuongbinhduong.github.io/ept-listening/DEPLOY_GUIDE.html" />
+<meta property="og:url" content="https://quoccuongbinhduong.github.io/ept-listening/DEPLOY_GUIDE.html" />
+<meta property="og:site_name" content="ept-listening" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="HƯỚNG DẪN DEPLOY LÊN GITHUB PAGES" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebPage","headline":"HƯỚNG DẪN DEPLOY LÊN GITHUB PAGES","url":"https://quoccuongbinhduong.github.io/ept-listening/DEPLOY_GUIDE.html"}</script>
+<!-- End Jekyll SEO tag -->
+
+    <link rel="stylesheet" href="/ept-listening/assets/css/style.css?v=38146e4f26f06875f7a28ab864f4794168d30c86">
+    <!-- start custom head snippets, customize with your own _includes/head-custom.html file -->
+
+<!-- Setup Google Analytics -->
+
+
+
+<!-- You can set your favicon here -->
+<!-- link rel="shortcut icon" type="image/x-icon" href="/ept-listening/favicon.ico" -->
+
+<!-- end custom head snippets -->
+
+  </head>
+  <body>
+    <div class="container-lg px-3 my-5 markdown-body">
+      
+      <h1><a href="https://quoccuongbinhduong.github.io/ept-listening/">ept-listening</a></h1>
+      
+
+      <h1 id="hướng-dẫn-deploy-lên-github-pages">HƯỚNG DẪN DEPLOY LÊN GITHUB PAGES</h1>
+
+<h2 id="bước-1-tạo-tài-khoản-github-nếu-chưa-có">Bước 1: Tạo tài khoản GitHub (nếu chưa có)</h2>
+<p>Mở https://github.com/signup → Đăng ký miễn phí</p>
+
+<h2 id="bước-2-tạo-repository-mới">Bước 2: Tạo Repository mới</h2>
+<ol>
+  <li>Đăng nhập vào github.com</li>
+  <li>Nhấn nút <strong>”+”</strong> góc trên phải → <strong>“New repository”</strong></li>
+  <li>Điền:
+    <ul>
+      <li>Repository name: <code class="language-plaintext highlighter-rouge">ept-listening</code></li>
+      <li>Chọn <strong>Public</strong> ✅ (bắt buộc để dùng GitHub Pages miễn phí)</li>
+      <li><strong>KHÔNG</strong> check “Add a README file” (để trống)</li>
+    </ul>
+  </li>
+  <li>Nhấn <strong>“Create repository”</strong></li>
+</ol>
+
+<h2 id="bước-3-copy-lệnh-push-chạy-trong-powershell">Bước 3: Copy lệnh push (chạy trong PowerShell)</h2>
+
+<p>Sau khi tạo repo, GitHub sẽ hiện trang với lệnh. Chạy các lệnh sau:
+(Thay <code class="language-plaintext highlighter-rouge">YOUR_USERNAME</code> bằng tên tài khoản GitHub của bạn)</p>
+
+<div class="language-powershell highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">cd</span><span class="w"> </span><span class="nx">D:\EPT\ept-deploy</span><span class="w">
+</span><span class="n">git</span><span class="w"> </span><span class="nx">remote</span><span class="w"> </span><span class="nx">add</span><span class="w"> </span><span class="nx">origin</span><span class="w"> </span><span class="nx">https://github.com/YOUR_USERNAME/ept-listening.git</span><span class="w">
+</span><span class="n">git</span><span class="w"> </span><span class="nx">branch</span><span class="w"> </span><span class="nt">-M</span><span class="w"> </span><span class="nx">main</span><span class="w">
+</span><span class="n">git</span><span class="w"> </span><span class="nx">push</span><span class="w"> </span><span class="nt">-u</span><span class="w"> </span><span class="nx">origin</span><span class="w"> </span><span class="nx">main</span><span class="w">
+</span></code></pre></div></div>
+
+<h2 id="bước-4-bật-github-pages">Bước 4: Bật GitHub Pages</h2>
+<ol>
+  <li>Vào repo trên GitHub</li>
+  <li>Nhấn tab <strong>“Settings”</strong></li>
+  <li>Kéo xuống mục <strong>“Pages”</strong> (menu bên trái)</li>
+  <li>Trong “Branch”: chọn <strong>main</strong> → <strong>/(root)</strong></li>
+  <li>Nhấn <strong>Save</strong></li>
+  <li>Chờ ~2 phút → GitHub Pages sẽ có URL: <code class="language-plaintext highlighter-rouge">https://YOUR_USERNAME.github.io/ept-listening/</code></li>
+</ol>
+
+<h2 id="lưu-ý">Lưu ý</h2>
+<ul>
+  <li>File MP3 dùng Git LFS (hỗ trợ tối đa 1GB miễn phí/tháng)</li>
+  <li>Sau khi deploy, truy cập: https://YOUR_USERNAME.github.io/ept-listening/</li>
+  <li>Ai cũng có thể vào link này để luyện thi, không cần cùng WiFi!</li>
+</ul>
+
+
+      
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.0/anchor.min.js" integrity="sha256-lZaRhKri35AyJSypXXs4o6OPFTbTmUoltBbDCbdzegg=" crossorigin="anonymous"></script>
+    <script>anchors.add();</script>
+  </body>
+</html>
