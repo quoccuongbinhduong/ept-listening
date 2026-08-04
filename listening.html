@@ -639,12 +639,6 @@ function startTest(t) {
   const p = loadState(t);
   if (p) { ua = p.ua || {}; isDone = p.isDone || false; }
   else { ua = {}; }
-  if (isDone) { showResult(); return; }
-
-  // Find first unanswered
-  curQ = 1;
-  for (let q = 1; q <= 100; q++) { if (!ua[q]) { curQ = q; break; } }
-
   // Setup audio
   aud = $('aud');
   aud.src = AUDIO_PATH[t];
@@ -659,15 +653,25 @@ function startTest(t) {
   };
   aud.onended = () => $('bplay').textContent = '▶';
 
+  // Always init UI for the exam screen
   $('etitle').textContent = `Practice Test ${t}`;
+  document.querySelectorAll('.ptab').forEach((tb, i) => tb.classList.toggle('on', i === 0));
+
+  if (isDone) {
+    curQ = 1;
+    buildMap();
+    showResult(); 
+    return; 
+  }
+
+  // Find first unanswered
+  curQ = 1;
+  for (let q = 1; q <= 100; q++) { if (!ua[q]) { curQ = q; break; } }
 
   // Switch screens
   $('home').style.display = 'none';
   $('result').style.display = 'none';
   $('exam').style.display = 'block';
-
-  // Reset part tabs
-  document.querySelectorAll('.ptab').forEach((tb, i) => tb.classList.toggle('on', i === 0));
 
   // Load photos lazily (non-blocking)
   
@@ -887,6 +891,7 @@ if (breview) {
         result.style.display = 'none';
         exam.style.display = 'block';
         renderQ(1);
+        $('bplay').textContent = '▶';
         window.scrollTo({top:0, behavior:'smooth'});
     });
 }
@@ -903,7 +908,7 @@ function submit() {
 
 // ═══════════════════ RESULT ═══════════════════════════════════
 function showResult() {
-  if (aud) { aud.pause(); aud.src = ''; }
+  if (aud) { aud.pause(); $('bplay').textContent = '▶'; }
   $('exam').style.display = 'none';
   $('home').style.display = 'none';
   $('result').style.display = 'block';
@@ -945,7 +950,7 @@ function showResult() {
   for (let q = 1; q <= 100; q++) {
     const u = ua[q] || '—', c = ans[String(q)], ok = u === c, sk = !ua[q];
     const p = getPart(q);
-    tb.innerHTML += `<tr onclick="$('result').style.display='none'; $('exam').style.display='block'; renderQ(${q}); window.scrollTo({top:0, behavior:'smooth'});" style="cursor:pointer" title="Nhấn để xem lại câu ${q}">
+    tb.innerHTML += `<tr onclick="$('result').style.display='none'; $('exam').style.display='block'; renderQ(${q}); $('bplay').textContent='▶'; window.scrollTo({top:0, behavior:'smooth'});" style="cursor:pointer" title="Nhấn để xem lại câu ${q}">
       <td>${q}</td><td>Part ${p.id}</td>
       <td><strong class="${sk?'ts':ok?'tc':'tw'}">${u}</strong></td>
       <td><strong class="tc">${c}</strong></td>
