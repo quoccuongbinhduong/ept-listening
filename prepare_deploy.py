@@ -7,11 +7,10 @@ SRC = r"D:\EPT\Listening"
 DST = r"D:\EPT\ept-deploy"
 
 KEEP_FILES = ["index.html", "core.json", "photos.json", "reading.html", "reading_data.json", "listening.html"]
-KEEP_DIRS  = ["Audio"]
+KEEP_DIRS  = ["Audio", ".github"]
 
-if os.path.exists(DST):
-    shutil.rmtree(DST)
-os.makedirs(DST)
+if not os.path.exists(DST):
+    os.makedirs(DST)
 
 for f in KEEP_FILES:
     src = os.path.join(SRC, f)
@@ -24,7 +23,7 @@ for d in KEEP_DIRS:
     src = os.path.join(SRC, d)
     dst = os.path.join(DST, d)
     if os.path.exists(src):
-        shutil.copytree(src, dst)
+        shutil.copytree(src, dst, dirs_exist_ok=True)
         files = os.listdir(dst)
         total = sum(os.path.getsize(os.path.join(dst,f)) for f in files)
         print(f"  Copied {d}/: {len(files)} files, {total//1024//1024} MB")
