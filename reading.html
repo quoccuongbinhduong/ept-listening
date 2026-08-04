@@ -176,6 +176,14 @@ header{background:rgba(21,24,40,.92);backdrop-filter:blur(16px);border-bottom:1p
       
       document.getElementById('submit-btn').classList.remove('hidden');
     }
+    const TRACKING_URL = 'https://script.google.com/macros/s/AKfycbxvcYtcNayeYGv2YP5ILD_Aeyc1aJfQ_geSsSeuq_7lLI-ywMxTJ-tN2jkybHcw_j3L5A/exec';
+    function trackUser(mssv, action, details) {
+      if(!mssv) return;
+      try {
+        const url = `${TRACKING_URL}?mssv=${encodeURIComponent(mssv)}&action=${encodeURIComponent(action)}&details=${encodeURIComponent(details)}`;
+        fetch(url, { method: "GET", mode: "no-cors" }).catch(e => console.log(e));
+      } catch(e) {}
+    }
 
     function selectOption(qnum, letter) {
       if (isSubmitted) return;
@@ -223,17 +231,7 @@ header{background:rgba(21,24,40,.92);backdrop-filter:blur(16px);border-bottom:1p
       
       // Save progress
       if (userToken) {
-        /*
-        fetch('/api/sync', {
-          method: 'POST',
-          headers: {'Content-Type': 'application/json'},
-          body: JSON.stringify({
-            user: userToken,
-            app: 'reading_' + currentTest,
-            state: { score, total, answers: userAnswers, timestamp: Date.now() }
-          })
-        });
-        */
+        trackUser(userToken, "Nộp bài Reading", `Test: ${currentTest} - Điểm: ${score}/${total}`);
       }
     }
 
