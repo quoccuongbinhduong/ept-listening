@@ -1043,303 +1043,603 @@
       "group_script": ""
     },
     "41": {
-      "text": "",
-      "options": {},
+      "text": "What time will the speakers leave for the meeting?",
+      "options": {
+        "A": "8:00.",
+        "B": "6:45.",
+        "C": "7:30.",
+        "D": "11:30."
+      },
       "group_script": "to the\nfollowing conversation.\nWoman: Can you believe how early the\nmeeting starts? Eight o'clock!\nWe'll have to leave the hotel by\nsix forty-five to get there on time.\nMan: I don't think so. Remember, it's\nnot at the downtown office. It's at\nthe conference center, which is\nnot so far.\n10\nWoman: Oh, you're right. I'd forgotten. We\nwon't have to leave till seven thirty\nif we go by subway.\nMan: That's probably the best plan. The\nbus would be too slow, and I don't\nwant to pay for a taxi."
     },
     "42": {
-      "text": "",
-      "options": {},
+      "text": "How will they get to the meeting?",
+      "options": {
+        "A": "Bus.",
+        "B": "Taxi.",
+        "C": "Subway.",
+        "D": "Private car."
+      },
       "group_script": "to the\nfollowing conversation.\nWoman: Can you believe how early the\nmeeting starts? Eight o'clock!\nWe'll have to leave the hotel by\nsix forty-five to get there on time.\nMan: I don't think so. Remember, it's\nnot at the downtown office. It's at\nthe conference center, which is\nnot so far.\n10\nWoman: Oh, you're right. I'd forgotten. We\nwon't have to leave till seven thirty\nif we go by subway.\nMan: That's probably the best plan. The\nbus would be too slow, and I don't\nwant to pay for a taxi."
     },
     "43": {
-      "text": "",
-      "options": {},
+      "text": "Where will the meeting be held?",
+      "options": {
+        "A": "Downtown.",
+        "B": "At the hotel.",
+        "C": "At the office.",
+        "D": "At the conference center."
+      },
       "group_script": "to the\nfollowing conversation.\nWoman: Can you believe how early the\nmeeting starts? Eight o'clock!\nWe'll have to leave the hotel by\nsix forty-five to get there on time.\nMan: I don't think so. Remember, it's\nnot at the downtown office. It's at\nthe conference center, which is\nnot so far.\n10\nWoman: Oh, you're right. I'd forgotten. We\nwon't have to leave till seven thirty\nif we go by subway.\nMan: That's probably the best plan. The\nbus would be too slow, and I don't\nwant to pay for a taxi."
     },
     "44": {
-      "text": "",
-      "options": {},
+      "text": "Where does this conversation take place?",
+      "options": {
+        "A": "A bank.",
+        "B": "An accountant's office.",
+        "C": "A driving school.",
+        "D": "An office supply store."
+      },
       "group_script": "to the\nfollowing conversation.\nMan: Can you cash this check for me,\nplease?\nWoman: Certainly, if you have an account\nwith us. And I'll need to see some\nform of photo ID.\nMan: I do have an account here. Here's\nmy account number. And here's my\ndriver's license, for identification.\nWoman: Thank you. I'll just need you to sign\nthe check on the back. Here's a pen."
     },
     "45": {
-      "text": "",
-      "options": {},
+      "text": "What does the woman ask the man to give her?",
+      "options": {
+        "A": "An identification card.",
+        "B": "Acheck.",
+        "C": "Apen.",
+        "D": "Cash."
+      },
       "group_script": "to the\nfollowing conversation.\nMan: Can you cash this check for me,\nplease?\nWoman: Certainly, if you have an account\nwith us. And I'll need to see some\nform of photo ID.\nMan: I do have an account here. Here's\nmy account number. And here's my\ndriver's license, for identification.\nWoman: Thank you. I'll just need you to sign\nthe check on the back. Here's a pen."
     },
     "46": {
-      "text": "",
-      "options": {},
+      "text": "What does the woman ask the man to do?",
+      "options": {
+        "A": "Check his license.",
+        "B": "Write his name.",
+        "C": "Read a sign.",
+        "D": "Pay cash. 5 2s --- PAGE 21 RIGHT --- ween two people. You will be asked to answer ach conversation. Select the best response to t(D) on your answer sheet. The conversations poken only one time."
+      },
       "group_script": "to the\nfollowing conversation.\nMan: Can you cash this check for me,\nplease?\nWoman: Certainly, if you have an account\nwith us. And I'll need to see some\nform of photo ID.\nMan: I do have an account here. Here's\nmy account number. And here's my\ndriver's license, for identification.\nWoman: Thank you. I'll just need you to sign\nthe check on the back. Here's a pen."
     },
     "47": {
-      "text": "",
-      "options": {},
+      "text": "Where will the man be next week?",
+      "options": {
+        "A": "Downtown.",
+        "B": "Ata ranch.",
+        "C": "At the branch office.",
+        "D": "At the accountant's office."
+      },
       "group_script": "to the\nfollowing conversation.\nWoman: I was wondering if we could get\ntogether next week to go over the\naccounts.\nMan: I'm sorry, but I'll be out of town all\nnext week visiting our branch office\nin New York. How about Monday\nof the following week?\nWoman: I'm afraid I'll be tied up the entire\nweek until Friday. It looks like we'll\nhave to put off our meeting until\nnext month.\nMan: That's OK. I'll just go check my\nnext month's calendar now, then I'll\nhave my assistant call you back to\nset an exact date."
     },
     "48": {
-      "text": "",
-      "options": {},
+      "text": "When will the speakers meet?",
+      "options": {
+        "A": "Next week.",
+        "B": "The following Monday.",
+        "C": "The following Friday.",
+        "D": "Next month."
+      },
       "group_script": "to the\nfollowing conversation.\nWoman: I was wondering if we could get\ntogether next week to go over the\naccounts.\nMan: I'm sorry, but I'll be out of town all\nnext week visiting our branch office\nin New York. How about Monday\nof the following week?\nWoman: I'm afraid I'll be tied up the entire\nweek until Friday. It looks like we'll\nhave to put off our meeting until\nnext month.\nMan: That's OK. I'll just go check my\nnext month's calendar now, then I'll\nhave my assistant call you back to\nset an exact date."
     },
     "49": {
-      "text": "",
-      "options": {},
+      "text": "What will the man do now?",
+      "options": {
+        "A": "Look at his calendar.",
+        "B": "Call his assistant.",
+        "C": "Write a check.",
+        "D": "Go to New York."
+      },
       "group_script": "to the\nfollowing conversation.\nWoman: I was wondering if we could get\ntogether next week to go over the\naccounts.\nMan: I'm sorry, but I'll be out of town all\nnext week visiting our branch office\nin New York. How about Monday\nof the following week?\nWoman: I'm afraid I'll be tied up the entire\nweek until Friday. It looks like we'll\nhave to put off our meeting until\nnext month.\nMan: That's OK. I'll just go check my\nnext month's calendar now, then I'll\nhave my assistant call you back to\nset an exact date."
     },
     "50": {
-      "text": "",
-      "options": {},
+      "text": "When will the budget report be ready?",
+      "options": {
+        "A": "At 10:00.",
+        "B": "This afternoon.",
+        "C": "Tomorrow morning.",
+        "D": "On Friday."
+      },
       "group_script": "to the\nfollowing conversation.\nMan: When do you think you can have\nthe budget report ready? I plan to\npresent it at the meeting on Friday,\nso I'll need to see it before then.\nWoman: Don't worry. I'll have it done in\nplenty of time. I can work on it all\nafternoon and have it ready for\nyou tomorrow morning.\nMan: That would be great. Could you\nbring it up to my office when it's\nready? You can just leave it in the\ninbox on my desk.\nWoman: Of course. You'll probably also\nneed extra copies to pass out at\nthe meeting, so I'll make some for\nyou. Would eight be enough?"
     },
     "51": {
-      "text": "",
-      "options": {},
+      "text": "Where does the man want the woman to leave the report?",
+      "options": {
+        "A": "In his office.",
+        "B": "Inhis mailbox.",
+        "C": "In the post office.",
+        "D": "In the conference room."
+      },
       "group_script": "to the\nfollowing conversation.\nMan: When do you think you can have\nthe budget report ready? I plan to\npresent it at the meeting on Friday,\nso I'll need to see it before then.\nWoman: Don't worry. I'll have it done in\nplenty of time. I can work on it all\nafternoon and have it ready for\nyou tomorrow morning.\nMan: That would be great. Could you\nbring it up to my office when it's\nready? You can just leave it in the\ninbox on my desk.\nWoman: Of course. You'll probably also\nneed extra copies to pass out at\nthe meeting, so I'll make some for\nyou. Would eight be enough?"
     },
     "52": {
-      "text": "",
-      "options": {},
+      "text": "What does the woman offer to do?",
+      "options": {
+        "A": "Pass out the report at the meeting.",
+        "B": "Make copies of the report.",
+        "C": "Clean the man's desk.",
+        "D": "Work until 8:00."
+      },
       "group_script": "to the\nfollowing conversation.\nMan: When do you think you can have\nthe budget report ready? I plan to\npresent it at the meeting on Friday,\nso I'll need to see it before then.\nWoman: Don't worry. I'll have it done in\nplenty of time. I can work on it all\nafternoon and have it ready for\nyou tomorrow morning.\nMan: That would be great. Could you\nbring it up to my office when it's\nready? You can just leave it in the\ninbox on my desk.\nWoman: Of course. You'll probably also\nneed extra copies to pass out at\nthe meeting, so I'll make some for\nyou. Would eight be enough?"
     },
     "53": {
-      "text": "",
-      "options": {},
+      "text": "How many nights does the man want to stay at the hotel?",
+      "options": {
+        "A": "1.",
+        "B": "2.",
+        "C": "3.",
+        "D": "4."
+      },
       "group_script": "to the\nfollowing conversation.\nMan: I'd like to book a room for next\nweek.\nWoman: How many nights will you be\nstaying with us?\nMan: Well, I'll get there on Friday and\nplan to leave Monday morning, so\nthat's three nights, Friday through\nSunday.\nWoman: Very good. A room for one person\nfor three nights. I'll just need the\nnumber of your credit card so I\ncan make the reservation for you."
     },
     "54": {
-      "text": "",
-      "options": {},
+      "text": "When will the man arrive at the hotel?",
+      "options": {
+        "A": "Friday.",
+        "B": "Saturday.",
+        "C": "Sunday.",
+        "D": "Monday."
+      },
       "group_script": "to the\nfollowing conversation.\nMan: I'd like to book a room for next\nweek.\nWoman: How many nights will you be\nstaying with us?\nMan: Well, I'll get there on Friday and\nplan to leave Monday morning, so\nthat's three nights, Friday through\nSunday.\nWoman: Very good. A room for one person\nfor three nights. I'll just need the\nnumber of your credit card so I\ncan make the reservation for you."
     },
     "55": {
-      "text": "",
-      "options": {},
+      "text": "What does the woman ask the man for?",
+      "options": {
+        "A": "His room number.",
+        "B": "His flight number.",
+        "C": "His reservation number.",
+        "D": "His credit card number."
+      },
       "group_script": "to the\nfollowing conversation.\nMan: I'd like to book a room for next\nweek.\nWoman: How many nights will you be\nstaying with us?\nMan: Well, I'll get there on Friday and\nplan to leave Monday morning, so\nthat's three nights, Friday through\nSunday.\nWoman: Very good. A room for one person\nfor three nights. I'll just need the\nnumber of your credit card so I\ncan make the reservation for you."
     },
     "56": {
-      "text": "",
-      "options": {},
+      "text": "How did the man plan to travel to Toronto",
+      "options": {
+        "A": "By bus.",
+        "B": "By car.",
+        "C": "By plane.",
+        "D": "By train."
+      },
       "group_script": "to the\nfollowing conversation.\nWoman: What happened to you? I thought\nyou were taking an early flight to\nToronto this morning.\nMan: I was, but all flights have been\ncanceled because of the heavy\nrains.\nWoman: Oh. I didn't know that. Do they\nexpect it to clear up soon?\nMan: Probably not until tomorrow. I'm\ngoing to have to wait until then\nbecause not even the trains and\nbuses are running, there's been so\nmuch flooding.\n11"
     },
     "57": {
-      "text": "",
-      "options": {},
+      "text": "What's the weather like?",
+      "options": {
+        "A": "Rain.",
+        "B": "Snow.",
+        "C": "Hot.",
+        "D": "Clear."
+      },
       "group_script": "to the\nfollowing conversation.\nWoman: What happened to you? I thought\nyou were taking an early flight to\nToronto this morning.\nMan: I was, but all flights have been\ncanceled because of the heavy\nrains.\nWoman: Oh. I didn't know that. Do they\nexpect it to clear up soon?\nMan: Probably not until tomorrow. I'm\ngoing to have to wait until then\nbecause not even the trains and\nbuses are running, there's been so\nmuch flooding.\n11"
     },
     "58": {
-      "text": "",
-      "options": {},
+      "text": "When will the weather change?",
+      "options": {
+        "A": "This morning.",
+        "B": "This afternoon.",
+        "C": "Tonight.",
+        "D": "Tomorrow."
+      },
       "group_script": "to the\nfollowing conversation.\nWoman: What happened to you? I thought\nyou were taking an early flight to\nToronto this morning.\nMan: I was, but all flights have been\ncanceled because of the heavy\nrains.\nWoman: Oh. I didn't know that. Do they\nexpect it to clear up soon?\nMan: Probably not until tomorrow. I'm\ngoing to have to wait until then\nbecause not even the trains and\nbuses are running, there's been so\nmuch flooding.\n11"
     },
     "59": {
-      "text": "",
-      "options": {},
+      "text": "What does the man want to do?",
+      "options": {
+        "A": "Visit the park.",
+        "B": "Park his car.",
+        "C": "Buy groceries.",
+        "D": "Repair his car."
+      },
       "group_script": "to the\nfollowing conversation.\nMan: Excuse me. Can you tell me if\nthere's a parking lot near here\nanywhere?\nWoman: There's a garage just down the\nstreet on the next block, across\nfrom the grocery store.\nMan: Great. Do you know what kind of\nfee they charge? I'm going to have\nto leave my car there for a while.\nWoman: It's a city garage, so I don't think it\ncosts anything. If you leave your\ncar on the street, they charge you\nplenty, but there's no fee for using\nthe garage."
     },
     "60": {
-      "text": "",
-      "options": {},
+      "text": "How far does he have to go?",
+      "options": {
+        "A": "1 block.",
+        "B": "3 blocks.",
+        "C": "1 mile.",
+        "D": "3 miles."
+      },
       "group_script": "to the\nfollowing conversation.\nMan: Excuse me. Can you tell me if\nthere's a parking lot near here\nanywhere?\nWoman: There's a garage just down the\nstreet on the next block, across\nfrom the grocery store.\nMan: Great. Do you know what kind of\nfee they charge? I'm going to have\nto leave my car there for a while.\nWoman: It's a city garage, so I don't think it\ncosts anything. If you leave your\ncar on the street, they charge you\nplenty, but there's no fee for using\nthe garage."
     },
     "61": {
-      "text": "",
-      "options": {},
+      "text": "How much will he have to pay?",
+      "options": {
+        "A": "$0.",
+        "B": "$4.",
+        "C": "$8.",
+        "D": "$20."
+      },
       "group_script": "to the\nfollowing conversation.\nMan: Excuse me. Can you tell me if\nthere's a parking lot near here\nanywhere?\nWoman: There's a garage just down the\nstreet on the next block, across\nfrom the grocery store.\nMan: Great. Do you know what kind of\nfee they charge? I'm going to have\nto leave my car there for a while.\nWoman: It's a city garage, so I don't think it\ncosts anything. If you leave your\ncar on the street, they charge you\nplenty, but there's no fee for using\nthe garage."
     },
     "62": {
-      "text": "",
-      "options": {},
+      "text": "How does the woman feel?",
+      "options": {
+        "A": "Sad.",
+        "B": "Bored.",
+        "C": "Happy.",
+        "D": "Angry."
+      },
       "group_script": "to the\nfollowing conversation.\nMan: Guess what! I got the position I'd\nbeen hoping for! I'm moving up in\nthe company, starting next Monday.\nWoman: You got the promotion! I'm so glad\nfor you. It'll be such a great change\nfor you. You've seemed so bored at\nwork recently.\nMan: I know. I'm looking forward to\nhaving a more challenging job. Say,\nwill you celebrate with me? We can\ngo out for dinner tonight.\nWoman: Why wait till then? I'm really\nhungry. Let's celebrate now, over\nlunch. My treat."
     },
     "63": {
-      "text": "",
-      "options": {},
+      "text": "When will they celebrate the man's promotion?",
+      "options": {
+        "A": "Now.",
+        "B": "Tonight.",
+        "C": "At 10:00.",
+        "D": "Next Monday."
+      },
       "group_script": "to the\nfollowing conversation.\nMan: Guess what! I got the position I'd\nbeen hoping for! I'm moving up in\nthe company, starting next Monday.\nWoman: You got the promotion! I'm so glad\nfor you. It'll be such a great change\nfor you. You've seemed so bored at\nwork recently.\nMan: I know. I'm looking forward to\nhaving a more challenging job. Say,\nwill you celebrate with me? We can\ngo out for dinner tonight.\nWoman: Why wait till then? I'm really\nhungry. Let's celebrate now, over\nlunch. My treat."
     },
     "64": {
-      "text": "",
-      "options": {},
+      "text": "What does the woman offer to do?",
+      "options": {
+        "A": "Help the man with his work.",
+        "B": "Prepare dinner for the man.",
+        "C": "Pay for the man's lunch.",
+        "D": "Give the man her seat."
+      },
       "group_script": "to the\nfollowing conversation.\nMan: Guess what! I got the position I'd\nbeen hoping for! I'm moving up in\nthe company, starting next Monday.\nWoman: You got the promotion! I'm so glad\nfor you. It'll be such a great change\nfor you. You've seemed so bored at\nwork recently.\nMan: I know. I'm looking forward to\nhaving a more challenging job. Say,\nwill you celebrate with me? We can\ngo out for dinner tonight.\nWoman: Why wait till then? I'm really\nhungry. Let's celebrate now, over\nlunch. My treat."
     },
     "65": {
-      "text": "",
-      "options": {},
+      "text": "Why is the woman hosting the dinner?",
+      "options": {
+        "A": "She's having a meeting.",
+        "B": "She's entertaining clients.",
+        "C": "She's having a birthday party.",
+        "D": "She's celebrating her retirement."
+      },
       "group_script": "to the\nfollowing conversation.\nWoman: I'd like to make dinner reservations\nfor quite a large party of people.\nThere'll be sixteen of us. Can you\ndo that? It's for some out-of-town\nclients who will be visiting for a\nfew days.\nMan: Of course. If you wish, you can\nalso order your meal ahead of\ntime. It's not a requirement, but\nwe do recommend it for large\ngroups.\nWoman: Oh, yes, that'll make things much\nsimpler. Your steak dinners are\nnice. We'll have that.\nMan: Very good. I'll tell the kitchen.\nAnd, let's see, I can give you a\ntable by the side window. That's\nthe best seating in the house."
     },
     "66": {
-      "text": "",
-      "options": {},
+      "text": "How many people will be at the dinner?",
+      "options": {
+        "A": "15.",
+        "B": "16.",
+        "C": "50.",
+        "D": "60."
+      },
       "group_script": "to the\nfollowing conversation.\nWoman: I'd like to make dinner reservations\nfor quite a large party of people.\nThere'll be sixteen of us. Can you\ndo that? It's for some out-of-town\nclients who will be visiting for a\nfew days.\nMan: Of course. If you wish, you can\nalso order your meal ahead of\ntime. It's not a requirement, but\nwe do recommend it for large\ngroups.\nWoman: Oh, yes, that'll make things much\nsimpler. Your steak dinners are\nnice. We'll have that.\nMan: Very good. I'll tell the kitchen.\nAnd, let's see, I can give you a\ntable by the side window. That's\nthe best seating in the house."
     },
     "67": {
-      "text": "",
-      "options": {},
+      "text": "What food does the woman order?",
+      "options": {
+        "A": "Rice.",
+        "B": "Fish.",
+        "C": "Steak.",
+        "D": "Chicken."
+      },
       "group_script": "to the\nfollowing conversation.\nWoman: I'd like to make dinner reservations\nfor quite a large party of people.\nThere'll be sixteen of us. Can you\ndo that? It's for some out-of-town\nclients who will be visiting for a\nfew days.\nMan: Of course. If you wish, you can\nalso order your meal ahead of\ntime. It's not a requirement, but\nwe do recommend it for large\ngroups.\nWoman: Oh, yes, that'll make things much\nsimpler. Your steak dinners are\nnice. We'll have that.\nMan: Very good. I'll tell the kitchen.\nAnd, let's see, I can give you a\ntable by the side window. That's\nthe best seating in the house."
     },
     "68": {
-      "text": "",
-      "options": {},
+      "text": "What is the occasion?",
+      "options": {
+        "A": "A trip.",
+        "B": "A party.",
+        "C": "A present.",
+        "D": "An interview."
+      },
       "group_script": "to the\nfollowing conversation.\nWoman: I got this beautiful new suit as a\npresent from my husband for my\nbirthday last month. I love it, but I\nneed some shoes to go with it.\nMan: What's the matter with the shoes\nyou're wearing now? They look\ngood to me.\nWoman: These shoes are way too casual.\nI'm trying to get ready for a job\ninterview. I can't wear these shoes\nfor that. And I need them in a\nmore serious color, like black.\nMan: Oh, that's right. You have that\ninterview next Monday. Why not\ntake a trip to the mall on\nSaturday? You're sure to find\nsomething there.\nPART 4: TALKS"
     },
     "69": {
-      "text": "",
-      "options": {},
+      "text": "What color shoes does the woman want?",
+      "options": {
+        "A": "White.",
+        "B": "Gray.",
+        "C": "Blue.",
+        "D": "Black."
+      },
       "group_script": "to the\nfollowing conversation.\nWoman: I got this beautiful new suit as a\npresent from my husband for my\nbirthday last month. I love it, but I\nneed some shoes to go with it.\nMan: What's the matter with the shoes\nyou're wearing now? They look\ngood to me.\nWoman: These shoes are way too casual.\nI'm trying to get ready for a job\ninterview. I can't wear these shoes\nfor that. And I need them in a\nmore serious color, like black.\nMan: Oh, that's right. You have that\ninterview next Monday. Why not\ntake a trip to the mall on\nSaturday? You're sure to find\nsomething there.\nPART 4: TALKS"
     },
     "70": {
-      "text": "",
-      "options": {},
+      "text": "When does she need to wear them?",
+      "options": {
+        "A": "Now.",
+        "B": "Sunday.",
+        "C": "Monday.",
+        "D": "Next month."
+      },
       "group_script": "to the\nfollowing conversation.\nWoman: I got this beautiful new suit as a\npresent from my husband for my\nbirthday last month. I love it, but I\nneed some shoes to go with it.\nMan: What's the matter with the shoes\nyou're wearing now? They look\ngood to me.\nWoman: These shoes are way too casual.\nI'm trying to get ready for a job\ninterview. I can't wear these shoes\nfor that. And I need them in a\nmore serious color, like black.\nMan: Oh, that's right. You have that\ninterview next Monday. Why not\ntake a trip to the mall on\nSaturday? You're sure to find\nsomething there.\nPART 4: TALKS"
     },
     "71": {
-      "text": "",
-      "options": {},
+      "text": "How is the man traveling?",
+      "options": {
+        "A": "On a bus.",
+        "B": "On a plane.",
+        "C": "On a train.",
+        "D": "On a ship."
+      },
       "group_script": "to the\nfollowing announcement.\nMay I have your attention, please? In\napproximately thirty minutes, we will be\narriving at our final destination, Tokyo,\nJapan. Flight attendants, meal and\nbeverage service is now over. Please\ncollect all meal trays and glasses. All\npassengers, please return to your seats\n12\nnow to prepare for landing. Fasten your seat\nbelts and return your seats to the upright\nposition. For passengers needing\ninformation about getting around Tokyo and\nJapan, gate agents will be available after\nlanding to provide you with hotel\ninformation, train schedules, and any other\nassistance you may need. We at Sunrise\nAirlines wish you a pleasant stay in Tokyo\nand thank you for flying with us."
     },
     "72": {
-      "text": "",
-      "options": {},
+      "text": "When will they arrive at their destination?",
+      "options": {
+        "A": "In 13 minutes.",
+        "B": "In 30 minutes.",
+        "C": "In one hour.",
+        "D": "In two hours."
+      },
       "group_script": "to the\nfollowing announcement.\nMay I have your attention, please? In\napproximately thirty minutes, we will be\narriving at our final destination, Tokyo,\nJapan. Flight attendants, meal and\nbeverage service is now over. Please\ncollect all meal trays and glasses. All\npassengers, please return to your seats\n12\nnow to prepare for landing. Fasten your seat\nbelts and return your seats to the upright\nposition. For passengers needing\ninformation about getting around Tokyo and\nJapan, gate agents will be available after\nlanding to provide you with hotel\ninformation, train schedules, and any other\nassistance you may need. We at Sunrise\nAirlines wish you a pleasant stay in Tokyo\nand thank you for flying with us."
     },
     "73": {
-      "text": "",
-      "options": {},
+      "text": "What are passengers asked to do?",
+      "options": {
+        "A": "Read a schedule.",
+        "B": "Order drinks.",
+        "C": "Eat a meal.",
+        "D": "Sit down. 7"
+      },
       "group_script": "to the\nfollowing announcement.\nMay I have your attention, please? In\napproximately thirty minutes, we will be\narriving at our final destination, Tokyo,\nJapan. Flight attendants, meal and\nbeverage service is now over. Please\ncollect all meal trays and glasses. All\npassengers, please return to your seats\n12\nnow to prepare for landing. Fasten your seat\nbelts and return your seats to the upright\nposition. For passengers needing\ninformation about getting around Tokyo and\nJapan, gate agents will be available after\nlanding to provide you with hotel\ninformation, train schedules, and any other\nassistance you may need. We at Sunrise\nAirlines wish you a pleasant stay in Tokyo\nand thank you for flying with us."
     },
     "74": {
-      "text": "",
-      "options": {},
+      "text": "What days is the dental office open? 8",
+      "options": {
+        "A": "Tuesday and Friday only.",
+        "B": "Tuesday through Friday only.",
+        "C": "Tuesday through Saturday only",
+        "D": "Tuesday, Friday, and Saturday only."
+      },
       "group_script": "to the\nfollowing recording.\nThank you for calling the dental office of\nDr. Sylvia Peterman, DDS. If you are\nhearing this recording, the office is closed.\nOur normal office hours are Tuesday\nthrough Friday from eleven a.m. until eight\np.m., and Saturday from nine a.m. until one\np.m. If this is an emergency, hang up now\nand dial our emergency number at 555-\n8566. To leave a message for Dr. Peterman,\npress 1. To request an appointment, press 2.\nAt the sound of the beep, leave your name\nand number and the times of day that are\nmost convenient for you. An assistant will\ncall you back within 24 hours."
     },
     "75": {
-      "text": "",
-      "options": {},
+      "text": "What should a caller do in case of ‘ emergency?",
+      "options": {
+        "A": "Call another number.",
+        "B": "Call during office hours.",
+        "C": "Press 1.",
+        "D": "Press 2."
+      },
       "group_script": "to the\nfollowing recording.\nThank you for calling the dental office of\nDr. Sylvia Peterman, DDS. If you are\nhearing this recording, the office is closed.\nOur normal office hours are Tuesday\nthrough Friday from eleven a.m. until eight\np.m., and Saturday from nine a.m. until one\np.m. If this is an emergency, hang up now\nand dial our emergency number at 555-\n8566. To leave a message for Dr. Peterman,\npress 1. To request an appointment, press 2.\nAt the sound of the beep, leave your name\nand number and the times of day that are\nmost convenient for you. An assistant will\ncall you back within 24 hours."
     },
     "76": {
-      "text": "",
-      "options": {},
+      "text": "How can a caller make an appointment?",
+      "options": {
+        "A": "Speak with the dentist.",
+        "B": "Call back later.",
+        "C": "Leave a message.",
+        "D": "Ask for an assistant. --- PAGE 23 RIGHT --- n by a single speaker. You will be asked to ys in each short talk. Select the best response ), or (D) on your answer sheet. The talks will on only one time."
+      },
       "group_script": "to the\nfollowing recording.\nThank you for calling the dental office of\nDr. Sylvia Peterman, DDS. If you are\nhearing this recording, the office is closed.\nOur normal office hours are Tuesday\nthrough Friday from eleven a.m. until eight\np.m., and Saturday from nine a.m. until one\np.m. If this is an emergency, hang up now\nand dial our emergency number at 555-\n8566. To leave a message for Dr. Peterman,\npress 1. To request an appointment, press 2.\nAt the sound of the beep, leave your name\nand number and the times of day that are\nmost convenient for you. An assistant will\ncall you back within 24 hours."
     },
     "77": {
-      "text": "",
-      "options": {},
+      "text": "Who is this talk for?",
+      "options": {
+        "A": "Office workers.",
+        "B": "Police officers.",
+        "C": "Health experts.",
+        "D": "Gym teachers."
+      },
       "group_script": "to the\nfollowing talk.\nThese days, health experts are\nrecommending forty-five minutes of\nmoderate exercise a day for healthy adults.\nThat may seem like a lot, but it's actually\neasier than you think. You don't have to\nspend three quarters of an hour everyday at\nthe gym. It's much easier to incorporate\nsmall amounts of exercise into your work\nday. For example, if you drive to work, park\na few blocks from your office, then walk the\nrest of the way. When you arrive, don't take\nthe elevator up to your office. Use the stairs\ninstead. While you are working, take a\nbreak every so often. Get up from your\ndesk and walk around the room or down\nthe hall for five or ten minutes. If you\ndevelop habits like these, you'll find that\nby the end of the afternoon you may well\nhave done more than the minimum\namount of exercise recommended."
     },
     "78": {
-      "text": "",
-      "options": {},
+      "text": "How much exercise should adults get?t every day?",
+      "options": {
+        "A": "4 to 5 minutes.",
+        "B": "45 minutes.",
+        "C": "One hour.",
+        "D": "Three hours."
+      },
       "group_script": "to the\nfollowing talk.\nThese days, health experts are\nrecommending forty-five minutes of\nmoderate exercise a day for healthy adults.\nThat may seem like a lot, but it's actually\neasier than you think. You don't have to\nspend three quarters of an hour everyday at\nthe gym. It's much easier to incorporate\nsmall amounts of exercise into your work\nday. For example, if you drive to work, park\na few blocks from your office, then walk the\nrest of the way. When you arrive, don't take\nthe elevator up to your office. Use the stairs\ninstead. While you are working, take a\nbreak every so often. Get up from your\ndesk and walk around the room or down\nthe hall for five or ten minutes. If you\ndevelop habits like these, you'll find that\nby the end of the afternoon you may well\nhave done more than the minimum\namount of exercise recommended."
     },
     "79": {
-      "text": "",
-      "options": {},
+      "text": "What does the speaker recommend about exercise for adults?",
+      "options": {
+        "A": "They should exercise at the gym.",
+        "B": "They should exercise once a day.",
+        "C": "They should exercise in the afternoon.",
+        "D": "They should exercise several times a day."
+      },
       "group_script": "to the\nfollowing talk.\nThese days, health experts are\nrecommending forty-five minutes of\nmoderate exercise a day for healthy adults.\nThat may seem like a lot, but it's actually\neasier than you think. You don't have to\nspend three quarters of an hour everyday at\nthe gym. It's much easier to incorporate\nsmall amounts of exercise into your work\nday. For example, if you drive to work, park\na few blocks from your office, then walk the\nrest of the way. When you arrive, don't take\nthe elevator up to your office. Use the stairs\ninstead. While you are working, take a\nbreak every so often. Get up from your\ndesk and walk around the room or down\nthe hall for five or ten minutes. If you\ndevelop habits like these, you'll find that\nby the end of the afternoon you may well\nhave done more than the minimum\namount of exercise recommended."
     },
     "80": {
-      "text": "",
-      "options": {},
+      "text": "What kind of business is Branwell's?",
+      "options": {
+        "A": "Cafe.",
+        "B": "Sports store.",
+        "C": "Clothing store.",
+        "D": "Travel agency."
+      },
       "group_script": "to the\nfollowing advertisement.\nThis Saturday and Sunday only,\nBranwell's is celebrating its annual\nCustomer Appreciation Weekend. To\nshow how much we value our customers,\nwe will be offering entertainment,\nrefreshments, and a special two-day sale.\nEverything in the store will be marked\ndown 25 percent. That's right,\neverything— men's and women's business\nsuits, formal dresses, sportswear, travel\nwear, even children's outfits. There's\nsomething for the whole family. Special\nentertainment will be available for the\nchildren, and coffee and snacks will be\nprovided all day. So come on down and\ncelebrate with us. Doors open at ten a.m.\nboth days."
     },
     "81": {
-      "text": "",
-      "options": {},
+      "text": "What size discount is offered?",
+      "options": {
+        "A": "5%.",
+        "B": "10%.",
+        "C": "20%.",
+        "D": "25%."
+      },
       "group_script": "to the\nfollowing advertisement.\nThis Saturday and Sunday only,\nBranwell's is celebrating its annual\nCustomer Appreciation Weekend. To\nshow how much we value our customers,\nwe will be offering entertainment,\nrefreshments, and a special two-day sale.\nEverything in the store will be marked\ndown 25 percent. That's right,\neverything— men's and women's business\nsuits, formal dresses, sportswear, travel\nwear, even children's outfits. There's\nsomething for the whole family. Special\nentertainment will be available for the\nchildren, and coffee and snacks will be\nprovided all day. So come on down and\ncelebrate with us. Doors open at ten a.m.\nboth days."
     },
     "82": {
-      "text": "",
-      "options": {},
+      "text": "When does the sale begin?",
+      "options": {
+        "A": "Saturday.",
+        "B": "Sunday.",
+        "C": "Monday.",
+        "D": "Tuesday."
+      },
       "group_script": "to the\nfollowing advertisement.\nThis Saturday and Sunday only,\nBranwell's is celebrating its annual\nCustomer Appreciation Weekend. To\nshow how much we value our customers,\nwe will be offering entertainment,\nrefreshments, and a special two-day sale.\nEverything in the store will be marked\ndown 25 percent. That's right,\neverything— men's and women's business\nsuits, formal dresses, sportswear, travel\nwear, even children's outfits. There's\nsomething for the whole family. Special\nentertainment will be available for the\nchildren, and coffee and snacks will be\nprovided all day. So come on down and\ncelebrate with us. Doors open at ten a.m.\nboth days."
     },
     "83": {
-      "text": "",
-      "options": {},
+      "text": "What kind of business is advertised?",
+      "options": {
+        "A": "Employment agency.",
+        "B": "Computer training.",
+        "C": "Office rental.",
+        "D": "Hotel."
+      },
       "group_script": "to the\nfollowing advertisement.\nOut of work? No worries! We at City Jobs\nCorps can help find the right job for you,\nwhatever your skills and experience are.\nAre you looking for a job as a computer\ntechnician? A hotel manager? An office\nadministrator? We have job openings in all\nfields. We also provide assistance with\nresumes, cover letters, and interview\nskills. All our services are provided free of\ncharge to city residents. Our office is\nconveniently located at 35 North Main\nStreet. Visit us today. No appointment\nnecessary.\n13"
     },
     "84": {
-      "text": "",
-      "options": {},
+      "text": "What fee is charged for the service?",
+      "options": {
+        "A": "$0.",
+        "B": "$13.",
+        "C": "$30.",
+        "D": "$35."
+      },
       "group_script": "to the\nfollowing advertisement.\nOut of work? No worries! We at City Jobs\nCorps can help find the right job for you,\nwhatever your skills and experience are.\nAre you looking for a job as a computer\ntechnician? A hotel manager? An office\nadministrator? We have job openings in all\nfields. We also provide assistance with\nresumes, cover letters, and interview\nskills. All our services are provided free of\ncharge to city residents. Our office is\nconveniently located at 35 North Main\nStreet. Visit us today. No appointment\nnecessary.\n13"
     },
     "85": {
-      "text": "",
-      "options": {},
+      "text": "What are listeners asked to do?",
+      "options": {
+        "A": "Write a letter.",
+        "B": "Call the office.",
+        "C": "Visit the office.",
+        "D": "Make an appointment."
+      },
       "group_script": "to the\nfollowing advertisement.\nOut of work? No worries! We at City Jobs\nCorps can help find the right job for you,\nwhatever your skills and experience are.\nAre you looking for a job as a computer\ntechnician? A hotel manager? An office\nadministrator? We have job openings in all\nfields. We also provide assistance with\nresumes, cover letters, and interview\nskills. All our services are provided free of\ncharge to city residents. Our office is\nconveniently located at 35 North Main\nStreet. Visit us today. No appointment\nnecessary.\n13"
     },
     "86": {
-      "text": "",
-      "options": {},
+      "text": "What is the weather like now?",
+      "options": {
+        "A": "Cold.",
+        "B": "Windy.",
+        "C": "Rainy.",
+        "D": "Snowy."
+      },
       "group_script": "to the\nfollowing weather report.\nThe high winds that are expected to\ncontinue throughout the rest of the\nafternoon and evening have already caused\npower outages throughout the city. This has\nled to serious traffic delays in some areas,\nespecially on the roads leading to the Green\nRiver Bridge. Trains and subways are\nrunning on schedule, however, so we\nrecommend using public transportation\ntoday if at all possible. No school closings\nhave been reported. Winds will continue\nthrough the night but are expected to\ndiminish by morning. The next few days\nwill be cold but sunny, with a chance of\nsnow for later in the week."
     },
     "87": {
-      "text": "",
-      "options": {},
+      "text": "What problem has the weather caused?",
+      "options": {
+        "A": "School closings.",
+        "B": "Trains delayed.",
+        "C": "Loss of electricity.",
+        "D": "Damage to bridge."
+      },
       "group_script": "to the\nfollowing weather report.\nThe high winds that are expected to\ncontinue throughout the rest of the\nafternoon and evening have already caused\npower outages throughout the city. This has\nled to serious traffic delays in some areas,\nespecially on the roads leading to the Green\nRiver Bridge. Trains and subways are\nrunning on schedule, however, so we\nrecommend using public transportation\ntoday if at all possible. No school closings\nhave been reported. Winds will continue\nthrough the night but are expected to\ndiminish by morning. The next few days\nwill be cold but sunny, with a chance of\nsnow for later in the week."
     },
     "88": {
-      "text": "",
-      "options": {},
+      "text": "When will the weather change?",
+      "options": {
+        "A": "This afternoon.",
+        "B": "This evening.",
+        "C": "Tomorrow morning.",
+        "D": "Next week."
+      },
       "group_script": "to the\nfollowing weather report.\nThe high winds that are expected to\ncontinue throughout the rest of the\nafternoon and evening have already caused\npower outages throughout the city. This has\nled to serious traffic delays in some areas,\nespecially on the roads leading to the Green\nRiver Bridge. Trains and subways are\nrunning on schedule, however, so we\nrecommend using public transportation\ntoday if at all possible. No school closings\nhave been reported. Winds will continue\nthrough the night but are expected to\ndiminish by morning. The next few days\nwill be cold but sunny, with a chance of\nsnow for later in the week."
     },
     "89": {
-      "text": "",
-      "options": {},
+      "text": "When does the conference start?",
+      "options": {
+        "A": "2:00.",
+        "B": "10:00.",
+        "C": "10:15.",
+        "D": "12:15."
+      },
       "group_script": "to the\nfollowing announcement.\nGood morning and welcome to the Business\nManagers and Administrators Association\nConference. Workshops are scheduled to\nbegin in just a few minutes, at ten fifteen,\nand will go until twelve fifteen. All\nworkshops will be held in the conference\nrooms on the third and fourth floors. A map\nis included in your registration packet. If\nyou haven't picked up your packet yet, they\nare available at the registration desk in the\nmain lobby on the ground floor. Lunch will\nbe served in the hotel ballroom on the\nsecond floor from twelve thirty until one\nthirty. Following lunch, we will reconvene\nhere in the auditorium to hear a panel\ndiscussion on the future of business\nmanagement. OK, I think that's all. Oh, yes,\nthere's complimentary coffee available in\nthe lobby now if you would like to get some\non the way to the morning workshops."
     },
     "90": {
-      "text": "",
-      "options": {},
+      "text": "Where will lunch be served?",
+      "options": {
+        "A": "In the lobby.",
+        "B": "In the auditorium.",
+        "C": "On the ground floor.",
+        "D": "On the second floor."
+      },
       "group_script": "to the\nfollowing announcement.\nGood morning and welcome to the Business\nManagers and Administrators Association\nConference. Workshops are scheduled to\nbegin in just a few minutes, at ten fifteen,\nand will go until twelve fifteen. All\nworkshops will be held in the conference\nrooms on the third and fourth floors. A map\nis included in your registration packet. If\nyou haven't picked up your packet yet, they\nare available at the registration desk in the\nmain lobby on the ground floor. Lunch will\nbe served in the hotel ballroom on the\nsecond floor from twelve thirty until one\nthirty. Following lunch, we will reconvene\nhere in the auditorium to hear a panel\ndiscussion on the future of business\nmanagement. OK, I think that's all. Oh, yes,\nthere's complimentary coffee available in\nthe lobby now if you would like to get some\non the way to the morning workshops."
     },
     "91": {
-      "text": "",
-      "options": {},
+      "text": "What will happen after lunch?",
+      "options": {
+        "A": "Coffee will be served.",
+        "B": "There will be a discussion.",
+        "C": "Workshops will be held.",
+        "D": "Registration will end."
+      },
       "group_script": "to the\nfollowing announcement.\nGood morning and welcome to the Business\nManagers and Administrators Association\nConference. Workshops are scheduled to\nbegin in just a few minutes, at ten fifteen,\nand will go until twelve fifteen. All\nworkshops will be held in the conference\nrooms on the third and fourth floors. A map\nis included in your registration packet. If\nyou haven't picked up your packet yet, they\nare available at the registration desk in the\nmain lobby on the ground floor. Lunch will\nbe served in the hotel ballroom on the\nsecond floor from twelve thirty until one\nthirty. Following lunch, we will reconvene\nhere in the auditorium to hear a panel\ndiscussion on the future of business\nmanagement. OK, I think that's all. Oh, yes,\nthere's complimentary coffee available in\nthe lobby now if you would like to get some\non the way to the morning workshops."
     },
     "92": {
-      "text": "",
-      "options": {},
+      "text": "Why is there no train Service to New York?",
+      "options": {
+        "A": "The tracks are flooded.",
+        "B": "The train is damaged.",
+        "C": "There aren't enough seats.",
+        "D": "There isn't any heating."
+      },
       "group_script": "to the\nfollowing announcement.\nMay I have your attention please? Due to\ndamage caused by flooding on the tracks,\ntrain service to New York has been\nindefinitely suspended. All passengers\nholding tickets to New York for this\nafternoon and evening may take\nadvantage of our emergency bus service.\nBuses are scheduled to leave at two\no'clock, four o'clock, and six thirty.\nPassengers wishing to use this service\nshould proceed to the waiting room half an\nhour before the scheduled departure.\nThere are no reserved seats but there\nshould be enough seating for everyone.\nWe are very sorry for any inconvenience\nthis situation may cause. At this time it is\nuncertain when regular train service will\nresume. We will provide updates as soon\nas we have any further information."
     },
     "93": {
-      "text": "",
-      "options": {},
+      "text": "What are passengers asked to do?",
+      "options": {
+        "A": "Speak with a ticket agent.",
+        "B": "Travel on another date.",
+        "C": "Buy another ticket.",
+        "D": "Take a bus."
+      },
       "group_script": "to the\nfollowing announcement.\nMay I have your attention please? Due to\ndamage caused by flooding on the tracks,\ntrain service to New York has been\nindefinitely suspended. All passengers\nholding tickets to New York for this\nafternoon and evening may take\nadvantage of our emergency bus service.\nBuses are scheduled to leave at two\no'clock, four o'clock, and six thirty.\nPassengers wishing to use this service\nshould proceed to the waiting room half an\nhour before the scheduled departure.\nThere are no reserved seats but there\nshould be enough seating for everyone.\nWe are very sorry for any inconvenience\nthis situation may cause. At this time it is\nuncertain when regular train service will\nresume. We will provide updates as soon\nas we have any further information."
     },
     "94": {
-      "text": "",
-      "options": {},
+      "text": "When will the trains run again?",
+      "options": {
+        "A": "It is not certain.",
+        "B": "Later in the evening.",
+        "C": "At 4:00.",
+        "D": "At 6:30."
+      },
       "group_script": "to the\nfollowing announcement.\nMay I have your attention please? Due to\ndamage caused by flooding on the tracks,\ntrain service to New York has been\nindefinitely suspended. All passengers\nholding tickets to New York for this\nafternoon and evening may take\nadvantage of our emergency bus service.\nBuses are scheduled to leave at two\no'clock, four o'clock, and six thirty.\nPassengers wishing to use this service\nshould proceed to the waiting room half an\nhour before the scheduled departure.\nThere are no reserved seats but there\nshould be enough seating for everyone.\nWe are very sorry for any inconvenience\nthis situation may cause. At this time it is\nuncertain when regular train service will\nresume. We will provide updates as soon\nas we have any further information."
     },
     "95": {
-      "text": "",
-      "options": {},
+      "text": "What will be constructed?",
+      "options": {
+        "A": "A park.",
+        "B": "A bridge.",
+        "C": "Some monuments.",
+        "D": "A new City Hall."
+      },
       "group_script": "to the\nfollowing news report.\nA new bridge will be constructed across\nthe Wilkus River, the mayor announced at\na press conference at City Hall this\nafternoon. The bridge will connect Wilkus\nPark on the east side of the river with the\nwest side business district. The goal is to\nease commuter traffic as well as make the\nmonuments and museums more accessible\nto tourists. Construction is scheduled to\nbegin next fall and be completed the\nfollowing September. Tomorrow the\nmayor intends to present full details of the\nconstruction plan, including budget and\nfunding, during her weekly speech.\n14"
     },
     "96": {
-      "text": "",
-      "options": {},
+      "text": "When will construction begin?",
+      "options": {
+        "A": "In the fall.",
+        "B": "In the winter.",
+        "C": "In September.",
+        "D": "In November."
+      },
       "group_script": "to the\nfollowing news report.\nA new bridge will be constructed across\nthe Wilkus River, the mayor announced at\na press conference at City Hall this\nafternoon. The bridge will connect Wilkus\nPark on the east side of the river with the\nwest side business district. The goal is to\nease commuter traffic as well as make the\nmonuments and museums more accessible\nto tourists. Construction is scheduled to\nbegin next fall and be completed the\nfollowing September. Tomorrow the\nmayor intends to present full details of the\nconstruction plan, including budget and\nfunding, during her weekly speech.\n14"
     },
     "97": {
-      "text": "",
-      "options": {},
+      "text": "What will the mayor do tomorrow?",
+      "options": {
+        "A": "Meet with the budget committee",
+        "B": "Give a press conference.",
+        "C": "Visit a museum.",
+        "D": "Give a speech."
+      },
       "group_script": "to the\nfollowing news report.\nA new bridge will be constructed across\nthe Wilkus River, the mayor announced at\na press conference at City Hall this\nafternoon. The bridge will connect Wilkus\nPark on the east side of the river with the\nwest side business district. The goal is to\nease commuter traffic as well as make the\nmonuments and museums more accessible\nto tourists. Construction is scheduled to\nbegin next fall and be completed the\nfollowing September. Tomorrow the\nmayor intends to present full details of the\nconstruction plan, including budget and\nfunding, during her weekly speech.\n14"
     },
     "98": {
-      "text": "",
-      "options": {},
+      "text": "When will Dr. Jones talk?",
+      "options": {
+        "A": "After the meeting.",
+        "B": "During lunch.",
+        "C": "Next week.",
+        "D": "Next month."
+      },
       "group_script": "to the\nfollowing talk.\nWe'll have a special surprise at one of our\nupcoming weekly staff meetings, let me\ncheck, yes, it'll be during the first meeting\nnext month. Dr. Marwella Jones, a world-\nrenowned expert on office management,\nwill be visiting with us to talk about best\npractices in managing an office. She'll also\nbe showing a video with highlights of her\nrecent international speaking tour. It should\nbe very interesting, however, the video\nshowing will make our meeting a little\nlonger than usual, so you should plan to be\nhere that morning until lunchtime. This is a\nvery special opportunity, so be sure to put\nthe date on your calendar. If there is some\npressing reason why you can't attend, please\nlet me know as soon as possible."
     },
     "99": {
-      "text": "",
-      "options": {},
+      "text": "What will Dr. Jones talk about?",
+      "options": {
+        "A": "Office management.",
+        "B": "Public speaking.",
+        "C": "Intemational relations.",
+        "D": "Making videos."
+      },
       "group_script": "to the\nfollowing talk.\nWe'll have a special surprise at one of our\nupcoming weekly staff meetings, let me\ncheck, yes, it'll be during the first meeting\nnext month. Dr. Marwella Jones, a world-\nrenowned expert on office management,\nwill be visiting with us to talk about best\npractices in managing an office. She'll also\nbe showing a video with highlights of her\nrecent international speaking tour. It should\nbe very interesting, however, the video\nshowing will make our meeting a little\nlonger than usual, so you should plan to be\nhere that morning until lunchtime. This is a\nvery special opportunity, so be sure to put\nthe date on your calendar. If there is some\npressing reason why you can't attend, please\nlet me know as soon as possible."
     },
     "100": {
-      "text": "",
-      "options": {},
+      "text": "What are the listeners asked to do?",
+      "options": {
+        "A": "Attend a lunch.",
+        "B": "Pay with a check.",
+        "C": "Mark their calendars.",
+        "D": "Go to a press conference."
+      },
       "group_script": "to the\nfollowing talk.\nWe'll have a special surprise at one of our\nupcoming weekly staff meetings, let me\ncheck, yes, it'll be during the first meeting\nnext month. Dr. Marwella Jones, a world-\nrenowned expert on office management,\nwill be visiting with us to talk about best\npractices in managing an office. She'll also\nbe showing a video with highlights of her\nrecent international speaking tour. It should\nbe very interesting, however, the video\nshowing will make our meeting a little\nlonger than usual, so you should plan to be\nhere that morning until lunchtime. This is a\nvery special opportunity, so be sure to put\nthe date on your calendar. If there is some\npressing reason why you can't attend, please\nlet me know as soon as possible."
     }
   },

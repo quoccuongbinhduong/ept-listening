@@ -1,5 +1,5 @@
 """
-Build index.html hoàn chỉnh với:
+Build listening.html hoàn chỉnh với:
 - Ảnh Part 1 cho cả 5 bài Test (từ Listening_0001.pdf)
 - Câu hỏi + đáp án Part 3&4 cho cả 5 bài
 - Scripts (hội thoại) cho tất cả Parts
@@ -105,15 +105,15 @@ payload = {
 payload_json = json.dumps(payload, ensure_ascii=False, separators=(',', ':'))
 print(f"   Payload: {len(payload_json)//1024} KB")
 
-# ── 6. Load index.html and replace CORE block ────────────────
-print("6. Updating index.html...")
-with open('index.html', encoding='utf-8') as f:
+# ── 6. Load listening.html and replace CORE block ────────────────
+print("6. Updating listening.html...")
+with open('listening.html', encoding='utf-8') as f:
     html = f.read()
 
 # 6a. Find and replace the entire `const CORE = {...};` block
 core_start = html.find('const CORE = {')
 if core_start == -1:
-    print("ERROR: 'const CORE = {' not found in index.html")
+    print("ERROR: 'const CORE = {' not found in listening.html")
     exit(1)
 
 # Walk braces to find matching end
@@ -245,10 +245,10 @@ else:
     print("   Photo lookup already per-test")
 
 # ── 7. Write output ──────────────────────────────────────────
-with open('index.html', 'w', encoding='utf-8') as f:
+with open('listening.html', 'w', encoding='utf-8') as f:
     f.write(html)
 
-print(f"\n✅ index.html written — {len(html)//1024} KB")
+print(f"\n✅ listening.html written — {len(html)//1024} KB")
 print("  ✅ Part 1 photos for ALL 5 tests (10 photos each)")
 print("  ✅ Part 3/4 question text + A/B/C/D for all tests")
 print("  ✅ Group scripts for all tests")
