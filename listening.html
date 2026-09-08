@@ -337,7 +337,7 @@ body.focus-mode .qpanel[data-part="2"] .obtn:hover div:nth-child(2) { filter: bl
 </style>
 
 <script>
-const TRACKING_URL = 'https://script.google.com/macros/s/AKfycbxvcYtcNayeYGv2YP5ILD_Aeyc1aJfQ_geSsSeuq_7lLI-ywMxTJ-tN2jkybHcw_j3L5A/exec';
+const TRACKING_URL = 'https://script.google.com/macros/s/AKfycbxv0rRHB-ApxCS75MK_lElRobTPWLDXhOXlOcby6235i3zlTTMC-S892jLiWHLcb74v-w/exec';
 function trackUser(mssv, action, details) {
   if(!mssv) return;
   try {
@@ -371,6 +371,7 @@ function trackUser(mssv, action, details) {
         document.getElementById('login-overlay').classList.add('hidden');
         document.body.classList.remove('locked');
         localStorage.setItem('ept_auth', user);
+        trackUser(user, 'Đăng nhập', 'Truy cập trang Listening');
         trackUser(user, 'Đăng nhập', 'Truy cập trang Listening');
         
         // Show module select instead of home
@@ -930,6 +931,10 @@ function showResult() {
   const v = pct>=85?'🏆 Xuất sắc!':pct>=70?'✅ Khá tốt!':pct>=50?'📘 Cần cố gắng':'💪 Cần luyện thêm';
   const msg = pct>=85?'Kỹ năng nghe rất tốt!':pct>=70?'Ôn thêm phần còn yếu.':pct>=50?'Nghe lại và đọc script.':'Nghe nhiều lần + đọc script nhé.';
   $('rverdict').textContent = v; $('rmsg').textContent = msg;
+
+  if (window.currentUser) {
+    trackUser(window.currentUser, 'Nộp bài Listening', `Test: ${curT} - Điểm: ${cor}/100`);
+  }
 
   if (window.currentUser) {
     trackUser(window.currentUser, 'Nộp bài Listening', `Test: ${curT} - Điểm: ${cor}/100`);
