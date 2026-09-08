@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="vi">
 <head>
   <meta charset="UTF-8"/>
@@ -6,137 +6,191 @@
   <title>EPT Practice</title>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet"/>
   <style>
-:root{--bg:#0d0f1a;--surf:#151828;--surf2:#1e2235;--bdr:#2a2f4a;
-  --acc:#6c63ff;--acc2:#a78bfa;--grn:#22c55e;--red:#ef4444;--yel:#facc15;
-  --txt:#e2e8f0;--mut:#8892a4;--r:14px;}
+:root{
+  --bg:#0d0f1a;--surf:#151828;--surf2:#1e2235;--bdr:#2a2f4a;
+  --acc:#6c63ff;--acc2:#a78bfa;--grn:#22c55e;--red:#ef4444;
+  --txt:#e2e8f0;--mut:#8892a4;
+}
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0;}
-body{font-family:'Inter',sans-serif;background:var(--bg);color:var(--txt);min-height:100vh;display:flex;flex-direction:column;align-items:center;justify-content:center;}
-body::before{content:'';position:fixed;inset:0;z-index:-1;
-  background:radial-gradient(ellipse 70% 50% at 20% 20%,rgba(108,99,255,.15),transparent 60%),
-             radial-gradient(ellipse 60% 70% at 80% 80%,rgba(167,139,250,.1),transparent 60%);}
-
-.menu-box {
-  background: var(--surf);
-  padding: 40px;
-  border-radius: 20px;
-  border: 1px solid var(--bdr);
-  text-align: center;
-  max-width: 500px;
-  width: 90%;
-  box-shadow: 0 10px 40px rgba(0,0,0,0.5);
-  animation: fadeUp 0.5s ease;
+body{
+  font-family:'Inter',sans-serif;background:var(--bg);color:var(--txt);
+  min-height:100vh;display:flex;flex-direction:column;
+  align-items:center;justify-content:center;
+}
+body::before{
+  content:'';position:fixed;inset:0;z-index:-1;
+  background:
+    radial-gradient(ellipse 70% 50% at 20% 20%,rgba(108,99,255,.18),transparent 60%),
+    radial-gradient(ellipse 60% 70% at 80% 80%,rgba(167,139,250,.12),transparent 60%);
 }
 
-.logo {
-  width: 60px; height: 60px;
-  background: linear-gradient(135deg, var(--acc), var(--acc2));
-  border-radius: 14px;
-  display: flex; align-items: center; justify-content: center;
-  font-size: 28px; font-weight: bold;
-  margin: 0 auto 15px;
+/* ── Card ── */
+.card{
+  background:var(--surf);padding:40px 36px;border-radius:22px;
+  border:1px solid var(--bdr);text-align:center;
+  max-width:440px;width:92%;
+  box-shadow:0 20px 60px rgba(0,0,0,.55);
+  animation:fadeUp .45s cubic-bezier(.22,1,.36,1);
 }
 
-h1 { font-size: 24px; margin-bottom: 5px; background: linear-gradient(135deg, #fff, var(--acc2)); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
-p { color: var(--mut); font-size: 14px; margin-bottom: 30px; }
+/* ── Logo ── */
+.logo{
+  width:58px;height:58px;
+  background:linear-gradient(135deg,var(--acc),var(--acc2));
+  border-radius:16px;display:flex;align-items:center;
+  justify-content:center;font-size:26px;font-weight:800;
+  margin:0 auto 16px;box-shadow:0 6px 24px rgba(108,99,255,.35);
+}
+h1{
+  font-size:22px;font-weight:800;margin-bottom:4px;
+  background:linear-gradient(135deg,#fff,var(--acc2));
+  -webkit-background-clip:text;-webkit-text-fill-color:transparent;
+}
+.subtitle{color:var(--mut);font-size:13px;margin-bottom:28px;}
 
-.menu-options {
-  display: flex; flex-direction: column; gap: 15px;
+/* ── Login ── */
+.input-wrap{position:relative;margin-bottom:12px;}
+.input-wrap input{
+  width:100%;padding:14px 14px 14px 44px;border-radius:10px;
+  border:1.5px solid var(--bdr);background:var(--bg);color:var(--txt);
+  font-size:14px;font-family:'Inter',sans-serif;
+  transition:border-color .2s,box-shadow .2s;outline:none;
+}
+.input-wrap input:focus{border-color:var(--acc);box-shadow:0 0 0 3px rgba(108,99,255,.18);}
+.input-wrap input::placeholder{color:var(--mut);}
+.input-icon{
+  position:absolute;left:14px;top:50%;transform:translateY(-50%);
+  font-size:16px;pointer-events:none;
+}
+.btn-login{
+  width:100%;padding:14px;border-radius:10px;border:none;
+  background:linear-gradient(135deg,var(--acc),var(--acc2));
+  color:#fff;font-weight:700;font-size:15px;
+  cursor:pointer;transition:opacity .2s,transform .15s;
+  letter-spacing:.3px;
+}
+.btn-login:hover{opacity:.9;transform:translateY(-1px);}
+.btn-login:active{transform:translateY(0);}
+.login-error{
+  color:var(--red);font-size:12px;margin-top:8px;
+  display:none;text-align:left;
 }
 
-.btn-option {
-  display: flex; align-items: center; justify-content: space-between;
-  padding: 16px 20px;
-  background: var(--surf2);
-  border: 1px solid var(--bdr);
-  border-radius: 12px;
-  color: var(--txt);
-  text-decoration: none;
-  font-weight: 600;
-  transition: all 0.2s;
+/* ── Logged-in badge ── */
+.user-badge{
+  display:flex;align-items:center;justify-content:center;gap:8px;
+  background:rgba(108,99,255,.1);border:1px solid rgba(108,99,255,.25);
+  border-radius:10px;padding:10px 16px;margin-bottom:18px;
+  font-size:13px;color:var(--acc2);font-weight:600;
 }
 
-.btn-option:hover {
-  border-color: var(--acc);
-  background: rgba(108,99,255,0.1);
-  transform: translateY(-2px);
+/* ── Menu options ── */
+.menu-options{display:flex;flex-direction:column;gap:12px;}
+.btn-option{
+  display:flex;align-items:center;justify-content:space-between;
+  padding:16px 20px;background:var(--surf2);border:1.5px solid var(--bdr);
+  border-radius:12px;color:var(--txt);text-decoration:none;
+  font-weight:600;font-size:14px;transition:all .2s;
 }
+.btn-option:hover{
+  border-color:var(--acc);background:rgba(108,99,255,.1);
+  transform:translateY(-2px);box-shadow:0 6px 20px rgba(108,99,255,.15);
+}
+.btn-option.reading{
+  background:linear-gradient(135deg,rgba(167,139,250,.08),rgba(108,99,255,.08));
+}
+.btn-option .icon{font-size:20px;}
+.btn-option .arrow{color:var(--mut);transition:transform .2s;}
+.btn-option:hover .arrow{transform:translateX(4px);color:var(--acc2);}
 
-.btn-option.reading {
-  background: linear-gradient(135deg, rgba(167,139,250,0.1), rgba(108,99,255,0.1));
+.btn-logout{
+  margin-top:6px;padding:10px;background:transparent;
+  border:1px solid var(--bdr);color:var(--mut);border-radius:10px;
+  cursor:pointer;font-size:13px;width:100%;
+  transition:border-color .2s,color .2s;
 }
+.btn-logout:hover{border-color:var(--red);color:var(--red);}
 
-.login-input-group input {
-  width: 100%; padding: 14px; border-radius: 8px; border: 1px solid var(--bdr);
-  background: var(--bg); color: var(--txt); margin-bottom: 15px;
-}
-.login-input-group button {
-  width: 100%; padding: 14px; border-radius: 8px; border: none;
-  background: var(--acc); color: #fff; font-weight: bold; cursor: pointer;
-}
-
-@keyframes fadeUp {
-  from { opacity: 0; transform: translateY(20px); }
-  to { opacity: 1; transform: translateY(0); }
+@keyframes fadeUp{
+  from{opacity:0;transform:translateY(18px);}
+  to{opacity:1;transform:translateY(0);}
 }
   </style>
 </head>
 <body>
-  <div class="menu-box">
+  <div class="card">
     <div class="logo">E</div>
     <h1>EPT Practice Tests</h1>
-    <p>Practice Tests</p>
-    
+    <p class="subtitle">Luyện thi EPT · Nhập MSSV để bắt đầu</p>
+
+    <!-- Login Section -->
     <div id="login-section">
-      <div class="login-input-group">
-        <input type="text" id="login-user" placeholder="Mã số sinh viên (VD: 2418480104001)" onkeypress="if(event.key === 'Enter') doLogin()">
-        <button onclick="doLogin()">Đăng nhập</button>
-        <p id="login-error" style="color:var(--red); font-size:12px; margin-top:10px; display:none;"></p>
+      <div class="input-wrap">
+        <span class="input-icon">🎓</span>
+        <input type="text" id="login-user"
+               placeholder="Mã số sinh viên (VD: 2418480104001)"
+               onkeydown="if(event.key==='Enter')doLogin()"
+               autocomplete="off" inputmode="numeric"/>
       </div>
+      <button class="btn-login" onclick="doLogin()">Đăng nhập →</button>
+      <p id="login-error" class="login-error"></p>
     </div>
 
-    <div id="menu-section" class="menu-options" style="display:none;">
-      <a href="listening.html" class="btn-option">
-        <span>🎧 Luyện thi Nghe (Listening)</span>
-        <span>→</span>
-      </a>
-      <a href="reading.html" class="btn-option reading">
-        <span>📖 Luyện thi Đọc hiểu (Reading)</span>
-        <span>→</span>
-      </a>
-      <button onclick="logout()" style="margin-top:10px; padding:10px; background:var(--surf2); border:1px solid var(--bdr); color:var(--mut); border-radius:8px; cursor:pointer;">Đăng xuất</button>
+    <!-- Menu Section -->
+    <div id="menu-section" style="display:none;">
+      <div class="user-badge">
+        <span>🎓</span>
+        <span id="user-mssv"></span>
+      </div>
+      <div class="menu-options">
+        <a href="listening.html" class="btn-option">
+          <span><span class="icon">🎧</span> &nbsp;Luyện thi Nghe (Listening)</span>
+          <span class="arrow">→</span>
+        </a>
+        <a href="reading.html" class="btn-option reading">
+          <span><span class="icon">📖</span> &nbsp;Luyện thi Đọc hiểu (Reading)</span>
+          <span class="arrow">→</span>
+        </a>
+        <button class="btn-logout" onclick="logout()">↩ Đăng xuất</button>
+      </div>
     </div>
   </div>
 
   <script>
-    function checkAuth() {
-      if(localStorage.getItem('ept_auth')) {
-        document.getElementById('login-section').style.display = 'none';
-        document.getElementById('menu-section').style.display = 'flex';
-      } else {
-        document.getElementById('login-section').style.display = 'block';
-        document.getElementById('menu-section').style.display = 'none';
-      }
-    }
-
     const TRACKING_URL = 'https://script.google.com/macros/s/AKfycbxv0rRHB-ApxCS75MK_lElRobTPWLDXhOXlOcby6235i3zlTTMC-S892jLiWHLcb74v-w/exec';
 
     function trackUser(mssv, action, details) {
-      if(!mssv) return;
+      if (!mssv) return;
       try {
         const url = `${TRACKING_URL}?mssv=${encodeURIComponent(mssv)}&action=${encodeURIComponent(action)}&details=${encodeURIComponent(details)}`;
-        fetch(url, { method: "GET", mode: "no-cors" }).catch(e => console.log(e));
+        fetch(url, { method: 'GET', mode: 'no-cors' }).catch(() => {});
       } catch(e) {}
+    }
+
+    function checkAuth() {
+      const user = localStorage.getItem('ept_auth');
+      if (user) {
+        document.getElementById('login-section').style.display = 'none';
+        document.getElementById('menu-section').style.display = 'block';
+        document.getElementById('user-mssv').textContent = user;
+      } else {
+        document.getElementById('login-section').style.display = 'block';
+        document.getElementById('menu-section').style.display = 'none';
+        setTimeout(() => document.getElementById('login-user').focus(), 100);
+      }
     }
 
     function doLogin() {
       const u = document.getElementById('login-user').value.trim();
-      if(!u) {
-        document.getElementById('login-error').innerText = 'Vui lòng nhập MSSV';
-        document.getElementById('login-error').style.display = 'block';
+      const errEl = document.getElementById('login-error');
+      if (!u) {
+        errEl.textContent = '⚠ Vui lòng nhập Mã số sinh viên';
+        errEl.style.display = 'block';
         return;
       }
+      errEl.style.display = 'none';
       localStorage.setItem('ept_auth', u);
-      trackUser(u, "Đăng nhập", "Truy cập trang chủ");
+      trackUser(u, 'Đăng nhập', 'Truy cập trang chủ');
       checkAuth();
     }
 
