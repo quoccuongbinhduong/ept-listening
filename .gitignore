@@ -1,0 +1,11 @@
+# Scratch and temporary scripts
+check_*.py
+compare_*.py
+restore_*.py
+scratch_*.json
+ocr_*.txt
+*.bak
+listening_original.html
+__pycache__/
+*.pyc
+.tempmediaStorage/

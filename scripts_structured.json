@@ -1,7 +1,7 @@
 {
   "1": {
     "1": {
-      "text": "To reach the main switchboard, press 2.",
+      "text": "Look at the picture marked number 1 in your book.",
       "options": {
         "A": "They're shaking out the sand.",
         "B": "They're greeting one another.",
@@ -55,7 +55,7 @@
       "options": {
         "A": "They're riding on the elevator.",
         "B": "They're buying a refrigerator.",
-        "C": "They're standing near the escalator. 2",
+        "C": "They're standing near the escalator.",
         "D": "They're walking up the stairs."
       },
       "group_script": ""
@@ -119,7 +119,7 @@
       "group_script": ""
     },
     "13": {
-      "text": "Where did you put the packages for Ms.",
+      "text": "Where did you put the packages for Ms. Sato?",
       "options": {
         "A": "Ms. Sato is over there.",
         "B": "They're on her desk.",
@@ -182,16 +182,16 @@
       "group_script": ""
     },
     "20": {
-      "text": "Why did Ms. Chen call a meeting",
+      "text": "Why did Ms. Chen call a meeting today?",
       "options": {
         "A": "It's today.",
         "B": "At 2:30, I think.",
-        "C": "Because we have to discuss the budget. 3"
+        "C": "Because we have to discuss the budget."
       },
       "group_script": ""
     },
     "21": {
-      "text": "How often do you have to turn in",
+      "text": "How often do you have to turn in financial reports?",
       "options": {
         "A": "Mrs. Gomez is our financial manager.",
         "B": "Once every month.",
@@ -245,7 +245,7 @@
       "group_script": ""
     },
     "27": {
-      "text": "How can I make an appointment with Ms.",
+      "text": "How can I make an appointment with Ms. Lee?",
       "options": {
         "A": "She's very happy about her new position.",
         "B": "You won't be disappointed.",
@@ -263,7 +263,7 @@
       "group_script": ""
     },
     "29": {
-      "text": "Would you like to go to a movie with us",
+      "text": "Would you like to go to a movie with us after work?",
       "options": {
         "A": "Yes, we took a long walk.",
         "B": "Yes, that's a great idea.",
@@ -272,7 +272,7 @@
       "group_script": ""
     },
     "30": {
-      "text": "Did you notice whether Ms. Kovacs was",
+      "text": "Did you notice whether Ms. Kovacs was at the reception?",
       "options": {
         "A": "Yes, I took thorough notes.",
         "B": "Yes, she was there.",
@@ -290,7 +290,7 @@
       "group_script": ""
     },
     "32": {
-      "text": "How many people work in this",
+      "text": "How many people work in this department?",
       "options": {
         "A": "Yes, it's quite a big apartment.",
         "B": "There are fifteen altogether.",
@@ -308,7 +308,7 @@
       "group_script": ""
     },
     "34": {
-      "text": "Did you buy that newspaper",
+      "text": "Did you buy that newspaper downstairs?",
       "options": {
         "A": "Yes, we'll need some more paper.",
         "B": "Yes, at the newsstand in the lobby.",
@@ -317,7 +317,7 @@
       "group_script": ""
     },
     "35": {
-      "text": "When will the new assistant manager",
+      "text": "When will the new assistant manager start work?",
       "options": {
         "A": "In the office down the hall.",
         "B": "Next week, I think.",
@@ -339,12 +339,12 @@
       "options": {
         "A": "Yes, I can give you twenty-five percent off the regular price.",
         "B": "Yes, we counted it last night.",
-        "C": "Yes, this is furniture. 4"
+        "C": "Yes, this is furniture."
       },
       "group_script": ""
     },
     "38": {
-      "text": "Why hasn't Mr. Moreno signed those",
+      "text": "Why hasn't Mr. Moreno signed those papers yet?",
       "options": {
         "A": "He buys the newspaper every morning.",
         "B": "Because he hasn't had a chance to read them.",
@@ -362,7 +362,7 @@
       "group_script": ""
     },
     "40": {
-      "text": "You aren't still working for the same",
+      "text": "You aren't still working for the same company, are you?",
       "options": {
         "A": "No, I got a new job about a month ago.",
         "B": "No, I went there alone.",
@@ -733,11 +733,11 @@
       "group_script": ""
     },
     "7": {
-      "text": "Look at the picture marked number 7 in",
+      "text": "Look at the picture marked number 7 in your book.",
       "options": {
         "A": "The money is in her hand.",
         "B": "The apron is hanging in the closet.",
-        "C": "The cashier is counting the change. 8",
+        "C": "The cashier is counting the change.",
         "D": "The woman is shopping for groceries."
       },
       "group_script": ""
@@ -854,11 +854,11 @@
       "group_script": ""
     },
     "20": {
-      "text": "There will be at least 15 people at the",
+      "text": "There will be at least 15 people at the meeting this afternoon.",
       "options": {
-        "A": "Yes, he's greeting people.",
-        "B": "It was traveling east.",
-        "C": "Then we'll need to bring in more chairs."
+        "A": "At fifteen hundred hours.",
+        "B": "Nice to meet you.",
+        "C": "Then we'll need a bigger room."
       },
       "group_script": ""
     },
@@ -892,9 +892,9 @@
     "24": {
       "text": "Which room do you prefer?",
       "options": {
-        "A": "There's a broom in the closet.",
-        "B": "I referred him to a doctor.",
-        "C": "This one has more natural light. 9"
+        "A": "Yes, I prefer it.",
+        "B": "In the hotel lobby.",
+        "C": "This one has more natural light."
       },
       "group_script": ""
     },
@@ -908,11 +908,11 @@
       "group_script": ""
     },
     "26": {
-      "text": "Where can I find paper for the",
+      "text": "Where can I find paper for the photocopier?",
       "options": {
-        "A": "Mary can make copies for you.",
-        "B": "There's some in the supply closet.",
-        "C": "He's a very skilled photographer."
+        "A": "I'd like a copy, please.",
+        "B": "In the cabinet under the printer.",
+        "C": "No, it's not working."
       },
       "group_script": ""
     },
@@ -998,11 +998,11 @@
       "group_script": ""
     },
     "36": {
-      "text": "How long will it take to finish making",
+      "text": "How long will it take to finish making those copies?",
       "options": {
-        "A": "Those are the copies, not the originals.",
-        "B": "No, I haven't finished them yet.",
-        "C": "One hour at the most."
+        "A": "About twenty pages.",
+        "B": "I think it's broken.",
+        "C": "They'll be done in about ten minutes."
       },
       "group_script": ""
     },
@@ -1685,12 +1685,12 @@
       "group_script": ""
     },
     "5": {
-      "text": "Look at the picture marked number 5 in",
+      "text": "Look at the picture marked number 5 in your book.",
       "options": {
         "A": "The man is walking through a tunnel.",
         "B": "The man is jumping over the railing.",
         "C": "The man is standing under an archway.",
-        "D": "The man is getting up from the chair. 15"
+        "D": "The man is getting up from the chair."
       },
       "group_script": ""
     },
@@ -1763,7 +1763,7 @@
       "group_script": ""
     },
     "13": {
-      "text": "Can we walk to the museum or should",
+      "text": "Can we walk to the museum or should we take the tram?",
       "options": {
         "A": "I worked at the library.",
         "B": "I think we should walk.",
@@ -1772,7 +1772,7 @@
       "group_script": ""
     },
     "14": {
-      "text": "When does the letter say we need to",
+      "text": "When does the letter say we need to confirm our order?",
       "options": {
         "A": "By the first of next month.",
         "B": "Yes, I already confirmed.",
@@ -1781,7 +1781,7 @@
       "group_script": ""
     },
     "15": {
-      "text": "Who’s going to be working on the",
+      "text": "Who’s going to be working on the renovation project?",
       "options": {
         "A": "In three weeks.",
         "B": "I’ve already reviewed the report.",
@@ -1790,10 +1790,10 @@
       "group_script": ""
     },
     "16": {
-      "text": "Would you like me to fix the computer",
+      "text": "Would you like me to fix the computer or install the new server first?",
       "options": {
         "A": "Send the fax please.",
-        "B": "The Service was excellent.",
+        "B": "The service was excellent.",
         "C": "Please install it first."
       },
       "group_script": ""
@@ -1826,11 +1826,11 @@
       "group_script": ""
     },
     "20": {
-      "text": "Why don’t you come to the movie with",
+      "text": "Why don’t you come to the movie with us?",
       "options": {
         "A": "Yes, he just moved.",
         "B": "Sure, what’s playing?",
-        "C": "I’m Corning soon. 16"
+        "C": "I’m coming soon."
       },
       "group_script": ""
     },
@@ -1916,7 +1916,7 @@
       "group_script": ""
     },
     "30": {
-      "text": "Can I return my purchase if there are any",
+      "text": "Can I return my purchase if there are any problems with it?",
       "options": {
         "A": "As long as you have your receipt.",
         "B": "I have a problem with it.",
@@ -1943,7 +1943,7 @@
       "group_script": ""
     },
     "33": {
-      "text": "Could I take a look at the sales report",
+      "text": "Could I take a look at the sales report for the last quarter?",
       "options": {
         "A": "It looks good.",
         "B": "It’ll be ready tomorrow.",
@@ -1952,11 +1952,11 @@
       "group_script": ""
     },
     "34": {
-      "text": "I’m sorry, but I can’t find any",
+      "text": "I’m sorry, but I can’t find any nutritional information on these cookies.",
       "options": {
         "A": "Those cookies are on sale.",
         "B": "It should be on the back.",
-        "C": "Cookies are not nutritious"
+        "C": "Cookies are not nutritious."
       },
       "group_script": ""
     },
@@ -1979,11 +1979,11 @@
       "group_script": ""
     },
     "37": {
-      "text": "Where can I find books about industrial",
+      "text": "Where can I find books about industrial economy?",
       "options": {
         "A": "The library charges a late fee of five cents a day.",
         "B": "They’re in the business section, in the far aisle.",
-        "C": "This City saw economic growth last year."
+        "C": "This city saw economic growth last year."
       },
       "group_script": ""
     },
@@ -1992,7 +1992,7 @@
       "options": {
         "A": "This afternoon.",
         "B": "Yes, the other day.",
-        "C": "I already read it. 17"
+        "C": "I already read it."
       },
       "group_script": ""
     },
@@ -2367,12 +2367,12 @@
       "group_script": ""
     },
     "6": {
-      "text": "Look at the picture marked number 6 in",
+      "text": "Look at the picture marked number 6 in your test book.",
       "options": {
         "A": "One of the women is paying for her purchase.",
         "B": "Some Products are spread out on the stand.",
         "C": "The clerk is assembling a table.",
-        "D": "A woman is making a selection. 22"
+        "D": "A woman is making a selection."
       },
       "group_script": ""
     },
@@ -2417,7 +2417,7 @@
       "group_script": ""
     },
     "11": {
-      "text": "When is the regional manager coming to",
+      "text": "When is the regional manager coming to town?",
       "options": {
         "A": "I’ve met him.",
         "B": "From Chicago.",
@@ -2471,7 +2471,7 @@
       "group_script": ""
     },
     "17": {
-      "text": "You came early a few times last week,",
+      "text": "You came early a few times last week, didn’t you?",
       "options": {
         "A": "Every morning, actually.",
         "B": "I’ll do it next week.",
@@ -2498,7 +2498,7 @@
       "group_script": ""
     },
     "20": {
-      "text": "Are you eating in the cafeteria or do",
+      "text": "Are you eating in the cafeteria or do you want to head out for lunch?",
       "options": {
         "A": "He is the head of the department.",
         "B": "Let’s go out to eat.",
@@ -2507,7 +2507,7 @@
       "group_script": ""
     },
     "21": {
-      "text": "Would you like me to mail your",
+      "text": "Would you like me to mail your application for you?",
       "options": {
         "A": "The mail hasn’t arrived yet.",
         "B": "Yes, please do.",
@@ -2516,16 +2516,16 @@
       "group_script": ""
     },
     "22": {
-      "text": "Did you think about working part-time",
+      "text": "Did you think about working part-time at the hospital?",
       "options": {
-        "A": "I don’t teel well.",
+        "A": "I don’t feel well.",
         "B": "Are they accepting applications?",
-        "C": "Check your medical insurance. 23"
+        "C": "Check your medical insurance."
       },
       "group_script": ""
     },
     "23": {
-      "text": "Do you know who was chosen as the new",
+      "text": "Do you know who was chosen as the new financial director?",
       "options": {
         "A": "No, she didn’t direct the project.",
         "B": "They haven’t decided yet.",
@@ -2534,7 +2534,7 @@
       "group_script": ""
     },
     "24": {
-      "text": "We really need to purchase a new",
+      "text": "We really need to purchase a new scanner, don’t you think?",
       "options": {
         "A": "No, this one’s fine.",
         "B": "Purchases must go through the accounting department.",
@@ -2579,7 +2579,7 @@
       "group_script": ""
     },
     "29": {
-      "text": "Our new product should be released",
+      "text": "Our new product should be released earlier, don’t you think?",
       "options": {
         "A": "Yes, two weeks ago.",
         "B": "Yes, I agree.",
@@ -2588,7 +2588,7 @@
       "group_script": ""
     },
     "30": {
-      "text": "Would you like to interview for the",
+      "text": "Would you like to interview for the position on Friday or on Monday?",
       "options": {
         "A": "Before the weekend, if possible.",
         "B": "That position has been filled.",
@@ -2597,7 +2597,7 @@
       "group_script": ""
     },
     "31": {
-      "text": "Which shipping company do you",
+      "text": "Which shipping company do you recommend?",
       "options": {
         "A": "By express delivery.",
         "B": "This one is very reliable.",
@@ -2633,7 +2633,7 @@
       "group_script": ""
     },
     "35": {
-      "text": "Won’ we have to wait a long time for a",
+      "text": "Won’t we have to wait a long time for a response?",
       "options": {
         "A": "By e-mail.",
         "B": "It was very long ago.",
@@ -2642,7 +2642,7 @@
       "group_script": ""
     },
     "36": {
-      "text": "The meeting should be finished by 1,",
+      "text": "The meeting should be finished by 1, shouldn’t it?",
       "options": {
         "A": "No, it started to rain.",
         "B": "Yes, and then let's have lunch.",
@@ -2651,7 +2651,7 @@
       "group_script": ""
     },
     "37": {
-      "text": "Where did you put the Johnson file that",
+      "text": "Where did you put the Johnson file that I had requested?",
       "options": {
         "A": "He’s waiting in your office.",
         "B": "It’s on your desk.",
@@ -2660,7 +2660,7 @@
       "group_script": ""
     },
     "38": {
-      "text": "Why do most people have lunch",
+      "text": "Why do most people have lunch delivered?",
       "options": {
         "A": "To save time.",
         "B": "Thanks, but I already ate.",
@@ -2669,11 +2669,11 @@
       "group_script": ""
     },
     "39": {
-      "text": "How did you find out about the sales",
+      "text": "How did you find out about the sales position?",
       "options": {
         "A": "I like sales.",
         "B": "I saw the ad on the website.",
-        "C": "I have a job interview next Monday. 24"
+        "C": "I have a job interview next Monday."
       },
       "group_script": ""
     },
@@ -3039,12 +3039,12 @@
       "group_script": ""
     },
     "6": {
-      "text": "Look at the picture marked number 6 in",
+      "text": "Look at the picture marked number 6 in your test book.",
       "options": {
         "A": "They're cleaning out the file cabinet.",
         "B": "They're examining some papers.",
         "C": "They're conducting a phone conversation.",
-        "D": "They're rearranging their desks. 29"
+        "D": "They're rearranging their desks."
       },
       "group_script": ""
     },
@@ -3098,7 +3098,7 @@
       "group_script": ""
     },
     "12": {
-      "text": "Where can I pick up a conference",
+      "text": "Where can I pick up a conference brochure?",
       "options": {
         "A": "Look by the front desk.",
         "B": "Tomorrow.",
@@ -3107,7 +3107,7 @@
       "group_script": ""
     },
     "13": {
-      "text": "Why are you staying here so late every",
+      "text": "Why are you staying here so late every evening?",
       "options": {
         "A": "I have a presentation next week.",
         "B": "Yes, she’s at work today.",
@@ -3116,7 +3116,7 @@
       "group_script": ""
     },
     "14": {
-      "text": "Hello, I need to cancel my flight to",
+      "text": "Hello, I need to cancel my flight to Paris for next month.",
       "options": {
         "A": "The flight has been booked.",
         "B": "You’ll have to transfer in Paris.",
@@ -3152,7 +3152,7 @@
       "group_script": ""
     },
     "18": {
-      "text": "Would you like to look at this jacket",
+      "text": "Would you like to look at this jacket instead?",
       "options": {
         "A": "Do you have it in a larger size?",
         "B": "Yes, it has.",
@@ -3161,11 +3161,11 @@
       "group_script": ""
     },
     "19": {
-      "text": "Why does Esther want to work on the",
+      "text": "Why does Esther want to work on the day shift tomorrow?",
       "options": {
         "A": "She's taking a day off tomorrow.",
         "B": "No, she isn't able to make it.",
-        "C": "She has a dentist’s appointment at"
+        "C": "She has a dentist’s appointment at 6."
       },
       "group_script": ""
     },
@@ -3179,7 +3179,7 @@
       "group_script": ""
     },
     "21": {
-      "text": "How did you get the report completed",
+      "text": "How did you get the report completed so early?",
       "options": {
         "A": "I’ll be finished by tomorrow.",
         "B": "He reports to the director.",
@@ -3188,16 +3188,16 @@
       "group_script": ""
     },
     "22": {
-      "text": "Isn't there a newer edition of this",
+      "text": "Isn't there a newer edition of this technical manual?",
       "options": {
         "A": "There's only one editor.",
         "B": "That's the only reference available.",
-        "C": "We have to do it by hand. 30"
+        "C": "We have to do it by hand."
       },
       "group_script": ""
     },
     "23": {
-      "text": "Who will handle the arrangements for",
+      "text": "Who will handle the arrangements for Kate's retirement party?",
       "options": {
         "A": "Davis Catering will.",
         "B": "At six o’clock next Friday.",
@@ -3206,18 +3206,18 @@
       "group_script": ""
     },
     "24": {
-      "text": "Doesn't the research proposal have to be",
+      "text": "Doesn't the research proposal have to be turned in soon?",
       "options": {
         "A": "No, the due dates been postponed.",
         "B": "Yes, please propose it.",
-        "C": "Ves. you can turn them."
+        "C": "Yes, you can turn them."
       },
       "group_script": ""
     },
     "25": {
-      "text": "Do you know why Mr. Fenyman wants to",
+      "text": "Do you know why Mr. Fenyman wants to have a conference?",
       "options": {
-        "A": "Every1hing's going fine.",
+        "A": "Everything's going fine.",
         "B": "To discuss the new schedule.",
         "C": "You should submit the agenda by tomorrow."
       },
@@ -3233,7 +3233,7 @@
       "group_script": ""
     },
     "27": {
-      "text": "Are the new computers we purchased fast",
+      "text": "Are the new computers we purchased fast enough for the software?",
       "options": {
         "A": "Yes, they’re working fine.",
         "B": "No, I don't think we purchased them.",
@@ -3246,12 +3246,12 @@
       "options": {
         "A": "I've already seen that movie.",
         "B": "Yes, how about that new comedy?",
-        "C": "Yes. the other day."
+        "C": "Yes, the other day."
       },
       "group_script": ""
     },
     "29": {
-      "text": "When was the birthday cake for Paul",
+      "text": "When was the birthday cake for Paul delivered?",
       "options": {
         "A": "I picked it up on my way to the office.",
         "B": "It’s September 9.",
@@ -3260,7 +3260,7 @@
       "group_script": ""
     },
     "30": {
-      "text": "If the meeting ends after 4, then I think",
+      "text": "If the meeting ends after 4, then I think you should call it a day.",
       "options": {
         "A": "I'll call him then.",
         "B": "They'll arrive here before 4 o’clock.",
@@ -3278,7 +3278,7 @@
       "group_script": ""
     },
     "32": {
-      "text": "Do you know who's taking over for Bill",
+      "text": "Do you know who's taking over for Bill after he retires?",
       "options": {
         "A": "They haven’t chosen anyone yet.",
         "B": "For thirty years.",
@@ -3305,7 +3305,7 @@
       "group_script": ""
     },
     "35": {
-      "text": "We just had Peter Pizza for lunch the",
+      "text": "We just had Peter Pizza for lunch the other day, didn't we?",
       "options": {
         "A": "No, I haven’t had lunch.",
         "B": "Actually, it was a week ago.",
@@ -3341,7 +3341,7 @@
       "group_script": ""
     },
     "39": {
-      "text": "John needs to e-mail his order to",
+      "text": "John needs to e-mail his order to purchasing, doesn't he?",
       "options": {
         "A": "Only for orders over 500 dollars.",
         "B": "I didn’t order anything.",
@@ -3350,11 +3350,11 @@
       "group_script": ""
     },
     "40": {
-      "text": "What should we do for Mr. Harris after",
+      "text": "What should we do for Mr. Harris after he gets promoted to director?",
       "options": {
         "A": "We’ll need to promote that.",
         "B": "Mary and Kate are taking care of it.",
-        "C": "I don’t know if Mr. Harris is in. 31"
+        "C": "I don’t know if Mr. Harris is in."
       },
       "group_script": ""
     },

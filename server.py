@@ -1,6 +1,6 @@
 import os
 import json
-from http.server import HTTPServer, SimpleHTTPRequestHandler
+from http.server import ThreadingHTTPServer, SimpleHTTPRequestHandler
 import urllib.parse
 
 PORT = 8088
@@ -13,10 +13,68 @@ USERS = {
 
 class EPTHandler(SimpleHTTPRequestHandler):
     def end_headers(self):
+        self.send_header('Accept-Ranges', 'bytes')
         # Disable caching for API responses
         if self.path.startswith('/api/'):
             self.send_header('Cache-Control', 'no-store, no-cache, must-revalidate')
         super().end_headers()
+
+    def send_range_content(self, filepath, file_size, range_header):
+        try:
+            val = range_header.strip()
+            if not val.startswith('bytes='):
+                super().do_GET()
+                return
+            
+            range_str = val[6:]
+            parts = range_str.split('-')
+            
+            if parts[0] and parts[1]:
+                start = int(parts[0])
+                end = int(parts[1])
+            elif parts[0]:
+                start = int(parts[0])
+                end = file_size - 1
+            elif parts[1]:
+                start = max(0, file_size - int(parts[1]))
+                end = file_size - 1
+            else:
+                start = 0
+                end = file_size - 1
+
+            if start >= file_size or start > end:
+                self.send_response(416)
+                self.send_header('Content-Range', f'bytes */{file_size}')
+                self.send_header('Accept-Ranges', 'bytes')
+                self.end_headers()
+                return
+
+            end = min(end, file_size - 1)
+            content_length = end - start + 1
+
+            self.send_response(206)
+            self.send_header('Content-Type', self.guess_type(filepath))
+            self.send_header('Content-Range', f'bytes {start}-{end}/{file_size}')
+            self.send_header('Content-Length', str(content_length))
+            self.send_header('Accept-Ranges', 'bytes')
+            self.send_header('Cache-Control', 'public, max-age=3600')
+            self.end_headers()
+
+            with open(filepath, 'rb') as f:
+                f.seek(start)
+                remaining = content_length
+                chunk_size = 64 * 1024
+                while remaining > 0:
+                    read_len = min(chunk_size, remaining)
+                    data = f.read(read_len)
+                    if not data:
+                        break
+                    self.wfile.write(data)
+                    remaining -= len(data)
+        except (ConnectionResetError, BrokenPipeError):
+            pass
+        except Exception as e:
+            pass
 
     def do_POST(self):
         if self.path == '/api/login':
@@ -103,8 +161,40 @@ class EPTHandler(SimpleHTTPRequestHandler):
         # Serve index.html as default
         if self.path == '/':
             self.path = '/index.html'
+
+        filepath = self.translate_path(self.path)
+        if os.path.isfile(filepath):
+            range_header = self.headers.get('Range')
+            if range_header:
+                file_size = os.path.getsize(filepath)
+                self.send_range_content(filepath, file_size, range_header)
+                return
             
         super().do_GET()
+
+    def do_HEAD(self):
+        filepath = self.translate_path(self.path)
+        if os.path.isfile(filepath):
+            file_size = os.path.getsize(filepath)
+            range_header = self.headers.get('Range')
+            if range_header and range_header.startswith('bytes='):
+                try:
+                    val = range_header.strip()[6:]
+                    parts = val.split('-')
+                    start = int(parts[0]) if parts[0] else 0
+                    end = int(parts[1]) if len(parts) > 1 and parts[1] else file_size - 1
+                    end = min(end, file_size - 1)
+                    length = end - start + 1
+                    self.send_response(206)
+                    self.send_header('Content-Type', self.guess_type(filepath))
+                    self.send_header('Content-Range', f'bytes {start}-{end}/{file_size}')
+                    self.send_header('Content-Length', str(length))
+                    self.send_header('Accept-Ranges', 'bytes')
+                    self.end_headers()
+                    return
+                except:
+                    pass
+        super().do_HEAD()
 
 if __name__ == '__main__':
     if not os.path.exists(HISTORY_DIR):
@@ -112,7 +202,7 @@ if __name__ == '__main__':
         
     print(f"Server is starting on http://localhost:{PORT}")
     print(f"Users configured: {list(USERS.keys())}")
-    httpd = HTTPServer(('', PORT), EPTHandler)
+    httpd = ThreadingHTTPServer(('', PORT), EPTHandler)
     try:
         httpd.serve_forever()
     except KeyboardInterrupt:

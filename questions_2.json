@@ -40,8 +40,8 @@
       "q": "What does the woman ask the man to give her?",
       "o": [
         "An identification card.",
-        "Acheck.",
-        "Apen.",
+        "A check.",
+        "A pen.",
         "Cash."
       ]
     },
@@ -51,14 +51,14 @@
         "Check his license.",
         "Write his name.",
         "Read a sign.",
-        "Pay cash. 5 2s --- PAGE 21 RIGHT --- ween two people. You will be asked to answer ach conversation. Select the best response to t(D) on your answer sheet. The conversations poken only one time."
+        "Pay cash."
       ]
     },
     "47": {
       "q": "Where will the man be next week?",
       "o": [
         "Downtown.",
-        "Ata ranch.",
+        "At a ranch.",
         "At the branch office.",
         "At the accountant's office."
       ]
@@ -94,7 +94,7 @@
       "q": "Where does the man want the woman to leave the report?",
       "o": [
         "In his office.",
-        "Inhis mailbox.",
+        "In his mailbox.",
         "In the post office.",
         "In the conference room."
       ]
@@ -294,20 +294,20 @@
         "Read a schedule.",
         "Order drinks.",
         "Eat a meal.",
-        "Sit down. 7"
+        "Sit down."
       ]
     },
     "74": {
-      "q": "What days is the dental office open? 8",
+      "q": "What days is the dental office open?",
       "o": [
         "Tuesday and Friday only.",
         "Tuesday through Friday only.",
-        "Tuesday through Saturday only",
+        "Tuesday through Saturday only.",
         "Tuesday, Friday, and Saturday only."
       ]
     },
     "75": {
-      "q": "What should a caller do in case of ‘ emergency?",
+      "q": "What should a caller do in case of an emergency?",
       "o": [
         "Call another number.",
         "Call during office hours.",
@@ -321,7 +321,7 @@
         "Speak with the dentist.",
         "Call back later.",
         "Leave a message.",
-        "Ask for an assistant. --- PAGE 23 RIGHT --- n by a single speaker. You will be asked to ys in each short talk. Select the best response ), or (D) on your answer sheet. The talks will on only one time."
+        "Ask for an assistant."
       ]
     },
     "77": {
@@ -334,7 +334,7 @@
       ]
     },
     "78": {
-      "q": "How much exercise should adults get?t every day?",
+      "q": "How much exercise should adults get every day?",
       "o": [
         "4 to 5 minutes.",
         "45 minutes.",
@@ -460,7 +460,7 @@
       ]
     },
     "92": {
-      "q": "Why is there no train Service to New York?",
+      "q": "Why is there no train service to New York?",
       "o": [
         "The tracks are flooded.",
         "The train is damaged.",
@@ -507,7 +507,7 @@
     "97": {
       "q": "What will the mayor do tomorrow?",
       "o": [
-        "Meet with the budget committee",
+        "Meet with the budget committee.",
         "Give a press conference.",
         "Visit a museum.",
         "Give a speech."
@@ -527,7 +527,7 @@
       "o": [
         "Office management.",
         "Public speaking.",
-        "Intemational relations.",
+        "International relations.",
         "Making videos."
       ]
     },
