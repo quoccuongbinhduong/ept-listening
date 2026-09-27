@@ -212,7 +212,22 @@ body.focus-mode .qpanel[data-part="2"] .obtn:hover div:nth-child(2) { filter: bl
 
 ::-webkit-scrollbar{width:4px;}::-webkit-scrollbar-track{background:var(--surf);}
 ::-webkit-scrollbar-thumb{background:var(--bdr);border-radius:2px;}
-  </style>
+  
+/* AUDIO SEEK & LOOP TOOLS */
+.q-audio-tools{display:flex;align-items:center;flex-wrap:wrap;gap:8px;padding:8px 12px;background:rgba(255,255,255,.03);border:1px solid var(--bdr);border-radius:10px;margin-bottom:14px;}
+.qa-btn{background:rgba(108,99,255,.15);color:var(--acc2);border:1px solid rgba(108,99,255,.35);border-radius:7px;padding:5px 12px;font-size:12.5px;font-weight:600;cursor:pointer;display:inline-flex;align-items:center;gap:5px;transition:all .18s;user-select:none;}
+.qa-btn:hover{background:rgba(108,99,255,.28);border-color:var(--acc);color:#fff;transform:translateY(-1px);}
+.qa-btn:active{transform:translateY(0);}
+.qa-btn.sec{background:rgba(255,255,255,.06);color:var(--mut);border-color:var(--bdr);font-size:11.5px;padding:5px 9px;}
+.qa-btn.sec:hover{color:#fff;border-color:rgba(255,255,255,.3);background:rgba(255,255,255,.1);}
+.qa-btn.loop-active{background:rgba(34,197,94,.22);border-color:#22c55e;color:#4ade80;box-shadow:0 0 12px rgba(34,197,94,.35);animation:pulseLoop 2s infinite;}
+@keyframes pulseLoop{0%,100%{box-shadow:0 0 8px rgba(34,197,94,.3)}50%{box-shadow:0 0 16px rgba(34,197,94,.65)}}
+.loop-indicator{font-size:12px;color:#4ade80;font-weight:600;display:inline-flex;align-items:center;gap:4px;padding:3px 8px;background:rgba(34,197,94,.1);border-radius:6px;border:1px solid rgba(34,197,94,.25);}
+.loop-indicator.hidden{display:none;}
+.pinned-badge{font-size:11px;color:#60a5fa;background:rgba(59,130,246,.15);border:1px solid rgba(59,130,246,.3);border-radius:5px;padding:1px 6px;margin-left:4px;}
+.toast-msg{position:fixed;bottom:25px;right:25px;background:#1e293b;border:1px solid #3b82f6;color:#fff;padding:10px 18px;border-radius:10px;font-size:13px;box-shadow:0 10px 25px rgba(0,0,0,.5);z-index:99999;transition:opacity .3s, transform .3s;display:flex;align-items:center;gap:8px;pointer-events:none;}
+
+</style>
 
 <style>
 #qexpl {
@@ -537,6 +552,18 @@ function trackUser(mssv, action, details) {
       </div>
       <div class="qpart-l" id="qpartl">Part 1</div>
     </div>
+    <div class="q-audio-tools">
+      <button class="qa-btn" id="btn-play-q" onclick="playQuestionAudio(curQ)" title="Nhảy tới đoạn nghe của câu này (Phím R)">
+        🎧 Nghe câu này
+      </button>
+      <button class="qa-btn" id="btn-loop-q" onclick="toggleQuestionLoop(curQ)" title="Bật/Tắt lặp đi lặp lại câu này để luyện nghe sâu (Phím L)">
+        🔁 Lặp câu này
+      </button>
+      <button class="qa-btn sec" onclick="skipAudio(-5)" title="Tua lùi 5 giây (phím ←)">⏪ -5s</button>
+      <button class="qa-btn sec" onclick="skipAudio(5)" title="Tua tới 5 giây (phím →)">+5s ⏩</button>
+      <button class="qa-btn sec pin-btn" id="btn-pin-q" onclick="pinCurrentAudioTime(curQ)" title="Ghim mốc giây hiện tại làm điểm bắt đầu nghe của câu này">📍 Ghim giây này</button>
+      <span id="loop-indicator" class="loop-indicator hidden">🔁 Đang lặp: <span id="loop-time-range"></span></span>
+    </div>
     <div id="qphoto" class="qphoto hidden"><img id="qpimg" src="" alt=""/><div class="qphoto-lbl">📷 Chọn câu mô tả đúng nhất cho hình</div></div>
     <div id="qgs" class="gscript hidden"><div class="gstitle">🎧 Nội dung bài nghe</div><div class="gsbody" id="gsbody"></div></div>
     <div class="qtxt" id="qtxt"></div>
@@ -687,6 +714,7 @@ function startTest(t) {
       $('seekbar').value = aud.currentTime;
       $('tcur').textContent = fmtT(aud.currentTime);
     }
+    checkAudioLoop();
   };
   aud.onloadedmetadata = () => {
     $('tdur').textContent = fmtT(aud.duration);
@@ -776,6 +804,12 @@ document.addEventListener('keydown', e => {
         if (aud.paused) { aud.play(); $('bplay').textContent = '⏸'; }
         else { aud.pause(); $('bplay').textContent = '▶'; }
       }
+    } else if (e.code === 'KeyL') {
+      e.preventDefault();
+      toggleQuestionLoop(curQ);
+    } else if (e.code === 'KeyR') {
+      e.preventDefault();
+      playQuestionAudio(curQ);
     }
   }
 });
@@ -925,6 +959,7 @@ function renderQ(qn) {
   $('qpartl').textContent = part.name;
   $('qpanel').setAttribute('data-part', part.id);
   updateStarUI(qn);
+  updateAudioToolsUI(qn);
 
   const sd = ((SCRIPTS[String(curT)] || {})[String(qn)]) || {};
   const testAns = ANSWERS[String(curT)] || {};
@@ -1252,6 +1287,161 @@ window.addEventListener('DOMContentLoaded', () => {
     if (el) { el.checked = true; toggleFocusMode(); }
   }
 });
+
+// ═══════════════════ QUESTION AUDIO JUMP & LOOP ═════════════════
+let isLooping = false;
+let loopQ = null;
+
+function showToast(msg) {
+  let t = $('toast-msg');
+  if (!t) {
+    t = document.createElement('div');
+    t.id = 'toast-msg';
+    t.className = 'toast-msg';
+    document.body.appendChild(t);
+  }
+  t.innerHTML = msg;
+  t.style.opacity = '1';
+  t.style.transform = 'translateY(0)';
+  clearTimeout(t._timer);
+  t._timer = setTimeout(() => {
+    t.style.opacity = '0';
+    t.style.transform = 'translateY(10px)';
+  }, 2400);
+}
+
+function getQuestionAudioRange(t, q) {
+  // Check user pinned custom timestamp first
+  try {
+    const pins = JSON.parse(localStorage.getItem('ept_q_audio_pins_v1') || '{}');
+    if (pins[String(t)] && pins[String(t)][String(q)]) {
+      return pins[String(t)][String(q)];
+    }
+  } catch(e) {}
+
+  // Standard estimated timing model for TOEIC/EPT 45-min audio
+  let start = 0, duration = 30;
+  if (q >= 1 && q <= 10) {
+    // Part 1: Direction ends ~85s. Questions ~35s each.
+    start = 85 + (q - 1) * 35;
+    duration = 34;
+  } else if (q >= 11 && q <= 40) {
+    // Part 2: Direction ends ~510s. Questions ~25s each.
+    start = 510 + (q - 11) * 25;
+    duration = 24;
+  } else if (q >= 41 && q <= 70) {
+    // Part 3: Direction ends ~1295s. Groups of 3 questions ~68s per dialogue.
+    const g = Math.floor((q - 41) / 3);
+    start = 1295 + g * 68;
+    duration = 67;
+  } else if (q >= 71 && q <= 100) {
+    // Part 4: Direction ends ~2015s. Groups of 3 questions ~68s per talk.
+    const g = Math.floor((q - 71) / 3);
+    start = 2015 + g * 68;
+    duration = 67;
+  }
+  return { start: Math.max(0, start), end: Math.max(0, start + duration), isDefault: true };
+}
+
+function playQuestionAudio(q) {
+  if (!aud) return;
+  const range = getQuestionAudioRange(curT, q);
+  aud.currentTime = range.start;
+  aud.play();
+  $('bplay').textContent = '⏸';
+  showToast(`🎧 Đang phát Câu ${q} (${fmtT(range.start)} ➔ ${fmtT(range.end)})`);
+}
+
+function toggleQuestionLoop(q) {
+  if (!aud) return;
+  if (isLooping && loopQ === q) {
+    isLooping = false;
+    loopQ = null;
+    updateAudioToolsUI(q);
+    showToast('⏹ Đã tắt chế độ lặp câu');
+  } else {
+    isLooping = true;
+    loopQ = q;
+    const range = getQuestionAudioRange(curT, q);
+    if (aud.currentTime < range.start || aud.currentTime >= range.end) {
+      aud.currentTime = range.start;
+    }
+    aud.play();
+    $('bplay').textContent = '⏸';
+    updateAudioToolsUI(q);
+    showToast(`🔁 Đang lặp vô tận Câu ${q} (${fmtT(range.start)} - ${fmtT(range.end)})!`);
+  }
+}
+
+function checkAudioLoop() {
+  if (!isLooping || !loopQ || !aud) return;
+  const range = getQuestionAudioRange(curT, loopQ);
+  if (aud.currentTime >= range.end) {
+    aud.currentTime = range.start;
+    aud.play();
+  } else if (aud.currentTime < range.start - 2) {
+    aud.currentTime = range.start;
+    aud.play();
+  }
+}
+
+function pinCurrentAudioTime(q) {
+  if (!aud) return;
+  const cur = Math.max(0, Math.floor(aud.currentTime));
+  let dur = 30;
+  if (q <= 10) dur = 35;
+  else if (q <= 40) dur = 25;
+  else dur = 68;
+
+  try {
+    const all = JSON.parse(localStorage.getItem('ept_q_audio_pins_v1') || '{}');
+    if (!all[String(curT)]) all[String(curT)] = {};
+    all[String(curT)][String(q)] = { start: cur, end: cur + dur, isPinned: true };
+    localStorage.setItem('ept_q_audio_pins_v1', JSON.stringify(all));
+  } catch(e) {}
+
+  if (isLooping && loopQ === q) {
+    const range = getQuestionAudioRange(curT, q);
+    $('loop-time-range').textContent = `${fmtT(range.start)} ➔ ${fmtT(range.end)}`;
+  }
+  updateAudioToolsUI(q);
+  showToast(`📍 Đã ghim Câu ${q} bắt đầu tại ${fmtT(cur)}!`);
+}
+
+function updateAudioToolsUI(q) {
+  const btnLoop = $('btn-loop-q');
+  const ind = $('loop-indicator');
+  const btnPin = $('btn-pin-q');
+  const range = getQuestionAudioRange(curT, q);
+
+  if (btnLoop) {
+    const isThisLooping = isLooping && loopQ === q;
+    btnLoop.classList.toggle('loop-active', isThisLooping);
+    btnLoop.innerHTML = isThisLooping ? '⏹ Tắt lặp câu' : '🔁 Lặp câu này';
+    btnLoop.title = isThisLooping ? 'Nhấn để tắt lặp câu này' : `Nhấn để lặp đi lặp lại Câu ${q} (${fmtT(range.start)} - ${fmtT(range.end)})`;
+  }
+
+  if (ind) {
+    if (isLooping && loopQ) {
+      ind.classList.remove('hidden');
+      const curLoopRange = getQuestionAudioRange(curT, loopQ);
+      $('loop-time-range').textContent = `Câu ${loopQ} (${fmtT(curLoopRange.start)} - ${fmtT(curLoopRange.end)})`;
+    } else {
+      ind.classList.add('hidden');
+    }
+  }
+
+  if (btnPin) {
+    try {
+      const pins = JSON.parse(localStorage.getItem('ept_q_audio_pins_v1') || '{}');
+      const isPinned = pins[String(curT)] && pins[String(curT)][String(q)];
+      btnPin.innerHTML = isPinned ? `📍 Đã ghim (${fmtT(isPinned.start)})` : '📍 Ghim giây này';
+      btnPin.style.borderColor = isPinned ? '#3b82f6' : '';
+      btnPin.style.color = isPinned ? '#60a5fa' : '';
+    } catch(e) {}
+  }
+}
+
 </script>
 </body>
 </html>
