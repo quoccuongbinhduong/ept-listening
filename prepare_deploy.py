@@ -6,7 +6,7 @@ import os, shutil
 SRC = r"D:\EPT\Listening"
 DST = r"D:\EPT\ept-deploy"
 
-KEEP_FILES = ["index.html", "core.json", "photos.json", "reading.html", "reading_data.json", "listening.html"]
+KEEP_FILES = ["index.html", "core.json", "photos.json", "reading.html", "reading_data.json", "listening.html", "explanations.json", "CAM_NANG_ON_THI_10_NGAY.md"]
 KEEP_DIRS  = ["Audio", ".github"]
 
 if not os.path.exists(DST):
